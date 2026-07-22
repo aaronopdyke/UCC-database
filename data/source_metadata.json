@@ -1,0 +1,45 @@
+{
+  "generated_utc": "2026-07-09T18:24:12Z",
+  "gem": {
+    "repo": "https://github.com/gem/global_exposure_model",
+    "commit": "c3add51f4e56f9d10477c8f6b5e24fd89fe089a1",
+    "license": "CC BY-NC-SA 4.0",
+    "citation": "Yepes-Estrada, C., Calderon, A., Costa, C., Crowley, H., Dabbeek, J., Hoyos, M.C., Martins, L., Paul, N., Rao, A., Silva, V. (2023). Global Building Exposure Model for Earthquake Risk Assessment. Earthquake Spectra, 39(4). https://doi.org/10.1177/87552930231194048"
+  },
+  "counts": {
+    "countries": 215,
+    "adm1_units": 3557,
+    "adm0_rows": 859,
+    "adm1_rows": 14060,
+    "taxonomy_rows": 35677
+  },
+  "world_bank_boundaries": {
+    "dataset": "https://datacatalog.worldbank.org/search/dataset/0038272/World-Bank-Official-Boundaries",
+    "manifest": "https://datacatalogfiles.worldbank.org/ddh-published/0038272/2/DR0095369/DR0095369.csv",
+    "layers": [
+      "World Bank Official Boundaries - Admin 0.geojson",
+      "World Bank Official Boundaries - Admin 1.geojson",
+      "World Bank Official Boundaries - NDLSA.geojson"
+    ],
+    "license": "CC BY 4.0",
+    "adm0_matched": "215/215",
+    "adm1_matched": "3369/3557",
+    "adm1_match_methods": {
+      "name": 1960,
+      "code": 645,
+      "country": 223,
+      "group": 171,
+      "override": 141,
+      "fuzzy": 115,
+      "name_loose": 76,
+      "code_num": 38
+    }
+  },
+  "cost_adjustment": {
+    "ref_year": 2024,
+    "target_year": 2024,
+    "factor": 1.0,
+    "indicator": "FP.CPI.TOTL (USA)",
+    "source": "api.worldbank.org"
+  }
+}

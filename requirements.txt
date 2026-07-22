@@ -1,0 +1,7 @@
+# Core pipeline (compile UCC CSVs + site data)
+pandas>=2.0
+requests>=2.31
+
+# Boundary processing only (scripts/build_boundaries.py; not needed for data refresh)
+shapely>=2.0
+topojson>=1.9

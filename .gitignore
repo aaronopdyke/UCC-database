@@ -1,0 +1,11 @@
+# Local caches (GEM sparse clone, World Bank boundary downloads)
+cache/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db

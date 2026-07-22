@@ -1,0 +1,52 @@
+{
+ "generated_utc": "2026-07-09T18:24:12Z",
+ "cost_year": 2024,
+ "gem_cost_ref_year": 2024,
+ "cpi_factor": 1.0,
+ "gem_commit": "c3add51f4e56f9d10477c8f6b5e24fd89fe089a1",
+ "gem_repo": "https://github.com/gem/global_exposure_model",
+ "counts": {
+  "countries": 215,
+  "adm1_units": 3557,
+  "adm0_rows": 859,
+  "adm1_rows": 14060,
+  "taxonomy_rows": 35677
+ },
+ "wb": {
+  "dataset": "https://datacatalog.worldbank.org/search/dataset/0038272/World-Bank-Official-Boundaries",
+  "manifest": "https://datacatalogfiles.worldbank.org/ddh-published/0038272/2/DR0095369/DR0095369.csv",
+  "layers": [
+   "World Bank Official Boundaries - Admin 0.geojson",
+   "World Bank Official Boundaries - Admin 1.geojson",
+   "World Bank Official Boundaries - NDLSA.geojson"
+  ],
+  "license": "CC BY 4.0",
+  "adm0_matched": "215/215",
+  "adm1_matched": "3369/3557",
+  "adm1_match_methods": {
+   "name": 1960,
+   "code": 645,
+   "country": 223,
+   "group": 171,
+   "override": 141,
+   "fuzzy": 115,
+   "name_loose": 76,
+   "code_num": 38
+  }
+ },
+ "bins": [
+  100,
+  200,
+  400,
+  800,
+  1600,
+  3200
+ ],
+ "occupancies": [
+  "RES",
+  "COM",
+  "IND",
+  "NONRES",
+  "TOTAL"
+ ]
+}

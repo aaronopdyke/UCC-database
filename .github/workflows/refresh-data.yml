@@ -1,0 +1,57 @@
+name: Refresh UCC data
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "23 4 2 * *"  # monthly, 2nd day 04:23 UTC
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Data refresh only needs the light dependencies; boundary geometry is
+      # not rebuilt here (run scripts/run_all.py --with-boundaries locally when
+      # the World Bank updates its boundaries).
+      - run: pip install pandas requests
+
+      - run: python scripts/run_all.py
+
+      # generated_utc changes every run; don't open a PR when the actual UCC
+      # values are identical.
+      - name: Discard timestamp-only changes
+        run: |
+          if git diff --quiet -- data/ucc_adm0.csv data/ucc_adm1.csv data/ucc_taxonomy.csv; then
+            git checkout -- data docs/data
+            echo "No value changes; reverted metadata-only diffs."
+          fi
+
+      - name: Read GEM commit
+        id: meta
+        run: |
+          echo "gem=$(python -c "import json; print(json.load(open('data/source_metadata.json'))['gem']['commit'][:7])")" >> "$GITHUB_OUTPUT"
+
+      - uses: peter-evans/create-pull-request@v6
+        with:
+          branch: data-refresh/auto
+          add-paths: |
+            data/
+            docs/data/
+          commit-message: "Refresh UCC data from GEM ${{ steps.meta.outputs.gem }}"
+          title: "Data refresh: GEM ${{ steps.meta.outputs.gem }}"
+          body: |
+            Automated data refresh from
+            [gem/global_exposure_model](https://github.com/gem/global_exposure_model)
+            at commit `${{ steps.meta.outputs.gem }}`.
+
+            Review the diff in `data/` (values) and `data/boundary_match_report_*.csv`
+            before merging. No PR is opened when nothing changed.

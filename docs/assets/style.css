@@ -1,0 +1,277 @@
+/* UCC Database — shared styles. Light mode by design (choropleth ramp is
+   validated against the light surface; see about.html for sources). */
+
+:root {
+  --page: #f9f9f7;
+  --surface: #fcfcfb;
+  --ink: #0b0b0b;
+  --ink-2: #52514e;
+  --muted: #898781;
+  --hairline: #e1e0d9;
+  --baseline: #c3c2b7;
+  --accent: #2a78d6;
+  --accent-dark: #1c5cab;
+  --nodata: #e1e0d9;
+  --radius: 8px;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--page);
+  color: var(--ink);
+  font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+a { color: var(--accent-dark); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ---- header / nav ---- */
+.site-header {
+  display: flex;
+  align-items: baseline;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding: 0.65rem 1.25rem;
+  background: var(--surface);
+  border-bottom: 1px solid var(--hairline);
+}
+.site-header .brand {
+  font-weight: 650;
+  font-size: 1.05rem;
+  color: var(--ink);
+}
+.site-header .brand span { color: var(--muted); font-weight: 400; }
+.site-header nav { display: flex; gap: 1.1rem; }
+.site-header nav a { color: var(--ink-2); padding: 0.1rem 0; }
+.site-header nav a.active {
+  color: var(--ink);
+  font-weight: 600;
+  border-bottom: 2px solid var(--accent);
+}
+
+/* ---- footer ---- */
+.site-footer {
+  padding: 0.7rem 1.25rem;
+  border-top: 1px solid var(--hairline);
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+.site-footer a { color: var(--ink-2); }
+
+/* ---- generic page content ---- */
+.content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.25rem;
+}
+.content h1 { font-size: 1.5rem; margin: 0.5rem 0 0.25rem; }
+.content h2 { font-size: 1.15rem; margin: 1.6rem 0 0.5rem; }
+.content p.lede { color: var(--ink-2); max-width: 70ch; }
+.content .note { color: var(--muted); font-size: 0.85rem; }
+
+/* ---- map page ---- */
+.map-page { height: 100vh; display: flex; flex-direction: column; }
+.map-page main { flex: 1; position: relative; min-height: 0; }
+#map { position: absolute; inset: 0; }
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  padding: 0.55rem 1.25rem;
+  background: var(--surface);
+  border-bottom: 1px solid var(--hairline);
+  font-size: 0.9rem;
+}
+.control-group { display: flex; align-items: center; gap: 0.5rem; }
+.control-group > label { color: var(--ink-2); }
+
+.segmented {
+  display: inline-flex;
+  border: 1px solid var(--baseline);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.segmented button {
+  border: 0;
+  background: var(--surface);
+  color: var(--ink-2);
+  padding: 0.3rem 0.8rem;
+  font: inherit;
+  cursor: pointer;
+}
+.segmented button + button { border-left: 1px solid var(--baseline); }
+.segmented button[aria-pressed="true"] {
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+}
+
+select, input[type="search"], input[type="text"] {
+  font: inherit;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--baseline);
+  border-radius: 6px;
+  padding: 0.28rem 0.5rem;
+}
+
+/* legend */
+.legend { display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+.legend .legend-title { color: var(--ink-2); }
+.legend .bin { display: flex; align-items: center; gap: 0.3rem; }
+.legend .swatch {
+  width: 18px; height: 12px;
+  border-radius: 2px;
+  border: 1px solid rgba(11, 11, 11, 0.10);
+}
+.legend .bin span { font-size: 0.8rem; color: var(--ink-2); }
+
+/* map tooltip */
+.map-tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(11, 11, 11, 0.12);
+  padding: 0.35rem 0.6rem;
+  font-size: 0.85rem;
+  z-index: 5;
+  display: none;
+  max-width: 280px;
+}
+.map-tooltip .t-name { font-weight: 600; }
+.map-tooltip .t-val { color: var(--ink-2); font-variant-numeric: tabular-nums; }
+
+.maplibregl-popup-content {
+  font: 0.85rem/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: var(--ink);
+  border-radius: var(--radius);
+  padding: 0.7rem 0.9rem;
+  box-shadow: 0 2px 10px rgba(11, 11, 11, 0.18);
+}
+.maplibregl-popup-content h3 { margin: 0 0 0.3rem; font-size: 0.95rem; }
+.maplibregl-popup-content .sub { color: var(--muted); font-size: 0.78rem; margin-bottom: 0.4rem; }
+.popup-table { border-collapse: collapse; width: 100%; }
+.popup-table td { padding: 0.12rem 0; }
+.popup-table td:last-child {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  padding-left: 1.2rem;
+}
+.popup-table tr.hl td { font-weight: 650; }
+
+/* ---- browse country map ---- */
+#country-map {
+  height: 420px;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin: 0.3rem 0 0.5rem;
+  background: var(--page);
+}
+
+/* ---- stat tiles ---- */
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.75rem;
+  margin: 0.9rem 0 0.4rem;
+}
+.tile {
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  padding: 0.7rem 0.9rem;
+}
+.tile .k {
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.tile .v { font-size: 1.65rem; font-weight: 650; margin: 0.1rem 0; }
+.tile .v .unit { font-size: 0.8rem; font-weight: 400; color: var(--muted); }
+.tile .s { font-size: 0.78rem; color: var(--ink-2); }
+
+/* ---- tables ---- */
+.table-wrap {
+  overflow-x: auto;
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+}
+table.data {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.86rem;
+}
+table.data th, table.data td {
+  padding: 0.42rem 0.7rem;
+  border-bottom: 1px solid var(--hairline);
+  text-align: left;
+  white-space: nowrap;
+}
+table.data td.num, table.data th.num { text-align: right; font-variant-numeric: tabular-nums; }
+table.data th {
+  position: sticky;
+  top: 0;
+  background: var(--surface);
+  color: var(--ink-2);
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+}
+table.data th .arrow { color: var(--accent-dark); font-size: 0.7rem; }
+table.data tbody tr:hover { background: rgba(42, 120, 214, 0.06); }
+table.data td.tax { font-family: ui-monospace, Consolas, monospace; font-size: 0.8rem; }
+
+.filters {
+  display: flex;
+  gap: 0.9rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0.6rem 0;
+  font-size: 0.88rem;
+}
+.filters label { color: var(--ink-2); }
+.count-note { color: var(--muted); font-size: 0.8rem; margin-left: auto; }
+
+/* ---- buttons / downloads ---- */
+.btn {
+  display: inline-block;
+  border: 1px solid var(--baseline);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--ink);
+  padding: 0.32rem 0.75rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.btn:hover { border-color: var(--accent); color: var(--accent-dark); text-decoration: none; }
+.downloads { display: flex; gap: 0.6rem; flex-wrap: wrap; margin: 0.6rem 0; }
+
+/* ---- about page ---- */
+.kv { border-collapse: collapse; font-size: 0.9rem; }
+.kv td { padding: 0.25rem 0.9rem 0.25rem 0; vertical-align: top; }
+.kv td:first-child { color: var(--ink-2); white-space: nowrap; }
+blockquote.cite {
+  margin: 0.6rem 0;
+  padding: 0.6rem 0.9rem;
+  background: var(--surface);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 0.9rem;
+  color: var(--ink-2);
+}
+
+@media (max-width: 720px) {
+  .controls { gap: 0.6rem; }
+  .legend { order: 9; width: 100%; }
+}

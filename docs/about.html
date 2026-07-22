@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About — UCC Database</title>
+<meta name="description" content="Methodology, sources, licensing and citation for the UCC Database of unit construction cost values.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8F%97%EF%B8%8F%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="brand">UCC Database <span>· unit construction cost (USD/m²)</span></div>
+  <nav>
+    <a href="index.html">Map</a>
+    <a href="browse.html">Browse</a>
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+<main class="content">
+  <h1>About this database</h1>
+  <p class="lede">This site compiles the unit construction cost (UCC) values embedded in the
+  <a href="https://github.com/gem/global_exposure_model">GEM Global Exposure Model</a>
+  into three lookup lists — by country (ADM0), by first-level administrative
+  region (ADM1), and by building taxonomy — and maps them worldwide.</p>
+
+  <h2>What UCC means here</h2>
+  <p>UCC is the average <strong>replacement cost per square metre of built floor
+  area, in US dollars</strong>:</p>
+  <blockquote class="cite">UCC = BLDG_REPL_COST_USD ÷ TOTAL_AREA_SQM</blockquote>
+  <p>It covers <strong>structural and non-structural</strong> building components and
+  <strong>excludes contents</strong>. It is a replacement (reconstruction) cost, not a market
+  or land price. Values come from GEM's national exposure models, which combine
+  census data, national statistics and local expertise; costs are expressed in
+  USD at the model's reference year. The <em>All occupancies</em> value is the
+  area-weighted average across residential, commercial and industrial stock
+  (Σ cost ÷ Σ area), computed by this pipeline.</p>
+
+  <p>Each list carries two UCC columns: <code>UCC_USD_PER_SQM</code> in the GEM
+  model's reference-year US dollars, and <code>UCC_ADJ_USD_PER_SQM</code>
+  expressed in the most recent complete year using the World Bank's US
+  consumer-price index (indicator <code>FP.CPI.TOTL</code>). The site displays
+  the adjusted values; the reference year (assumed 2024 — GEM's v2026 release
+  does not pin one) and the applied factor are recorded in
+  <code>data/source_metadata.json</code>.</p>
+
+  <h2>The three lists</h2>
+  <table class="kv">
+    <tr><td><a href="data/ucc_adm0.csv"><code>ucc_adm0.csv</code></a></td>
+        <td>One row per country × occupancy (RES, COM, IND, TOTAL). 215 countries and territories.</td></tr>
+    <tr><td><a href="data/ucc_adm1.csv"><code>ucc_adm1.csv</code></a></td>
+        <td>One row per admin-1 region × occupancy. GEM's <code>ID_1</code> codes are ISO 3166-2-style.</td></tr>
+    <tr><td><a href="data/ucc_taxonomy.csv"><code>ucc_taxonomy.csv</code></a></td>
+        <td>One row per country × occupancy × <a href="https://github.com/gem/gem_taxonomy">GEM taxonomy</a> string × settlement (urban/rural/total).</td></tr>
+  </table>
+  <p class="note">Each row carries <code>BUILDINGS</code>, <code>TOTAL_AREA_SQM</code>,
+  <code>BLDG_REPL_COST_USD</code>, <code>UCC_USD_PER_SQM</code> and the GEM source commit.
+  In the United States, Canada and US territories, GEM subdivides some taxonomy
+  strings by HAZUS sub-occupancy; those rows are aggregated here (costs and areas
+  summed, UCC re-derived). New Zealand reports non-residential stock as a single
+  <code>NONRES</code> category rather than COM/IND.</p>
+
+  <h2>Method</h2>
+  <p>A Python pipeline (see the <a href="https://github.com/aaronopdyke/UCC-database">repository</a>)
+  sparse-checkouts the per-country summary files of the GEM exposure model
+  (<span id="m-gem">…</span>), concatenates the 215 countries, recomputes UCC from
+  cost ÷ area (guaranteeing the computed TOTAL rows are consistent), validates
+  against known GEM values, and emits the CSVs plus this site's data files.
+  Every value is traceable to the GEM commit recorded in the
+  <code>GEM_COMMIT</code> column.</p>
+
+  <h2>Map boundaries</h2>
+  <p>The map uses the <a href="https://datacatalog.worldbank.org/search/dataset/0038272">World
+  Bank Official Boundaries</a> (CC BY 4.0), downloaded from the World Bank Data
+  Catalog and simplified for the web. GEM admin-1 units are joined to World Bank
+  polygons in layered stages — shared codes (HASC/P-codes), name matching across
+  the World Bank's name variants, then a set of manually reviewed overrides.
+  Where the two sources use different administrative generations, one GEM
+  region may paint several World Bank polygons (France's 2016 regions over the
+  22 older ones) or one World Bank polygon may carry the area-weighted
+  aggregate of several GEM regions (Finland's pre-2010 provinces, Malawi's
+  regions, single-polygon territories such as Hong Kong) — aggregated polygons
+  say so in their map popup. The World Bank's Non-Determined Legal Status Areas
+  (disputed territories carved out of every country layer) are included as map
+  polygons: where GEM models them they carry those GEM units' values
+  (Jammu&nbsp;and&nbsp;Kashmir, Gilgit-Baltistan, Western Sahara, Golan Heights,
+  Arunachal Pradesh — approximate assignments), otherwise they render as no
+  data. Every join decision is recorded in committed match reports
+  (<a href="https://github.com/aaronopdyke/UCC-database/blob/main/data/boundary_match_report_adm1.csv">ADM1</a>,
+  <a href="https://github.com/aaronopdyke/UCC-database/blob/main/data/boundary_match_report_adm0.csv">ADM0</a>).</p>
+  <table class="kv">
+    <tr><td>Countries matched</td><td id="m-adm0">…</td></tr>
+    <tr><td>Admin-1 units matched</td><td id="m-adm1">…</td></tr>
+    <tr><td>Match methods</td><td id="m-methods">…</td></tr>
+  </table>
+  <p class="note">Unmatched units render as “no data” (gray) on the map but are always
+  present in the CSVs and country tables — in several territories the World Bank
+  subdivides differently than GEM (e.g. Puerto Rico municipios, Bahamas
+  districts), and Taiwan has no polygon of its own in the World Bank layers.
+  Country borders, names and denominations on the map follow the World Bank
+  official boundaries and do not imply any judgment or endorsement by the
+  author or data providers.</p>
+
+  <h2>License &amp; citation</h2>
+  <p>This repository — compiled data and site — is licensed
+  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>,
+  the same terms as the GEM source data (attribution, non-commercial,
+  share-alike). Boundary geometry © World Bank, CC BY 4.0. If you use these
+  values, cite the underlying model:</p>
+  <blockquote class="cite">Yepes-Estrada, C., Calderon, A., Costa, C., Crowley, H., Dabbeek, J.,
+  Hoyos, M.C., Martins, L., Paul, N., Rao, A., Silva, V. (2023).
+  Global Building Exposure Model for Earthquake Risk Assessment.
+  <em>Earthquake Spectra</em>, 39(4). doi:10.1177/87552930231194048</blockquote>
+  <p>and this compilation as: <em>Opdyke, A. UCC Database — unit construction
+  costs from the GEM Global Exposure Model.</em>
+  <a href="https://aaronopdyke.github.io/UCC-database/">aaronopdyke.github.io/UCC-database</a>
+  (GEM commit <span id="m-commit">…</span>, accessed <span id="m-date">…</span>).</p>
+
+  <h2>Caveats</h2>
+  <ul>
+    <li>UCC values are model-level national/regional averages intended for
+    risk assessment at scale — not construction estimating for a specific
+    project or parcel.</li>
+    <li>Costs reflect the GEM model's reference year and USD conversion;
+    check the <a href="https://github.com/gem/global_exposure_model">GEM
+    documentation</a> before comparing across time.</li>
+    <li>Some ADM1 map polygons join GEM units to older World Bank
+    administrative vintages (marked “approximate” in
+    <a href="https://github.com/aaronopdyke/UCC-database/blob/main/scripts/overrides.py">overrides.py</a>).</li>
+  </ul>
+</main>
+
+<footer class="site-footer">
+  Data: <a href="https://github.com/gem/global_exposure_model">GEM Global Exposure Model</a>
+  (Yepes-Estrada et al., 2023), CC BY-NC-SA 4.0 ·
+  Boundaries: <a href="https://datacatalog.worldbank.org/search/dataset/0038272">World Bank Official Boundaries</a>, CC BY 4.0 ·
+  <span data-meta-line></span> ·
+  <a href="https://github.com/aaronopdyke/UCC-database">GitHub</a>
+</footer>
+
+<script src="assets/common.js"></script>
+<script>
+(async function () {
+  try {
+    const meta = await UCC.json("data/meta.json");
+    const set = (id, text) => { document.getElementById(id).textContent = text; };
+    set("m-gem", `commit ${(meta.gem_commit || "").slice(0, 7)}`);
+    set("m-commit", (meta.gem_commit || "").slice(0, 7));
+    set("m-date", (meta.generated_utc || "").slice(0, 10));
+    if (meta.wb) {
+      set("m-adm0", meta.wb.adm0_matched || "–");
+      set("m-adm1", meta.wb.adm1_matched || "–");
+      const methods = meta.wb.adm1_match_methods || {};
+      set("m-methods", Object.entries(methods).map(([k, v]) => `${k}: ${v}`).join(" · "));
+    }
+  } catch (err) { console.error(err); }
+})();
+</script>
+</body>
+</html>

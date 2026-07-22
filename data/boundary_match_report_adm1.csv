@@ -1,0 +1,3836 @@
+SIDE,ID_0,GEM_ID_1,GEM_NAME_1,WB_CODE,WB_NAME,MATCH_METHOD
+gem,AFG,AF-BDS,Badakhshan,AFG001,Badakhshan,name
+gem,AFG,AF-BDG,Badghis,AFG002,Badghis,name
+gem,AFG,AF-BGL,Baghlan,AFG003,Baghlan,name
+gem,AFG,AF-BAL,Balkh,AFG004,Balkh,name
+gem,AFG,AF-BAM,Bamyan,AFG005,Bamyan,name
+gem,AFG,AF-DAY,Daykundi,AFG006,Daykundi,name
+gem,AFG,AF-FRA,Farah,AFG007,Farah,name
+gem,AFG,AF-FYB,Faryab,AFG008,Faryab,name
+gem,AFG,AF-GHA,Ghazni,AFG009,Ghazni,name
+gem,AFG,AF-GHO,Ghor,AFG010,Ghor,name
+gem,AFG,AF-HEL,Helmand,AFG011,Hilmand,name
+gem,AFG,AF-HER,Herat,AFG012,Hirat,name
+gem,AFG,AF-JOW,Jowzjan,AFG013,Jawzjan,name
+gem,AFG,AF-KAB,Kabul,AFG014,Kabul,name
+gem,AFG,AF-KAN,Kandahar,AFG015,Kandahar,name
+gem,AFG,AF-KAP,Kapisa,AFG016,Kapisa,name
+gem,AFG,AF-KHO,Khost,AFG017,Khost,name
+gem,AFG,AF-KNR,Kunar,AFG018,Kunar,name
+gem,AFG,AF-KDZ,Kunduz,AFG019,Kunduz,name
+gem,AFG,AF-LAG,Laghman,AFG020,Laghman,name
+gem,AFG,AF-LOG,Logar,AFG021,Logar,name
+gem,AFG,AF-NAN,Nangarhar,AFG022,Nangarhar,name
+gem,AFG,AF-NIM,Nimruz,AFG023,Nimroz,name
+gem,AFG,AF-NUR,Nuristan,AFG024,Nuristan,name
+gem,AFG,AF-PIA,Paktia,AFG026,Paktya,name
+gem,AFG,AF-PKA,Paktika,AFG025,Paktika,name
+gem,AFG,AF-PAN,Panjshir,AFG027,Panjsher,name
+gem,AFG,AF-PAR,Parwan,AFG028,Parwan,name
+gem,AFG,AF-SAM,Samangan,AFG029,Samangan,name
+gem,AFG,AF-SAR,Sar-e Pol,AFG030,Sar-e-Pul,name
+gem,AFG,AF-TAK,Takhar,AFG031,Takhar,name
+gem,AFG,AF-URU,Uruzgan,AFG032,Uruzgan,name
+gem,AFG,AF-WAR,Wardak,AFG033,Wardak,name
+gem,AFG,AF-ZAB,Zabul,AFG034,Zabul,name
+gem,ALB,AL-01,Berat,ALB001 + ALB016 + ALB032,Berat + Kucove + Skrapar,override
+gem,ALB,AL-09,Dibër,ALB005 + ALB002 + ALB024,Diber + Bulqize + Mat,override
+gem,ALB,AL-02,Durrës,ALB006 + ALB015,Durres + Kruje,override
+gem,ALB,AL-03,Elbasan,ALB007 + ALB010 + ALB020 + ALB026,Elbasan + Gramsh + Librazhd + Peqin,override
+gem,ALB,AL-04,Fier,ALB008 + ALB021 + ALB023,Fier + Lushnje + Mallakaster,override
+gem,ALB,AL-05,Gjirokastër,ALB009 + ALB027 + ALB033,Gjirokaster + Permet + Tepelene,override
+gem,ALB,AL-06,Korçë,ALB014 + ALB004 + ALB013 + ALB028,Korce + Devoll + Kolonje + Pogradec,override
+gem,ALB,AL-07,Kukës,ALB017 + ALB011 + ALB035,Kukes + Has + Tropoje,override
+gem,ALB,AL-08,Lezhë,ALB019 + ALB018 + ALB025,Lezhe + Kurbin + Mirdite,override
+gem,ALB,AL-10,Shkodër,ALB031 + ALB022 + ALB029,Shkoder + Malesi E Madhe + Puke,override
+gem,ALB,AL-11,Tiranë,ALB034 + ALB012,Tirane + Kavaje,override
+gem,ALB,AL-12,Vlorë,ALB036 + ALB003 + ALB030,Vlore + Delvine + Sarande,override
+gem,DZA,DZ-01,Adrar,DZA001,Adrar,name
+gem,DZA,DZ-03,Al-Aghouat,DZA025,Laghouat,fuzzy
+gem,DZA,DZ-32,Al-Bayadh,DZA017,El Bayadh,name_loose
+gem,DZA,DZ-09,Al-Blida,DZA010,Blida,name_loose
+gem,DZA,DZ-02,Al-Chlef,DZA014,Chlef,name_loose
+gem_only,DZA,DZ-57,Al-M'Ghair,,,none
+gem,DZA,DZ-28,Al-M'sila,DZA026,M'Sila,name_loose
+gem_only,DZA,DZ-58,Al-Meniaa,,,none
+gem,DZA,DZ-26,Al-Médéa,DZA028,Medea,name_loose
+gem,DZA,DZ-36,Al-Tarf,DZA019,El-Tarf,name_loose
+gem,DZA,DZ-16,Algiers,DZA004,Alger,fuzzy
+gem,DZA,DZ-23,Annaba,DZA005,Annaba,name
+gem,DZA,DZ-44,Aïn Defla,DZA002,Ain-Defla,name
+gem_only,DZA,DZ-54,Aïn Guezzam,,,none
+gem_only,DZA,DZ-53,Aïn Salah,,,none
+gem,DZA,DZ-46,Aïn Témouchent,DZA003,Ain-Temouchent,name
+gem,DZA,DZ-05,Batna,DZA006,Batna,name
+gem,DZA,DZ-07,Biskra,DZA009,Biskra,name
+gem_only,DZA,DZ-50,Bordj Badji Mokhtar,,,none
+gem,DZA,DZ-34,Bordj Bou Arréridj,DZA011,Bordj Bou Arrer,name
+gem,DZA,DZ-35,Boumerdès,DZA013,Boumerdes,name
+gem,DZA,DZ-10,Bouïra,DZA012,Bouira,name
+gem,DZA,DZ-08,Béchar,DZA007,Bechar,name
+gem,DZA,DZ-06,Béjaïa,DZA008,Bejaia,name
+gem_only,DZA,DZ-52,Béni Abbès,,,none
+gem,DZA,DZ-25,Constantine,DZA015,Constantine,name
+gem_only,DZA,DZ-56,Djanet,,,none
+gem,DZA,DZ-17,Djelfa,DZA016,Djelfa,name
+gem,DZA,DZ-39,El Oued,DZA018,El Oued,name
+gem,DZA,DZ-47,Ghardaïa,DZA020,Ghardaia,name
+gem,DZA,DZ-24,Guelma,DZA021,Guelma,name
+gem,DZA,DZ-33,Illizi,DZA022,Illizi,name
+gem,DZA,DZ-18,Jijel,DZA023,Jijel,name
+gem,DZA,DZ-40,Khenchela,DZA024,Khenchela,name
+gem,DZA,DZ-29,Mascara,DZA027,Mascara,name
+gem,DZA,DZ-43,Mila,DZA029,Mila,name
+gem,DZA,DZ-27,Mostaganem,DZA030,Mostaganem,name
+gem,DZA,DZ-45,Naama,DZA031,Naama,name
+gem,DZA,DZ-31,Oran,DZA032,Oran,name
+gem,DZA,DZ-30,Ouargla,DZA033,Ouargla,name
+gem_only,DZA,DZ-51,Ouled Djellal,,,none
+gem,DZA,DZ-04,Oum Al-Bouaghi,DZA034,Oum El Bouaghi,name_loose
+gem,DZA,DZ-48,Relizane,DZA035,Relizane,name
+gem,DZA,DZ-20,Saïda,DZA036,Saida,name
+gem,DZA,DZ-22,Sidi Bel Abbès,DZA038,Sidi Bel Abbes,name
+gem,DZA,DZ-21,Skikda,DZA039,Skikda,name
+gem,DZA,DZ-41,Souk Ahras,DZA040,Souk-Ahras,name
+gem,DZA,DZ-19,Sétif,DZA037,Setif,name
+gem,DZA,DZ-11,Tamanrasset,DZA041,Tamanrasset,name
+gem,DZA,DZ-14,Tiaret,DZA043,Tiaret,name
+gem_only,DZA,DZ-49,Timimoun,,,none
+gem,DZA,DZ-37,Tindouf,DZA044,Tindouf,name
+gem,DZA,DZ-42,Tipaza,DZA045,Tipaza,name
+gem,DZA,DZ-38,Tissemsilt,DZA046,Tissemsilt,name
+gem,DZA,DZ-15,Tizi Ouzou,DZA047,Tizi Ouzou,name
+gem,DZA,DZ-13,Tlemcen,DZA048,Tlemcen,name
+gem_only,DZA,DZ-55,Touggourt,,,none
+gem,DZA,DZ-12,Tébessa,DZA042,Tebessa,name
+gem,ASM,AS-ET,Eastern,ASM001,Administrative unit not available,country
+gem,ASM,AS-MA,Manuʻa,ASM001,Administrative unit not available,country
+gem,ASM,AS-WT,Western,ASM001,Administrative unit not available,country
+gem,AND,AD-07,Andorra la Vella,AND001,Andorra La Vella,name
+gem,AND,AD-02,Canillo,AND002,Canillo,name
+gem,AND,AD-03,Encamp,AND003,Encamp,name
+gem,AND,AD-08,Escaldes–Engordany,AND004,Escaldes-engordany,name
+gem,AND,AD-04,La Massana,AND005,La Massana,name
+gem,AND,AD-05,Ordino,AND006,Ordino,name
+gem,AND,AD-06,Sant Julià de Lòria,AND007,Sant Julia De Loria,name
+gem,AGO,AO-BGO,Bengo,AGO001,Bengo,name
+gem,AGO,AO-BGU,Benguela,AGO002,Benguela,name
+gem,AGO,AO-BIE,Bié,AGO003,Bié,name
+gem,AGO,AO-CAB,Cabinda,AGO004,Cabinda,name
+gem,AGO,AO-CUA,Cuando,AGO005,Cuando Cubango,fuzzy
+gem,AGO,AO-CNO,Cuanza-Norte,AGO006,Cuanza Norte,name
+gem,AGO,AO-CUS,Cuanza-Sul,AGO007,Cuanza Sul,name
+gem_only,AGO,AO-CUB,Cubango,,,none
+gem,AGO,AO-CNN,Cunene,AGO008,Cunene,name
+gem,AGO,AO-HUA,Huambo,AGO009,Huambo,name
+gem,AGO,AO-HUI,Huíla,AGO010,Huíla,name
+gem_only,AGO,AO-IEB,Icolo e Bengo,,,none
+gem,AGO,AO-LUA,Luanda,AGO011,Luanda,name
+gem,AGO,AO-LNO,Lunda-Norte,AGO012,Lunda Norte,name
+gem,AGO,AO-LSU,Lunda-Sul,AGO013,Lunda Sul,name
+gem,AGO,AO-MAL,Malange,AGO014,Malanje,fuzzy
+gem,AGO,AO-MOX,Moxico,AGO015,Moxico,name
+gem_only,AGO,AO-MOL,Moxico Leste,,,none
+gem,AGO,AO-NAM,Namibe,AGO016,Namibe,name
+gem,AGO,AO-UIG,Uíge,AGO017,Uíge,name
+gem,AGO,AO-ZAI,Zaire,AGO018,Zaire,name
+gem_only,AIA,AI-BP,Blowing Point,,,none
+gem_only,AIA,AI-EE,East End,,,none
+gem_only,AIA,AI-GH,George Hill,,,none
+gem_only,AIA,AI-IH,Island Harbour,,,none
+gem_only,AIA,AI-NH,North Hill,,,none
+gem_only,AIA,AI-NS,North Side,,,none
+gem_only,AIA,AI-SG,Sandy Ground,,,none
+gem_only,AIA,AI-SH,Sandy Hill,,,none
+gem_only,AIA,AI-SO,South Hill,,,none
+gem_only,AIA,AI-ST,Stoney Ground,,,none
+gem_only,AIA,AI-TF,The Farrington,,,none
+gem_only,AIA,AI-TQ,The Quarter,,,none
+gem_only,AIA,AI-TV,The Valley,,,none
+gem_only,AIA,AI-WE,West End,,,none
+gem,ATG,AG-10,Barbuda,ATG001,Barbuda,name
+gem,ATG,AG-03,Saint George,ATG003,St. George,name
+gem,ATG,AG-04,Saint John,ATG004,St. John,name
+gem,ATG,AG-05,Saint Mary,ATG005,St. Mary,name
+gem,ATG,AG-06,Saint Paul,ATG006,St. Paul,name
+gem,ATG,AG-07,Saint Peter,ATG007,St. Peter,name
+gem,ATG,AG-08,Saint Philip,ATG008,St. Philip,name
+gem,ARG,AR-B,Buenos Aires,ARG001,Buenos Aires,name
+gem,ARG,AR-K,Catamarca,ARG003,Catamarca,name
+gem,ARG,AR-H,Chaco,ARG004,Chaco,name
+gem,ARG,AR-U,Chubut,ARG005,Chubut,name
+gem,ARG,AR-C,Ciudad Autónoma de Buenos Aires,ARG002,Buenos Aires D.f.,override
+gem,ARG,AR-W,Corrientes,ARG007,Corrientes,name
+gem,ARG,AR-X,Córdoba,ARG006,Cordoba,name
+gem,ARG,AR-E,Entre Ríos,ARG008,Entre Rios,name
+gem,ARG,AR-P,Formosa,ARG009,Formosa,name
+gem,ARG,AR-Y,Jujuy,ARG010,Jujuy,name
+gem,ARG,AR-L,La Pampa,ARG011,La Pampa,name
+gem,ARG,AR-F,La Rioja,ARG012,La Rioja,name
+gem,ARG,AR-M,Mendoza,ARG013,Mendoza,name
+gem,ARG,AR-N,Misiones,ARG014,Misiones,name
+gem,ARG,AR-Q,Neuquén,ARG015,Neuquen,name
+gem,ARG,AR-R,Río Negro,ARG016,Rio Negro,name
+gem,ARG,AR-A,Salta,ARG017,Salta,name
+gem,ARG,AR-J,San Juan,ARG018,San Juan,name
+gem,ARG,AR-D,San Luis,ARG019,San Luis,name
+gem,ARG,AR-Z,Santa Cruz,ARG020,Santa Cruz,name
+gem,ARG,AR-S,Santa Fe,ARG021,Santa Fe,name
+gem,ARG,AR-G,Santiago del Estero,ARG022,Santiago Del Estero,name
+gem,ARG,AR-V,Tierra del Fuego,ARG023,Tierra Del Fuego,name
+gem,ARG,AR-T,Tucumán,ARG024,Tucuman,name
+gem,ARM,AM-AG,Aragac̣otn,ARM001,Aragatsotn,code
+gem,ARM,AM-AR,Ararat,ARM002,Ararat,code
+gem,ARM,AM-AV,Armavir,ARM003,Armavir,code
+gem,ARM,AM-ER,Erevan,ARM011,Yerevan,code
+gem,ARM,AM-GR,Geġark'unik',ARM004,Gergharkunik,code
+gem,ARM,AM-KT,Kotayk',ARM005,Kotayk,code
+gem,ARM,AM-LO,Loṙi,ARM006,Lori,code
+gem,ARM,AM-SU,Syunik',ARM008,Syunik,code
+gem,ARM,AM-TV,Tavuš,ARM009,Tavush,code
+gem,ARM,AM-VD,Vayoć Jor,ARM010,Vayots Dzor,code
+gem,ARM,AM-SH,Širak,ARM007,Shirak,code
+gem,ABW,AW-NR,Noord,ABW001,Administrative unit not available,country
+gem,ABW,AW-OE,Oranjestad East,ABW001,Administrative unit not available,country
+gem,ABW,AW-OW,Oranjestad West,ABW001,Administrative unit not available,country
+gem,ABW,AW-PD,Paradera,ABW001,Administrative unit not available,country
+gem,ABW,AW-SN,San Nicolas North,ABW001,Administrative unit not available,country
+gem,ABW,AW-SS,San Nicolas South,ABW001,Administrative unit not available,country
+gem,ABW,AW-SC,Santa Cruz,ABW001,Administrative unit not available,country
+gem,ABW,AW-SV,Savaneta,ABW001,Administrative unit not available,country
+gem,AUS,AU-ACT,Australian Capital Territory,AUS002,Australian Capital Territory,name
+gem,AUS,AU-NSW,New South Wales,AUS004,New South Wales,name
+gem,AUS,AU-NT,Northern Territory,AUS005,Northern Territory,code
+gem,AUS,AU-OT,Other Territories,AUS006,Other Territories,name
+gem,AUS,AU-QLD,Queensland,AUS007,Queensland,name
+gem,AUS,AU-SA,South Australia,AUS008,South Australia,code
+gem,AUS,AU-TAS,Tasmania,AUS009,Tasmania,name
+gem,AUS,AU-VIC,Victoria,AUS010,Victoria,name
+gem,AUS,AU-WA,Western Australia,AUS011,Western Australia,code
+gem,AUT,AT-1,Burgenland,AUT001,Burgenland,name
+gem,AUT,AT-2,Kärnten,AUT002,Karnten,name
+gem,AUT,AT-3,Niederösterreich,AUT003,Niederosterreich,name
+gem,AUT,AT-4,Oberösterreich,AUT004,Oberosterreich,name
+gem,AUT,AT-5,Salzburg,AUT005,Salzburg,name
+gem,AUT,AT-6,Steiermark,AUT006,Steiermark,name
+gem,AUT,AT-7,Tirol,AUT007,Tirol,name
+gem,AUT,AT-8,Vorarlberg,AUT008,Vorarlberg,name
+gem,AUT,AT-9,Wien,AUT009,Wien,name
+gem,AZE,AZ-ABS,Abşeron,AZE001,Absheron,name
+gem,AZE,AZ-AST,Astara,AZE007,Astara,name
+gem,AZE,AZ-AGC,Ağcabədi,AZE003,Agdjabadi,name
+gem,AZE,AZ-AGM,Ağdam,AZE004,Aghdam,name
+gem,AZE,AZ-AGS,Ağdaş,AZE002,Agdash,name
+gem_only,AZE,AZ-AGD,Ağdərə,,,none
+gem,AZE,AZ-AGA,Ağstafa,AZE005,Aghstafa,name
+gem,AZE,AZ-AGU,Ağsu,AZE006,Aghsu,name
+gem,AZE,AZ-BAB,Babək,AZE008,Babek,name
+gem,AZE,AZ-BA,Bakı,AZE009,Baku,name
+gem,AZE,AZ-BAL,Balakən,AZE010,Balakan,name
+gem,AZE,AZ-BEY,Beyləqan,AZE012,Beylagan,name
+gem,AZE,AZ-BIL,Biləsuvar,AZE013,Bilasuvar,name
+gem,AZE,AZ-BAR,Bərdə,AZE011,Barda,name
+gem,AZE,AZ-CUL,Culfa,AZE033,Julfa,name
+gem,AZE,AZ-CAB,Cəbrayıl,AZE031,Jabrayil,name
+gem,AZE,AZ-CAL,Cəlilabad,AZE032,Jalilabad,name
+gem,AZE,AZ-DAS,Daşkəsən,AZE014,Dashkasan,name
+gem,AZE,AZ-FUZ,Füzuli,AZE015,Fuzuli,name
+gem,AZE,AZ-GOR,Goranboy,AZE022,Goranboy,name
+gem,AZE,AZ-GYG,Göygöl,AZE024,Goygol,name
+gem,AZE,AZ-GOY,Göyçay,AZE023,Goychay,name
+gem,AZE,AZ-GAD,Gədəbəy,AZE017,Gadabay,name
+gem,AZE,AZ-GA,Gəncə,AZE019,Ganja,name
+gem,AZE,AZ-HAC,Hacıqabul,AZE028,Hajigabul,name
+gem,AZE,AZ-KUR,Kürdəmir,AZE041,Kurdamir,name
+gem,AZE,AZ-KAN,Kǝngǝrli,AZE035,Kengerli,name
+gem,AZE,AZ-KAL,Kəlbəcər,AZE034,Kalbajar,name
+gem,AZE,AZ-LAC,Laçın,AZE042,Lachin,name
+gem,AZE,AZ-LER,Lerik,AZE044,Lerik,name
+gem,AZE,AZ-LA,Lənkəran Municipality,AZE043,Lankaran,name_loose
+gem_only,AZE,AZ-LAN,Lənkəran Rayon,,,none
+gem,AZE,AZ-MAS,Masallı,AZE045,Masally,name
+gem,AZE,AZ-MI,Mingəçevir,AZE046,Mingechevir,name
+gem,AZE,AZ-NA,Naftalan,AZE047,Naftalan,name
+gem,AZE,AZ-NV,Naxçıvan,AZE048,Nakhchivan,name
+gem,AZE,AZ-NEF,Neftçala,AZE049,Neftchala,name
+gem,AZE,AZ-ORD,Ordubad,AZE051,Ordubad,name
+gem,AZE,AZ-OGU,Oğuz,AZE050,Oghuz,name
+gem,AZE,AZ-QAX,Qax,AZE018,Gakh,name
+gem,AZE,AZ-QAZ,Qazax,AZE020,Gazakh,name
+gem,AZE,AZ-QOB,Qobustan,AZE021,Gobustan,name
+gem,AZE,AZ-QBA,Quba,AZE025,Guba,name
+gem,AZE,AZ-QBI,Qubadlı,AZE026,Gubadly,name
+gem,AZE,AZ-QUS,Qusar,AZE027,Gusar,name
+gem,AZE,AZ-QAB,Qəbələ,AZE016,Gabala,name
+gem,AZE,AZ-SAT,Saatlı,AZE052,Saatly,name
+gem,AZE,AZ-SAB,Sabirabad,AZE053,Sabirabad,name
+gem,AZE,AZ-SAL,Salyan,AZE055,Salyan,name
+gem,AZE,AZ-SMX,Samux,AZE056,Samukh,name
+gem,AZE,AZ-SIY,Siyəzən,AZE065,Siyazan,name
+gem,AZE,AZ-SM,Sumqayıt,AZE066,Sumgait,name
+gem,AZE,AZ-SAD,Sədərək,AZE054,Sadarak,name
+gem,AZE,AZ-TOV,Tovuz,AZE068,Tovuz,name
+gem,AZE,AZ-TAR,Tərtər,AZE067,Tartar,name
+gem,AZE,AZ-UCA,Ucar,AZE069,Ujar,name
+gem,AZE,AZ-XA,Xankəndi,AZE037,Khankendi,name
+gem,AZE,AZ-XAC,Xaçmaz,AZE036,Khachmaz,name
+gem,AZE,AZ-XCI,Xocalı,AZE039,Khojaly,name
+gem,AZE,AZ-XVD,Xocavənd,AZE040,Khojavand,name
+gem,AZE,AZ-XIZ,Xızı,AZE038,Khizy,name
+gem,AZE,AZ-YAR,Yardımlı,AZE070,Yardimly,name
+gem,AZE,AZ-YE,Yevlax Municipality,AZE071,Yevlakh,name_loose
+gem_only,AZE,AZ-YEV,Yevlax Rayon,,,none
+gem,AZE,AZ-ZAQ,Zaqatala,AZE072,Zagatala,name
+gem,AZE,AZ-ZAN,Zəngilan,AZE073,Zangilan,name
+gem,AZE,AZ-ZAR,Zərdab,AZE074,Zardab,name
+gem,AZE,AZ-IMI,İmişli,AZE029,Imishly,name
+gem,AZE,AZ-ISM,İsmayıllı,AZE030,Ismayilly,name
+gem,AZE,AZ-SBN,Şabran,AZE057,Shabran,name
+gem,AZE,AZ-SAH,Şahbuz,AZE058,Shahbuz,name
+gem,AZE,AZ-SMI,Şamaxı,AZE060,Shamakhy,name
+gem,AZE,AZ-SR,Şirvan,AZE063,Shirvan,name
+gem,AZE,AZ-SUS,Şuşa,AZE064,Shusha,name
+gem,AZE,AZ-SA,Şəki Municipality,AZE059,Shaki,name_loose
+gem_only,AZE,AZ-SAK,Şəki Rayon,,,none
+gem,AZE,AZ-SKR,Şəmkir,AZE061,Shamkir,name
+gem,AZE,AZ-SAR,Şərur,AZE062,Sharur,name
+gem,BHS,BS-AK,Acklins,BHS001,Administrative unit not available,country
+gem,BHS,BS-BY,Berry Islands,BHS001,Administrative unit not available,country
+gem,BHS,BS-BI,Bimini,BHS001,Administrative unit not available,country
+gem,BHS,BS-BP,Black Point,BHS001,Administrative unit not available,country
+gem,BHS,BS-CI,Cat Island,BHS001,Administrative unit not available,country
+gem,BHS,BS-CO,Central Abaco,BHS001,Administrative unit not available,country
+gem,BHS,BS-CS,Central Andros,BHS001,Administrative unit not available,country
+gem,BHS,BS-FP,City of Freeport,BHS001,Administrative unit not available,country
+gem,BHS,BS-CK,Crooked Island and Long Cay,BHS001,Administrative unit not available,country
+gem,BHS,BS-EG,East Grand Bahama,BHS001,Administrative unit not available,country
+gem,BHS,BS-GC,Grand Cay,BHS001,Administrative unit not available,country
+gem,BHS,BS-HI,Harbour Island,BHS001,Administrative unit not available,country
+gem,BHS,BS-IN,Inagua,BHS001,Administrative unit not available,country
+gem,BHS,BS-LI,Long Island,BHS001,Administrative unit not available,country
+gem,BHS,BS-MC,Mangrove Cay,BHS001,Administrative unit not available,country
+gem,BHS,BS-MG,Mayaguana,BHS001,Administrative unit not available,country
+gem,BHS,BS-MI,Moore's Island,BHS001,Administrative unit not available,country
+gem,BHS,BS-NP,New Providence,BHS001,Administrative unit not available,country
+gem,BHS,BS-NO,North Abaco,BHS001,Administrative unit not available,country
+gem,BHS,BS-NS,North Andros,BHS001,Administrative unit not available,country
+gem,BHS,BS-NE,North Eleuthera,BHS001,Administrative unit not available,country
+gem,BHS,BS-RI,Ragged Island,BHS001,Administrative unit not available,country
+gem,BHS,BS-RC,Rum Cay,BHS001,Administrative unit not available,country
+gem,BHS,BS-SS,San Salvador,BHS001,Administrative unit not available,country
+gem,BHS,BS-SO,South Abaco,BHS001,Administrative unit not available,country
+gem,BHS,BS-SA,South Andros,BHS001,Administrative unit not available,country
+gem,BHS,BS-SW,Spanish Wells,BHS001,Administrative unit not available,country
+gem,BHR,BH-13,Al-Asimah,BHR007,Manama,override
+gem_only,BHR,BH-14,Al-Janubiyah,,,none
+gem,BHR,BH-15,Al-Muharraq,BHR008,Muharraq,name_loose
+gem,BHR,BH-17,Al-Shamaliyah,BHR009,Northern Region,override
+gem,BGD,BD-A,Barishal,BGD001,Barishal,name
+gem,BGD,BD-B,Chattogram,BGD002,Chattogram,name
+gem,BGD,BD-C,Dhaka,BGD003,Dhaka,name
+gem,BGD,BD-D,Khulna,BGD004,Khulna,name
+gem,BGD,BD-H,Mymensingh,BGD005,Mymensingh,name
+gem,BGD,BD-E,Rajshahi,BGD006,Rajshahi,name
+gem,BGD,BD-F,Rangpur,BGD007,Rangpur,name
+gem,BGD,BD-G,Sylhet,BGD008,Sylhet,name
+gem,BRB,BB-01,Christ Church,BRB001,Christ Church,name
+gem,BRB,BB-02,Saint Andrew,BRB002,St. Andrew,name
+gem,BRB,BB-03,Saint George,BRB003,St. George,name
+gem,BRB,BB-04,Saint James,BRB004,St. James,name
+gem,BRB,BB-05,Saint John,BRB005,St. John,name
+gem,BRB,BB-06,Saint Joseph,BRB006,St. Joseph,name
+gem,BRB,BB-07,Saint Lucy,BRB007,St. Lucy,name
+gem,BRB,BB-08,Saint Michael,BRB008,St. Michael,name
+gem,BRB,BB-09,Saint Peter,BRB009,St. Peter,name
+gem,BRB,BB-10,Saint Philip,BRB010,St. Phillip,name
+gem,BRB,BB-11,Saint Thomas,BRB011,St. Tomas,name
+gem,BLR,BY-BR,Brest Oblast,BLR001,Brest,code
+gem,BLR,BY-HM,City of Minsk,BLR005,Minsk City,code
+gem,BLR,BY-HO,Gomel Oblast,BLR002,Gomel,code
+gem,BLR,BY-HR,Grodno Oblast,BLR003,Grodno,code
+gem,BLR,BY-MI,Minsk Oblast,BLR004,Minsk,code
+gem,BLR,BY-MA,Mogilev Oblast,BLR006,Mogilev,code
+gem,BLR,BY-VI,Vitebsk Oblast,BLR007,Vitebsk,code
+gem,BEL,BE-BRU,Brussels,BEL001,Region de Bruxelles-Capitale / Brussels Hoofdstedelijk Gewes,override
+gem,BEL,BE-VLG,Flanders,BEL003,Vlaams Gewest,override
+gem,BEL,BE-WAL,Wallonia,BEL002,Region wallonne,override
+gem,BLZ,BZ-BZ,Belize,BLZ001,Belize,code
+gem,BLZ,BZ-CY,Cayo,BLZ002,Cayo,code
+gem,BLZ,BZ-CZL,Corozal,BLZ003,Corozal,name
+gem,BLZ,BZ-OW,Orange Walk,BLZ004,Orange Walk,code
+gem,BLZ,BZ-SC,Stann Creek,BLZ005,Stann Creek,code
+gem,BLZ,BZ-TOL,Toledo,BLZ006,Toledo,name
+gem,BEN,BJ-AL,Alibori,BEN001,Alibori,name
+gem,BEN,BJ-AK,Atacora,BEN002,Atacora,name
+gem,BEN,BJ-AQ,Atlantique,BEN003,Atlantique,name
+gem,BEN,BJ-BO,Borgou,BEN004,Borgou,name
+gem,BEN,BJ-CO,Collines,BEN005,Collines,name
+gem,BEN,BJ-KO,Couffo,BEN006,Couffo,name
+gem,BEN,BJ-DO,Donga,BEN007,Donga,name
+gem,BEN,BJ-LI,Littoral,BEN008,Littoral,name
+gem,BEN,BJ-MO,Mono,BEN009,Mono,name
+gem,BEN,BJ-OU,Ouémé,BEN010,Oueme,name
+gem,BEN,BJ-PL,Plateau,BEN011,Plateau,name
+gem,BEN,BJ-ZO,Zou,BEN012,Zou,name
+gem,BTN,BT-33,Bumthang,BTN001,Bumthang,name
+gem,BTN,BT-12,Chhukha,BTN002,Chhukha,name
+gem,BTN,BT-22,Dagana,BTN003,Dagana,name
+gem,BTN,BT-GA,Gasa,BTN004,Gasa,code
+gem,BTN,BT-13,Haa,BTN005,Haa,name
+gem,BTN,BT-44,Lhuentse,BTN006,Lhuentse,name
+gem,BTN,BT-42,Monggar,BTN007,Monggar,name
+gem,BTN,BT-11,Paro,BTN008,Paro,name
+gem,BTN,BT-43,Pema Gatshel,BTN009,Pemagatshel,name
+gem,BTN,BT-23,Punakha,BTN010,Punakha,name
+gem,BTN,BT-45,Samdrup Jongkhar,BTN011,Samdrupjongkhar,name
+gem,BTN,BT-14,Samtse,BTN012,Samtse,name
+gem,BTN,BT-31,Sarpang,BTN013,Sarpang,name
+gem,BTN,BT-15,Thimphu,BTN014,Thimphu,name
+gem,BTN,BT-TY,Trashi Yangtse,BTN016,Trashiyangtse,code
+gem,BTN,BT-41,Trashigang,BTN015,Trashigang,name
+gem,BTN,BT-32,Trongsa,BTN017,Trongsa,name
+gem,BTN,BT-21,Tsirang,BTN018,Tsirang,name
+gem,BTN,BT-24,Wangdue Phodrang,BTN019,Wangduephodrang,name
+gem,BTN,BT-34,Zhemgang,BTN020,Zhemgang,name
+gem,BOL,BO-H,Chuquisaca,BOL002,Chuquisaca,name
+gem,BOL,BO-C,Cochabamba,BOL003,Cochabamba,name
+gem,BOL,BO-B,El Beni,BOL001,Beni,name
+gem,BOL,BO-L,La Paz,BOL004,La Paz,name
+gem,BOL,BO-O,Oruro,BOL005,Oruro,name
+gem,BOL,BO-N,Pando,BOL006,Pando,name
+gem,BOL,BO-P,Potosí,BOL007,Potosi,name
+gem,BOL,BO-S,Santa Cruz,BOL008,Santa Cruz,name
+gem,BOL,BO-T,Tarija,BOL009,Tarija,name
+gem_only,BIH,BA-BRC,Brčko distrikt,,,none
+gem,BIH,BA-BIH,Federacija Bosne i Hercegovine,BIH001,Federacija Bosne I Hercegovine,name
+gem,BIH,BA-SRP,Republika Srpska,BIH002,Republika Srpska,name
+gem,BWA,BW-CE,Central,BWA001,Central,name
+gem,BWA,BW-CH,Chobe,BWA002,Chobe,code
+gem_only,BWA,BW-FR,Francistown,,,none
+gem_only,BWA,BW-GA,Gaborone,,,none
+gem,BWA,BW-GH,Ghanzi,BWA003,Ghanzi,code
+gem_only,BWA,BW-JW,Jwaneng,,,none
+gem,BWA,BW-KG,Kgalagadi,BWA004,Kgalagadi,code
+gem,BWA,BW-KL,Kgatleng,BWA005,Kgatleng,code
+gem,BWA,BW-KW,Kweneng,BWA006,Kweneng,code
+gem_only,BWA,BW-LO,Lobatse,,,none
+gem,BWA,BW-NE,North East,BWA008,North East,name
+gem,BWA,BW-NW,North West,BWA007,Ngamiland,name
+gem_only,BWA,BW-SP,Selibe Phikwe,,,none
+gem,BWA,BW-SE,South East,BWA009,South-East,name
+gem,BWA,BW-SO,Southern,BWA010,Southern,name
+gem_only,BWA,BW-ST,Sowa,,,none
+gem,BRA,BR-AC,Acre,BRA001,Acre,code
+gem,BRA,BR-AL,Alagoas,BRA002,Alagoas,code
+gem,BRA,BR-AP,Amapá,BRA003,Amapa,code
+gem,BRA,BR-AM,Amazonas,BRA004,Amazonas,code
+gem,BRA,BR-BA,Bahia,BRA005,Bahia,code
+gem,BRA,BR-CE,Ceará,BRA006,Ceara,code
+gem,BRA,BR-DF,Distrito Federal,BRA007,Distrito Federal,code
+gem,BRA,BR-ES,Espírito Santo,BRA008,Espirito Santo,code
+gem,BRA,BR-GO,Goiás,BRA009,Goias,code
+gem,BRA,BR-MA,Maranhão,BRA010,Maranhao,code
+gem,BRA,BR-MT,Mato Grosso,BRA011,Mato Grosso,code
+gem,BRA,BR-MS,Mato Grosso do Sul,BRA012,Mato Grosso Do Sul,code
+gem,BRA,BR-MG,Minas Gerais,BRA013,Minas Gerais,code
+gem,BRA,BR-PR,Paraná,BRA020,Parana,code
+gem,BRA,BR-PB,Paraíba,BRA019,Paraiba,code
+gem,BRA,BR-PA,Pará,BRA018,Para,code
+gem,BRA,BR-PE,Pernambuco,BRA021,Pernambuco,code
+gem,BRA,BR-PI,Piauí,BRA022,Piaui,code
+gem,BRA,BR-RN,Rio Grande do Norte,BRA024,Rio Grande Do Norte,code
+gem,BRA,BR-RS,Rio Grande do Sul,BRA025,Rio Grande Do Sul,code
+gem,BRA,BR-RJ,Rio de Janeiro,BRA023,Rio De Janeiro,code
+gem,BRA,BR-RO,Rondônia,BRA026,Rondonia,code
+gem,BRA,BR-RR,Roraima,BRA027,Roraima,code
+gem,BRA,BR-SC,Santa Catarina,BRA028,Santa Catarina,code
+gem,BRA,BR-SE,Sergipe,BRA030,Sergipe,code
+gem,BRA,BR-SP,São Paulo,BRA029,Sao Paulo,code
+gem,BRA,BR-TO,Tocantins,BRA031,Tocantins,code
+gem,VGB,VG-AN,Anegada,VGB001,Anegada,name
+gem,VGB,VG-JV,Jost Van Dyke,VGB002,Jost van Dyke,name
+gem,VGB,VG-TO,Tortola,VGB004,Tortola,name
+gem,VGB,VG-VG,Virgin Gorda,VGB005,Virgin Gorda,name
+gem,BRN,BN-BE,Belait,BRN001,Belait,code
+gem,BRN,BN-BM,Brunei-Muara,BRN002,Brunei and Muara,code
+gem,BRN,BN-TE,Temburong,BRN003,Temburong,code
+gem,BRN,BN-TU,Tutong,BRN004,Tutong,code
+gem,BGR,BG-01,Blagoevgrad,BGR001,Blagoevgrad,name
+gem,BGR,BG-02,Burgas,BGR002,Burgas,name
+gem,BGR,BG-08,Dobrich,BGR003,Dobrich,name
+gem,BGR,BG-07,Gabrovo,BGR004,Gabrovo,name
+gem,BGR,BG-26,Haskovo,BGR005,Haskovo,name
+gem,BGR,BG-09,Kardzhali,BGR007,Kardzhali,name
+gem,BGR,BG-10,Kyustendil,BGR008,Kustendil,name
+gem,BGR,BG-11,Lovech,BGR009,Lovech,name
+gem,BGR,BG-12,Montana,BGR010,Montana,name
+gem,BGR,BG-13,Pazardzhik,BGR011,Pazardzhik,name
+gem,BGR,BG-14,Pernik,BGR012,Pernik,name
+gem,BGR,BG-15,Pleven,BGR013,Pleven,name
+gem,BGR,BG-16,Plovdiv,BGR014,Plovdiv,name
+gem,BGR,BG-17,Razgrad,BGR015,Razgrad,name
+gem,BGR,BG-18,Ruse,BGR016,Ruse,name
+gem,BGR,BG-27,Shumen,BGR017,Shumen,name
+gem,BGR,BG-19,Silistra,BGR018,Silistra,name
+gem,BGR,BG-20,Sliven,BGR019,Sliven,name
+gem,BGR,BG-21,Smolyan,BGR020,Smoljan,name
+gem,BGR,BG-23,Sofia,BGR021,Sofia,name
+gem,BGR,BG-22,Sofia (stolitsa),BGR022,Sofia-city,code_num
+gem,BGR,BG-24,Stara Zagora,BGR023,Stara Zagora,name
+gem,BGR,BG-25,Targovishte,BGR024,Targovishte,name
+gem,BGR,BG-03,Varna,BGR025,Varna,name
+gem,BGR,BG-04,Veliko Tarnovo,BGR026,Veliko Tarnovo,name
+gem,BGR,BG-05,Vidin,BGR027,Vidin,name
+gem,BGR,BG-06,Vratsa,BGR028,Vratca,name
+gem,BGR,BG-28,Yambol,BGR006,Jambol,name
+gem,BFA,BF-01,Boucle du Mouhoun,BFA001,Boucle Du Mouhoun,name
+gem,BFA,BF-02,Cascades,BFA002,Cascades,name
+gem,BFA,BF-03,Centre,BFA003,Centre,name
+gem,BFA,BF-04,Centre-Est,BFA004,Centre-est,name
+gem,BFA,BF-05,Centre-Nord,BFA005,Centre-nord,name
+gem,BFA,BF-06,Centre-Ouest,BFA006,Centre-ouest,name
+gem,BFA,BF-07,Centre-Sud,BFA007,Centre-sud,name
+gem,BFA,BF-08,Est,BFA008,Est,name
+gem,BFA,BF-09,Hauts-Bassins,BFA009,Hauts-bassins,name
+gem,BFA,BF-10,Nord,BFA010,Nord,name
+gem,BFA,BF-11,Plateau-Central,BFA011,Plateau Central,name
+gem,BFA,BF-12,Sahel,BFA012,Sahel,name
+gem_only,BFA,BF-14,Sirba,,,none
+gem_only,BFA,BF-15,Soum,,,none
+gem_only,BFA,BF-16,Sourou,,,none
+gem,BFA,BF-13,Sud-Ouest,BFA013,Sud-ouest,name
+gem_only,BFA,BF-17,Tapoa,,,none
+gem,BDI,BI-BB,Bubanza,BDI001,Bubanza,name
+gem,BDI,BI-BM,Bujumbura Mairie,BDI002,Mairie de Bujumbura,name
+gem,BDI,BI-BL,Bujumbura Rural,BDI018,Bujumbura,name
+gem,BDI,BI-BR,Bururi,BDI019,Bururi,name
+gem,BDI,BI-CA,Cankuzo,BDI005,Cankuzo,name
+gem,BDI,BI-CI,Cibitoke,BDI006,Cibitoke,name
+gem,BDI,BI-GI,Gitega,BDI007,Gitega,name
+gem,BDI,BI-KR,Karuzi,BDI008,Karuzi,name
+gem,BDI,BI-KY,Kayanza,BDI009,Kayanza,name
+gem,BDI,BI-KI,Kirundo,BDI010,Kirundo,name
+gem,BDI,BI-MA,Makamba,BDI011,Makamba,name
+gem,BDI,BI-MU,Muramvya,BDI012,Muramvya,name
+gem,BDI,BI-MY,Muyinga,BDI013,Muyinga,name
+gem,BDI,BI-MW,Mwaro,BDI014,Mwaro,name
+gem,BDI,BI-NG,Ngozi,BDI015,Ngozi,name
+gem,BDI,BI-RM,Rumonge,BDI020,Rumonge,name
+gem,BDI,BI-RT,Rutana,BDI016,Rutana,name
+gem,BDI,BI-RY,Ruyigi,BDI017,Ruyigi,name
+gem,CPV,CV-BV,Boa Vista,CPV001,Boa Vista,name
+gem,CPV,CV-BR,Brava,CPV002,Brava,name
+gem,CPV,CV-MA,Maio,CPV003,Maio,name
+gem,CPV,CV-MO,Mosteiros,CPV004,Mosteiros,name
+gem,CPV,CV-PA,Paul,CPV005,Paul,name
+gem,CPV,CV-PN,Porto Novo,CPV006,Porto Novo,name
+gem,CPV,CV-PR,Praia,CPV018,Praia,name
+gem,CPV,CV-RB,Ribeira Brava,CPV019,Ribeira Brava,name
+gem,CPV,CV-RG,Ribeira Grande,CPV008,Ribeira Grande,name
+gem,CPV,CV-RS,Ribeira Grande de Santiago,CPV020,Ribeira Grande de Santiago,name
+gem,CPV,CV-SL,Sal,CPV009,Sal,name
+gem,CPV,CV-CA,Santa Catarina,CPV021,Santa Catarina,name
+gem,CPV,CV-CF,Santa Catarina do Fogo,CPV022,Santa Catarina do Fogo,name
+gem,CPV,CV-CR,Santa Cruz,CPV023,Santa Cruz,name
+gem,CPV,CV-SD,São Domingos,CPV012,São Domingos,name
+gem,CPV,CV-SF,São Filipe,CPV024,São Filipe,name
+gem,CPV,CV-SO,São Lourenço dos Órgãos,CPV025,São Lourenço dos Órgãos,name
+gem,CPV,CV-SM,São Miguel,CPV014,São Miguel,name
+gem,CPV,CV-SS,São Salvador do Mundo,CPV026,São Salvador do Mundo,name
+gem,CPV,CV-SV,São Vicente,CPV016,São Vicente,name
+gem,CPV,CV-TA,Tarrafal,CPV017,Tarrafal,name
+gem,CPV,CV-TS,Tarrafal de São Nicolau,CPV027,Tarrafal de São Nicolau,name
+gem,KHM,KH-2,Baat Dambang,KHM002,Battambang,code_num
+gem,KHM,KH-1,Banteay Mean Choăy,KHM001,Banteay Meanchey,fuzzy
+gem,KHM,KH-23,Kaeb,KHM009,Kep,override
+gem,KHM,KH-3,Kampong Chaam,KHM003,Kampong Cham,name_loose
+gem,KHM,KH-4,Kampong Chhnang,KHM004,Kampong Chhnang,name
+gem,KHM,KH-5,Kampong Spueu,KHM005,Kampong Speu,code_num
+gem,KHM,KH-6,Kampong Thum,KHM006,Kampong Thom,code_num
+gem,KHM,KH-7,Kampot,KHM007,Kampot,name
+gem,KHM,KH-8,Kandaal,KHM008,Kandal,name_loose
+gem,KHM,KH-9,Kaoh Kong,KHM010,Koh Kong,code_num
+gem,KHM,KH-10,Kracheh,KHM011,Kratie,override
+gem,KHM,KH-11,Mondol Kiri,KHM012,Mondul Kiri,code_num
+gem,KHM,KH-22,Otdar Mean Chey,KHM013,Oddar Meanchey,fuzzy
+gem,KHM,KH-24,Pailin,KHM014,Pailin,name
+gem,KHM,KH-12,Phnom Penh,KHM015,Phnom Penh,name
+gem,KHM,KH-15,Pousaat,KHM018,Pursat,code_num
+gem,KHM,KH-18,Preah Sihanouk,KHM021,Preah Sihanouk,name
+gem,KHM,KH-13,Preah Vihear,KHM016,Preah Vihear,name
+gem,KHM,KH-14,Prey Veaeng,KHM017,Prey Veng,code_num
+gem,KHM,KH-16,Rotanak Kiri,KHM019,Ratanak Kiri,code_num
+gem,KHM,KH-17,Siem Reab,KHM020,Siemreap,fuzzy
+gem,KHM,KH-19,Stueng Traeng,KHM022,Stung Treng,fuzzy
+gem,KHM,KH-20,Svaay Rieng,KHM023,Svay Rieng,name_loose
+gem,KHM,KH-21,Taakaev,KHM024,Takeo,code_num
+gem,KHM,KH-25,Tbong Khmum,KHM025,Tboung Khmum,code_num
+gem,CMR,CM-AD,Adamaoua,CMR001,Adamaoua,code
+gem,CMR,CM-CE,Centre,CMR002,Centre,code
+gem,CMR,CM-ES,East,CMR003,Est,code
+gem,CMR,CM-EN,Far North,CMR004,Extrême - Nord,override
+gem,CMR,CM-LT,Littoral,CMR005,Littoral,code
+gem,CMR,CM-NO,North,CMR006,Nord,code
+gem,CMR,CM-NW,North-West,CMR007,Nord - Ouest,code
+gem,CMR,CM-SU,South,CMR009,Sud,override
+gem,CMR,CM-SW,South-West,CMR010,Sud - Ouest,code
+gem,CMR,CM-OU,West,CMR008,Ouest,override
+gem,CAN,CA-AB,Alberta,CAN001,Alberta,name
+gem,CAN,CA-BC,British Columbia,CAN002,British Columbia / Colombie-Britannique,fuzzy
+gem,CAN,CA-MB,Manitoba,CAN003,Manitoba,name
+gem,CAN,CA-NB,New Brunswick,CAN004,New Brunswick / Nouveau-Brunswick,fuzzy
+gem,CAN,CA-NL,Newfoundland and Labrador,CAN005,Newfoundland and Labrador / Terre-Neuve-et-Labrador,fuzzy
+gem,CAN,CA-NT,Northwest Territories,CAN006,Northwest Territories / Territoires du Nord-Ouest,fuzzy
+gem,CAN,CA-NS,Nova Scotia,CAN007,Nova Scotia / Nouvelle-Écosse,fuzzy
+gem,CAN,CA-NU,Nunavut,CAN008,Nunavut,name
+gem,CAN,CA-ON,Ontario,CAN009,Ontario,name
+gem,CAN,CA-PE,Prince Edward Island,CAN010,Prince Edward Island / Île-du-Prince-Édouard,fuzzy
+gem,CAN,CA-QC,Quebec,CAN011,Quebec / Québec,fuzzy
+gem,CAN,CA-SK,Saskatchewan,CAN012,Saskatchewan,name
+gem,CAN,CA-YT,Yukon,CAN013,Yukon,name
+gem,CYM,KY-BT,Bodden Town,CYM002,Grand Cayman,group
+gem,CYM,KY-EE,East End,CYM002,Grand Cayman,group
+gem,CYM,KY-GT,George Town,CYM002,Grand Cayman,group
+gem,CYM,KY-NS,North Side,CYM002,Grand Cayman,group
+gem,CYM,KY-SI,Sister Islands,CYM001 + CYM003,Cayman Brac + Little Cayman,override
+gem,CYM,KY-WB,West Bay,CYM002,Grand Cayman,group
+gem,CAF,CF-BB,Bamingui-Bangoran,CAF003,Fertit,group
+gem,CAF,CF-BGF,Bangui,CAF001,Bas-Oubangui,group
+gem,CAF,CF-BK,Basse-Kotto,CAF004,Haut-Oubangui,group
+gem,CAF,CF-HM,Haut-Mbomou,CAF004,Haut-Oubangui,group
+gem,CAF,CF-HK,Haute-Kotto,CAF003,Fertit,group
+gem,CAF,CF-KG,Kémo,CAF005,Kagas,group
+gem,CAF,CF-LP,Lim-Pendé,CAF007,Yadé,group
+gem,CAF,CF-LB,Lobaye,CAF006,Plateaux,group
+gem,CAF,CF-MM,Mambéré,CAF002,Equateur,group
+gem,CAF,CF-HS,Mambéré-Kadéï,CAF002,Equateur,group
+gem,CAF,CF-MB,Mbomou,CAF004,Haut-Oubangui,group
+gem,CAF,CF-KB,Nana-Grébizi,CAF005,Kagas,group
+gem,CAF,CF-NM,Nana-Mambéré,CAF002,Equateur,group
+gem,CAF,CF-MP,Ombella-M'Poko,CAF006,Plateaux,group
+gem,CAF,CF-UK,Ouaka,CAF005,Kagas,group
+gem,CAF,CF-AC,Ouham,CAF007,Yadé,group
+gem,CAF,CF-OF,Ouham-Fafa,CAF007,Yadé,group
+gem,CAF,CF-OP,Ouham-Pendé,CAF007,Yadé,group
+gem,CAF,CF-SE,Sangha-Mbaéré,CAF002,Equateur,group
+gem,CAF,CF-VK,Vakaga,CAF003,Fertit,group
+gem,TCD,TD-BG,Bahr el Ghazal,TCD001,Barh el Ghazel,code
+gem,TCD,TD-BA,Batha,TCD002,Batha,code
+gem,TCD,TD-BO,Borkou,TCD003,Borkou,name
+gem,TCD,TD-CB,Chari-Baguirmi,TCD004,Chari-Baguirmi,name
+gem,TCD,TD-EE,Ennedi-Est,TCD005,Ennedi Est,code
+gem,TCD,TD-EO,Ennedi-Ouest,TCD006,Ennedi Ouest,code
+gem,TCD,TD-GR,Guéra,TCD007,Guéra,code
+gem,TCD,TD-HL,Hadjer Lamis,TCD008,Hadjer-Lamis,name
+gem,TCD,TD-KA,Kanem,TCD009,Kanem,name
+gem,TCD,TD-LC,Lac,TCD010,Lac,code
+gem,TCD,TD-LO,Logone-Occidental,TCD011,Logone Occidental,code
+gem,TCD,TD-LR,Logone-Oriental,TCD012,Logone Oriental,code
+gem,TCD,TD-MA,Mandoul,TCD013,Mandoul,code
+gem,TCD,TD-ME,Mayo-Kebbi-Est,TCD014,Mayo-Kebbi Est,code
+gem,TCD,TD-MO,Mayo-Kebbi-Ouest,TCD015,Mayo-Kebbi Ouest,name
+gem,TCD,TD-MC,Moyen-Chari,TCD016,Moyen-Chari,name
+gem,TCD,TD-ND,N'Djamena,TCD022,Ville de N'Djamena,name
+gem,TCD,TD-OD,Ouaddaï,TCD017,Ouaddaï,name
+gem,TCD,TD-SA,Salamat,TCD018,Salamat,code
+gem,TCD,TD-SI,Sila,TCD019,Sila,code
+gem,TCD,TD-TA,Tandjilé,TCD020,Tandjilé,code
+gem,TCD,TD-TI,Tibesti,TCD021,Tibesti,code
+gem,TCD,TD-WF,Wadi Fira,TCD023,Wadi Fira,name
+gem,CHL,CL-AI,Aisén,CHL001,Aisen del Gral. Carlos Ibañez del Campo,code
+gem,CHL,CL-AN,Antofagasta,CHL002,Antofagasta,code
+gem,CHL,CL-AP,Arica y Parinacota,CHL004,Arica y Painacota,code
+gem,CHL,CL-AT,Atacama,CHL005,Atacama,code
+gem,CHL,CL-BI,Biobío,CHL006,Biobio,code
+gem,CHL,CL-CO,Coquimbo,CHL007,Coquimbo,code
+gem,CHL,CL-AR,La Araucanía,CHL003,Araucania,code
+gem,CHL,CL-LL,Los Lagos,CHL009,Los Lagos,name
+gem,CHL,CL-LR,Los Ríos,CHL010,Los Rios,code
+gem,CHL,CL-MA,Magallanes,CHL011,Magallanes y Antartica chilena,code
+gem,CHL,CL-ML,Maule,CHL012,Maule,code
+gem,CHL,CL-LI,O'Higgins,CHL008,Libertador Gral. Bernardo O'Higgins,code
+gem,CHL,CL-RM,Región Metropolitana de Santiago,CHL013,Metropolitana,code
+gem,CHL,CL-TA,Tarapacá,CHL014,Tarapaca,name
+gem,CHL,CL-VS,Valparaíso,CHL015,Valparaiso,code
+gem_only,CHL,CL-NB,Ñuble,,,none
+gem,CHN,CN-AH,Anhui,CHN001,Anhui Sheng,code
+gem,CHN,CN-BJ,Beijing,CHN002,Beijing Shi,code
+gem,CHN,CN-CQ,Chongqing,CHN003,Chongqing Shi,code
+gem,CHN,CN-FJ,Fujian,CHN004,Fujian Sheng,code
+gem,CHN,CN-GS,Gansu,CHN005,Gansu Sheng,code
+gem,CHN,CN-GD,Guangdong,CHN006,Guangdong Sheng,code
+gem,CHN,CN-GX,Guangxi,CHN007,Guangxi Zhuangzu Zizhiqu,code
+gem,CHN,CN-GZ,Guizhou,CHN008,Guizhou Sheng,code
+gem,CHN,CN-HI,Hainan,CHN009,Hainan Sheng,name
+gem,CHN,CN-HE,Hebei,CHN010,Hebei Sheng,name
+gem,CHN,CN-HL,Heilongjiang,CHN011,Heilongjiang Sheng,code
+gem,CHN,CN-HA,Henan,CHN012,Henan Sheng,name
+gem,CHN,CN-HB,Hubei,CHN013,Hubei Sheng,name
+gem,CHN,CN-HN,Hunan,CHN014,Hunan Sheng,code
+gem,CHN,CN-JS,Jiangsu,CHN015,Jiangsu Sheng,code
+gem,CHN,CN-JX,Jiangxi,CHN016,Jiangxi Sheng,code
+gem,CHN,CN-JL,Jilin,CHN017,Jilin Sheng,code
+gem,CHN,CN-LN,Liaoning,CHN018,Liaoning Sheng,code
+gem,CHN,CN-NM,Nei Mongol,CHN019,Nei Mongol Zizhiqu,code
+gem,CHN,CN-NX,Ningxia,CHN020,Ningxia Huizu Zizhiqu,code
+gem,CHN,CN-QH,Qinghai,CHN021,Qinghai Sheng,code
+gem,CHN,CN-SN,Shaanxi,CHN022,Shaanxi Sheng,name
+gem,CHN,CN-SD,Shandong,CHN023,Shandong Sheng,code
+gem,CHN,CN-SH,Shanghai,CHN024,Shanghai Shi,code
+gem,CHN,CN-SX,Shanxi,CHN025,Shanxi Sheng,code
+gem,CHN,CN-SC,Sichuan,CHN026,Sichuan Sheng,code
+gem,CHN,CN-TJ,Tianjin,CHN027,Tianjin Shi,code
+gem,CHN,CN-XJ,Xinjiang,CHN028,Xinjiang Uygur Zizhiqu,code
+gem,CHN,CN-XZ,Xizang,CHN029,Xizang Zizhiqu,code
+gem,CHN,CN-YN,Yunnan,CHN030,Yunnan Sheng,code
+gem,CHN,CN-ZJ,Zhejiang,CHN031,Zhejiang Sheng,code
+gem,COL,CO-AMA,Amazonas,COL001,Amazonas,name
+gem,COL,CO-ANT,Antioquia,COL002,Antioquia,name
+gem,COL,CO-ARA,Arauca,COL003,Arauca,name
+gem,COL,CO-ATL,Atlántico,COL005,Atlántico,name
+gem,COL,CO-BOL,Bolívar,COL007,Bolívar,name
+gem,COL,CO-BOY,Boyacá,COL008,Boyacá,name
+gem,COL,CO-CAL,Caldas,COL009,Caldas,name
+gem,COL,CO-CAQ,Caquetá,COL010,Caquetá,name
+gem,COL,CO-CAS,Casanare,COL011,Casanare,name
+gem,COL,CO-CAU,Cauca,COL012,Cauca,name
+gem,COL,CO-CES,Cesar,COL013,Cesar,name
+gem,COL,CO-CHO,Chocó,COL014,Chocó,name
+gem,COL,CO-CUN,Cundinamarca,COL016,Cundinamarca,name
+gem,COL,CO-COR,Córdoba,COL015,Córdoba,name
+gem,COL,CO-DC,Distrito Capital de Bogotá,COL006,"Bogotá, D.C.",code
+gem,COL,CO-GUA,Guainía,COL017,Guainía,name
+gem,COL,CO-GUV,Guaviare,COL018,Guaviare,name
+gem,COL,CO-HUI,Huila,COL019,Huila,name
+gem,COL,CO-LAG,La Guajira,COL020,La Guajira,name
+gem,COL,CO-MAG,Magdalena,COL021,Magdalena,name
+gem,COL,CO-MET,Meta,COL022,Meta,name
+gem,COL,CO-NAR,Nariño,COL023,Nariño,name
+gem,COL,CO-NSA,Norte de Santander,COL024,Norte de Santander,name
+gem,COL,CO-PUT,Putumayo,COL025,Putumayo,name
+gem,COL,CO-QUI,Quindío,COL026,Quindio,name
+gem,COL,CO-RIS,Risaralda,COL027,Risaralda,name
+gem,COL,CO-SAP,San Andrés y Providencia,COL004,"Archipiélago de San Andrés, Providencia y Santa Catalina",name
+gem,COL,CO-SAN,Santander,COL028,Santander,name
+gem,COL,CO-SUC,Sucre,COL029,Sucre,name
+gem,COL,CO-TOL,Tolima,COL030,Tolima,name
+gem,COL,CO-VAC,Valle del Cauca,COL031,Valle del Cauca,name
+gem,COL,CO-VAU,Vaupés,COL032,Vaupés,name
+gem,COL,CO-VID,Vichada,COL033,Vichada,name
+gem,COM,KM-A,Anjouan,COM001,Anjouan,name
+gem,COM,KM-G,Grande Comore,COM003,Ngazidja,name
+gem,COM,KM-M,Mohéli,COM002,Moheli,name
+gem,COG,CG-11,Bouenza,COG001,Bouenza,name
+gem,COG,CG-BZV,Brazzaville,COG002,Brazzaville,name
+gem,COG,CG-8,Cuvette,COG003,Cuvette,name
+gem,COG,CG-15,Cuvette-Ouest,COG004,Cuvette-Ouest,name
+gem,COG,CG-5,Kouilou,COG005,Kouilou,name
+gem,COG,CG-7,Likouala,COG007,Likouala,name
+gem,COG,CG-2,Lékoumou,COG006,Lekoumou,name
+gem,COG,CG-9,Niari,COG008,Niari,name
+gem,COG,CG-14,Plateaux,COG009,Plateaux,name
+gem,COG,CG-16,Pointe-Noire,COG010,Point-Noire,name
+gem,COG,CG-12,Pool,COG011,Pool,name
+gem,COG,CG-13,Sangha,COG012,Sangha,name
+gem,COK,CK-AT,Aitutaki,COK001,Cook Islands (N.Z.),country
+gem,COK,CK-AU,Atiu,COK001,Cook Islands (N.Z.),country
+gem,COK,CK-MG,Mangaia,COK001,Cook Islands (N.Z.),country
+gem,COK,CK-MN,Manihiki,COK001,Cook Islands (N.Z.),country
+gem,COK,CK-MK,Mauke,COK001,Cook Islands (N.Z.),country
+gem,COK,CK-MT,Mitiaro,COK001,Cook Islands (N.Z.),country
+gem,COK,CK-NS,Nassau,COK001,Cook Islands (N.Z.),country
+gem,COK,CK-PL,Palmerston,COK001,Cook Islands (N.Z.),country
+gem,COK,CK-PN,Penrhyn,COK001,Cook Islands (N.Z.),country
+gem,COK,CK-PK,Pukapuka,COK001,Cook Islands (N.Z.),country
+gem,COK,CK-RK,Rakahanga,COK001,Cook Islands (N.Z.),country
+gem,COK,CK-RT,Rarotonga,COK001,Cook Islands (N.Z.),country
+gem,CRI,CR-A,Alajuela,CRI001,Alajuela,name
+gem,CRI,CR-C,Cartago,CRI002,Cartago,name
+gem,CRI,CR-G,Guanacaste,CRI003,Guanacaste,name
+gem,CRI,CR-H,Heredia,CRI004,Heredia,name
+gem,CRI,CR-L,Limón,CRI005,Limón,name
+gem,CRI,CR-P,Puntarenas,CRI006,Puntarenas,name
+gem,CRI,CR-SJ,San José,CRI007,San José,name
+gem,HRV,HR-07,Bjelovarsko-Bilogorska,HRV001,Bjelovar-bilogora,fuzzy
+gem,HRV,HR-12,Brodsko-Posavska,HRV015,Slavonski Brod-posav,override
+gem,HRV,HR-19,Dubrovačko-Neretvanska,HRV002,Dubrovnik-neretva,override
+gem,HRV,HR-21,Grad Zagreb,HRV003,Grad Zagreb,name
+gem,HRV,HR-18,Istarska,HRV004,Istra,override
+gem,HRV,HR-04,Karlovačka,HRV005,Karlovac,fuzzy
+gem,HRV,HR-06,Koprivničko-Križevačka,HRV006,Koprivnica-krizevci,code_num
+gem,HRV,HR-02,Krapinsko-Zagorska,HRV007,Krapina-zagorje,override
+gem,HRV,HR-09,Ličko-Senjska,HRV008,Lika-senj,override
+gem,HRV,HR-20,Međimurska,HRV009,Medimurje,override
+gem,HRV,HR-14,Osječko-Baranjska,HRV010,Osijek-baranja,fuzzy
+gem,HRV,HR-11,Požeško-Slavonska,HRV011,Pozega-slavonija,code_num
+gem,HRV,HR-08,Primorsko-Goranska,HRV012,Primorje-gorski Kota,override
+gem,HRV,HR-03,Sisačko-Moslavačka,HRV014,Sisak-moslavina,override
+gem,HRV,HR-17,Splitsko-Dalmatinska,HRV016,Split-dalmatija,override
+gem,HRV,HR-05,Varaždinska,HRV017,Varazdin,fuzzy
+gem,HRV,HR-10,Virovitičko-Podravska,HRV018,Virovitica-podravina,fuzzy
+gem,HRV,HR-16,Vukovarsko-Srijemska,HRV019,Vukovar-srijem,override
+gem,HRV,HR-13,Zadarska,HRV020,Zadar-knin,override
+gem,HRV,HR-01,Zagrebačka,HRV021,Zagreb,fuzzy
+gem,HRV,HR-15,Šibensko-Kninska,HRV013,Sibenik,override
+gem,CUB,CU-15,Artemisa,CUB001,Artemisa,name
+gem,CUB,CU-09,Camagüey,CUB002,Camagüey,name
+gem,CUB,CU-08,Ciego de Ávila,CUB003,Ciego de Ávila,name
+gem,CUB,CU-06,Cienfuegos,CUB004,Cienfuegos,name
+gem,CUB,CU-12,Granma,CUB005,Granma,name
+gem,CUB,CU-14,Guantánamo,CUB006,Guantánamo,name
+gem,CUB,CU-11,Holguín,CUB007,Holguín,name
+gem,CUB,CU-99,Isla de la Juventud,CUB000,Isla de la Juventud,name
+gem,CUB,CU-03,La Habana,CUB008,La Habana,name
+gem,CUB,CU-10,Las Tunas,CUB009,Las Tunas,name
+gem,CUB,CU-04,Matanzas,CUB010,Matanzas,name
+gem,CUB,CU-16,Mayabeque,CUB011,Mayabeque,name
+gem,CUB,CU-01,Pinar del Río,CUB012,Pinar del Río,name
+gem,CUB,CU-07,Sancti Spíritus,CUB013,Sancti Spíritus,name
+gem,CUB,CU-13,Santiago de Cuba,CUB014,Santiago de Cuba,name
+gem,CUB,CU-05,Villa Clara,CUB015,Villa Clara,name
+gem,CYP,CY-04,Ammochostos,CYP003,Ammochostos,name
+gem,CYP,CY-03,Larnaka,CYP004,Larnaka,name
+gem,CYP,CY-01,Lefkosia,CYP001,Lefkosia,name
+gem,CYP,CY-02,Lemesos,CYP005,Lemesos,name
+gem,CYP,CY-05,Pafos,CYP006,Pafos,name
+gem,CZE,CZ-64,Jihomoravský,CZE002,Jihomoravsky,group
+gem,CZE,CZ-31,Jihočeský,CZE001,Jihocesky,name
+gem,CZE,CZ-41,Karlovarský,CZE008,Zapadocesky,group
+gem,CZE,CZ-52,Královéhradecký,CZE007,Vychodocesky,group
+gem,CZE,CZ-51,Liberecký,CZE004,Severocesky,group
+gem,CZE,CZ-80,Moravskoslezský,CZE005,Severomoravsky,group
+gem,CZE,CZ-71,Olomoucký,CZE005,Severomoravsky,group
+gem,CZE,CZ-53,Pardubický,CZE007,Vychodocesky,group
+gem,CZE,CZ-32,Plzeňský,CZE008,Zapadocesky,group
+gem,CZE,CZ-10,Praha,CZE003,Praha,name
+gem,CZE,CZ-20,Středočeský,CZE006,Stredocesky,name
+gem,CZE,CZ-63,Vysočina,CZE002,Jihomoravsky,group
+gem,CZE,CZ-72,Zlínský,CZE002,Jihomoravsky,group
+gem,CZE,CZ-42,Ústecký,CZE004,Severocesky,group
+gem,CIV,CI-AB,Abidjan,CIV024,Abidjan,code
+gem,CIV,CI-BS,Bas-Sassandra,CIV025,Bas-Sassandra,name
+gem,CIV,CI-CM,Comoé,CIV026,Comoé,code
+gem,CIV,CI-DN,Denguélé,CIV027,Denguélé,name
+gem,CIV,CI-GD,Gôh-Djiboua,CIV028,Gôh-Djiboua,code
+gem,CIV,CI-LC,Lacs,CIV029,Lacs,name
+gem,CIV,CI-LG,Lagunes,CIV030,Lagunes,name
+gem,CIV,CI-MG,Montagnes,CIV031,Montagnes,name
+gem,CIV,CI-SM,Sassandra-Marahoué,CIV032,Sassandra-Marahoué,code
+gem,CIV,CI-SV,Savanes,CIV033,Savanes,code
+gem,CIV,CI-VB,Vallée du Bandama,CIV034,Vallée du Bandama,code
+gem,CIV,CI-WR,Woroba,CIV035,Woroba,name
+gem,CIV,CI-YM,Yamoussoukro,CIV036,Yamoussoukro,code
+gem,CIV,CI-ZZ,Zanzan,CIV037,Zanzan,name
+gem,COD,CD-BU,Bas-Uélé,COD012,Bas-Uélé,name
+gem,COD,CD-HK,Haut-Katanga,COD014,Haut-Katanga,name
+gem,COD,CD-HL,Haut-Lomami,COD015,Haut-Lomami,name
+gem,COD,CD-HU,Haut-Uélé,COD016,Haut-Uélé,name
+gem,COD,CD-IT,Ituri,COD017,Ituri,name
+gem,COD,CD-KS,Kasaï,COD018,Kasaï,name
+gem,COD,CD-KC,Kasaï Central,COD019,Kasaï-Central,name
+gem,COD,CD-KE,Kasaï Oriental,COD020,Kasaï-Oriental,name
+gem,COD,CD-KN,Kinshasa,COD007,Kinshasa,name
+gem,COD,CD-BC,Kongo Central,COD002,Kongo Central,name
+gem,COD,CD-KG,Kwango,COD021,Kwango,name
+gem,COD,CD-KL,Kwilu,COD022,Kwilu,name
+gem,COD,CD-LO,Lomami,COD023,Lomami,name
+gem,COD,CD-LU,Lualaba,COD024,Lualaba,name
+gem,COD,CD-MN,Mai-Ndombe,COD025,Mai-Ndombe,name
+gem,COD,CD-MA,Maniema,COD008,Maniema,name
+gem,COD,CD-MO,Mongala,COD026,Mongala,name
+gem,COD,CD-NK,Nord-Kivu,COD009,Nord-Kivu,name
+gem,COD,CD-NU,Nord-Ubangi,COD027,Nord-Ubangi,name
+gem,COD,CD-SA,Sankuru,COD028,Sankuru,name
+gem,COD,CD-SK,Sud-Kivu,COD011,Sud-Kivu,name
+gem,COD,CD-SU,Sud-Ubangi,COD029,Sud-Ubangi,name
+gem,COD,CD-TA,Tanganyika,COD030,Tanganyika,name
+gem,COD,CD-TO,Tshopo,COD031,Tshopo,name
+gem,COD,CD-TU,Tshuapa,COD032,Tshuapa,name
+gem,COD,CD-EQ,Équateur,COD013,Équateur,name
+gem,DNK,DK-84,Hovedstaden,DNK001,Capital,name_loose
+gem,DNK,DK-82,Midtjylland,DNK002,Central Jutland,name_loose
+gem,DNK,DK-81,Nordjylland,DNK003,North Jutland,name_loose
+gem,DNK,DK-85,Sjælland,DNK005,Zealand,name_loose
+gem,DNK,DK-83,Syddanmark,DNK004,South Denmark,name_loose
+gem,DJI,DJ-AS,Ali Sabieh,DJI001,Ali Sabeh,code
+gem,DJI,DJ-AR,Arta,DJI006,Arta,name
+gem,DJI,DJ-DI,Dikhil,DJI002,Dilkhil,name
+gem,DJI,DJ-DJ,Djibouti,DJI003,Djibouti,name
+gem,DJI,DJ-OB,Obock,DJI004,Obock,code
+gem,DJI,DJ-TA,Tadjourah,DJI005,Tadjourah,code
+gem,DMA,DM-02,Saint Andrew,DMA001,St. Andrew,name
+gem,DMA,DM-03,Saint David,DMA002,St. David,name
+gem,DMA,DM-04,Saint George,DMA003,St. George,name
+gem,DMA,DM-05,Saint John,DMA004,St. John,name
+gem,DMA,DM-06,Saint Joseph,DMA005,St. Joseph,name
+gem,DMA,DM-07,Saint Luke,DMA006,St. Luke,name
+gem,DMA,DM-08,Saint Mark,DMA007,St. Mark,name
+gem,DMA,DM-09,Saint Patrick,DMA008,St. Patrick,name
+gem,DMA,DM-10,Saint Paul,DMA009,St. Paul,name
+gem,DMA,DM-11,Saint Peter,DMA010,St. Peter,name
+gem,DOM,DO-02,Azua,DOM001,Azua,name
+gem,DOM,DO-03,Baoruco,DOM002,Baoruco,name
+gem,DOM,DO-04,Barahona,DOM003,Barahona,name
+gem,DOM,DO-05,Dajabón,DOM004,Dajabon,name
+gem,DOM,DO-01,Distrito Nacional,DOM005,Distrito Nacional,name
+gem,DOM,DO-06,Duarte,DOM006,Duarte,name
+gem,DOM,DO-08,El Seibo,DOM007,El Seibo,name
+gem,DOM,DO-07,Elías Piña,DOM008,Elias Pina,name
+gem,DOM,DO-09,Espaillat,DOM009,Espaillat,name
+gem,DOM,DO-30,Hato Mayor,DOM010,Hato Mayor,name
+gem,DOM,DO-19,Hermanas Mirabal,DOM022,Salcedo,name
+gem,DOM,DO-10,Independencia,DOM011,Independencia,name
+gem,DOM,DO-11,La Altagracia,DOM012,La Altagracia,name
+gem,DOM,DO-12,La Romana,DOM013,La Romana,name
+gem,DOM,DO-13,La Vega,DOM014,La Vega,name
+gem,DOM,DO-14,María Trinidad Sánchez,DOM015,Maria Trinidad Sanches,name
+gem,DOM,DO-28,Monseñor Nouel,DOM016,Monsenor Nouel,name
+gem,DOM,DO-15,Monte Cristi,DOM017,Monte Cristi,name
+gem,DOM,DO-29,Monte Plata,DOM018,Monte Plata,name
+gem,DOM,DO-16,Pedernales,DOM019,Pedernales,name
+gem,DOM,DO-17,Peravia,DOM020,Peravia,name
+gem,DOM,DO-18,Puerto Plata,DOM021,Puerto Plata,name
+gem,DOM,DO-20,Samaná,DOM023,Samana,name
+gem,DOM,DO-21,San Cristóbal,DOM024,San Cristobal,name
+gem,DOM,DO-31,San José de Ocoa,DOM025,San José de Ocoa,name
+gem,DOM,DO-22,San Juan,DOM026,San Juan,name
+gem,DOM,DO-23,San Pedro de Macorís,DOM027,San Pedro de Macoris,name
+gem,DOM,DO-25,Santiago,DOM029,Santiago,name
+gem,DOM,DO-26,Santiago Rodríguez,DOM030,Santiago Rodriguez,name
+gem,DOM,DO-32,Santo Domingo,DOM031,Santo Domingo,name
+gem,DOM,DO-24,Sánchez Ramírez,DOM028,Sanchez Ramirez,name
+gem,DOM,DO-27,Valverde,DOM032,Valverde,name
+gem,ECU,EC-A,Azuay,ECU001,Azuay,name
+gem,ECU,EC-B,Bolívar,ECU002,Bolivar,name
+gem,ECU,EC-C,Carchi,ECU004,Carchi,name
+gem,ECU,EC-F,Cañar,ECU003,Canar,name
+gem,ECU,EC-H,Chimborazo,ECU006,Chimborazo,name
+gem,ECU,EC-X,Cotopaxi,ECU005,Cotopaxi,name
+gem,ECU,EC-O,El Oro,ECU007,El Oro,name
+gem,ECU,EC-E,Esmeraldas,ECU008,Esmeraldas,name
+gem,ECU,EC-W,Galápagos,ECU020,Galapagos,name
+gem,ECU,EC-G,Guayas,ECU009,Guayas,name
+gem,ECU,EC-I,Imbabura,ECU010,Imbabura,name
+gem,ECU,EC-L,Loja,ECU011,Loja,name
+gem,ECU,EC-R,Los Ríos,ECU012,Los Rios,name
+gem,ECU,EC-M,Manabí,ECU013,Manabi,name
+gem,ECU,EC-S,Morona Santiago,ECU014,Morona Santiago,name
+gem,ECU,EC-N,Napo,ECU015,Napo,name
+gem,ECU,EC-D,Orellana,ECU022,Orellana,name
+gem,ECU,EC-Y,Pastaza,ECU016,Pastaza,name
+gem,ECU,EC-P,Pichincha,ECU017,Pichincha,name
+gem,ECU,EC-SE,Santa Elena,ECU024,Santa Elena,name
+gem,ECU,EC-SD,Santo Domingo de los Tsáchilas,ECU023,Santo Domingo de los Tsachilas,name
+gem,ECU,EC-U,Sucumbíos,ECU021,Sucumbios,name
+gem,ECU,EC-T,Tungurahua,ECU018,Tungurahua,name
+gem,ECU,EC-Z,Zamora Chinchipe,ECU019,Zamora Chinchipe,name
+gem,EGY,EG-BA,Al-Bahr Al-Ahmar,EGY023,Red Sea,code
+gem,EGY,EG-BH,Al-Buhayrah,EGY004,Behera,code
+gem,EGY,EG-DK,Al-Dakahlia,EGY007,Dakahlia,name_loose
+gem,EGY,EG-FYM,Al-Fayium,EGY009,Fayoum,fuzzy
+gem,EGY,EG-GH,Al-Gharbia,EGY010,Gharbia,code
+gem,EGY,EG-IS,Al-Ismailia,EGY012,Ismailia,code
+gem,EGY,EG-MN,Al-Minya,EGY017,Menia,code
+gem,EGY,EG-MNF,Al-Monufia,EGY018,Menoufia,override
+gem,EGY,EG-KB,Al-Qalyubia,EGY014,Kalyoubia,fuzzy
+gem,EGY,EG-SHR,Al-Sharqia,EGY024,Shrkia,fuzzy
+gem,EGY,EG-WAD,Al-Wadi Al-Gedid,EGY019,New Valley,override
+gem,EGY,EG-ALX,Alexandria,EGY001,Alexandria,name
+gem,EGY,EG-ASN,Aswan,EGY003,Aswan,name
+gem,EGY,EG-AST,Asyut,EGY002,Assiut,name
+gem,EGY,EG-BNS,Beni Suef,EGY005,Beni Suef,name
+gem,EGY,EG-C,Cairo,EGY006,Cairo,name
+gem,EGY,EG-DT,Damietta,EGY008,Damietta,code
+gem,EGY,EG-GZ,Giza,EGY011,Giza,name
+gem,EGY,EG-KFS,Kafr El-Sheikh,EGY013,Kafr El-Shikh,fuzzy
+gem,EGY,EG-LX,Luxor,EGY015,Luxor,name
+gem,EGY,EG-MT,Matruh,EGY016,Matrouh,code
+gem,EGY,EG-SIN,North Sinai,EGY020,North Sinai,name
+gem,EGY,EG-PTS,Port Said,EGY021,Port Said,name
+gem,EGY,EG-KN,Qena,EGY022,Qena,name
+gem,EGY,EG-SHG,Sohag,EGY027,Suhag,override
+gem,EGY,EG-JS,South Sinai,EGY025,South Sinai,code
+gem,EGY,EG-SUZ,Suez,EGY026,Suez,name
+gem,SLV,SV-AH,Ahuachapán,SLV001,Ahuachapan,code
+gem,SLV,SV-CA,Cabañas,SLV002,Cabanas,code
+gem,SLV,SV-CH,Chalatenango,SLV003,Chalatenango,code
+gem,SLV,SV-CU,Cuscatlán,SLV004,Cuscatlan,code
+gem,SLV,SV-LI,La Libertad,SLV005,La Libertad,code
+gem,SLV,SV-PA,La Paz,SLV006,La Paz,code
+gem,SLV,SV-UN,La Unión,SLV007,La Union,code
+gem,SLV,SV-MO,Morazán,SLV008,Morazan,code
+gem,SLV,SV-SM,San Miguel,SLV009,San Miguel,code
+gem,SLV,SV-SS,San Salvador,SLV010,San Salvador,code
+gem,SLV,SV-SV,San Vicente,SLV011,San Vicente,code
+gem,SLV,SV-SA,Santa Ana,SLV012,Santa Ana,code
+gem,SLV,SV-SO,Sonsonate,SLV013,Sonsonate,code
+gem,SLV,SV-US,Usulután,SLV014,Usulutan,code
+gem,GNQ,GQ-AN,Annobón,GNQ001,Annobon,code
+gem,GNQ,GQ-BN,Bioko Norte,GNQ002,Bioko Norte,code
+gem,GNQ,GQ-BS,Bioko Sur,GNQ003,Bioko Sur,code
+gem,GNQ,GQ-CS,Centro Sur,GNQ004,Centro Sur,code
+gem_only,GNQ,GQ-DJ,Djibloho,,,none
+gem,GNQ,GQ-KN,Kié-Ntem,GNQ005,Kientem,code
+gem,GNQ,GQ-LI,Litoral,GNQ006,Litoral,code
+gem,GNQ,GQ-WN,Wele-Nzas,GNQ007,Welenzas,name
+gem,ERI,ER-AN,Anseba,ERI001,Anseba,code
+gem,ERI,ER-DU,Debub,ERI003,Debub,code
+gem,ERI,ER-DK,Debubawi Keih Bahri,ERI004,Debubawi Keih Bahri,code
+gem,ERI,ER-GB,Gash-Barka,ERI005,Gash Barka,code
+gem,ERI,ER-MA,Maekel,ERI006,Maekel,code
+gem,ERI,ER-SK,Semienawi Keih Bahri,ERI007,Semenawi Keih Bahri,code
+gem,EST,EE-37,Harjumaa,EST002,Harju maakond,fuzzy
+gem,EST,EE-39,Hiiumaa,EST003,Hiiu maakond,fuzzy
+gem,EST,EE-45,Ida-Virumaa,EST004,Ida-Viru maakond,fuzzy
+gem,EST,EE-52,Järvamaa,EST005,Järva maakond,code_num
+gem_only,EST,EE-50,Jõgevamaa,,,none
+gem,EST,EE-60,Lääne-Virumaa,EST008,Lääne-Viru maakond,override
+gem,EST,EE-56,Läänemaa,EST007,Lääne maakond,fuzzy
+gem,EST,EE-68,Pärnumaa,EST009,Pärnu maakond,fuzzy
+gem,EST,EE-64,Põlvamaa,EST006,Jõgeva maakond,code_num
+gem,EST,EE-71,Raplamaa,EST011,Rapla maakond,fuzzy
+gem,EST,EE-74,Saaremaa,EST012,Saare maakond,fuzzy
+gem,EST,EE-79,Tartumaa,EST013,Tartu maakond,fuzzy
+gem,EST,EE-81,Valgamaa,EST014,Valga maakond,fuzzy
+gem,EST,EE-84,Viljandimaa,EST015,Viljandi maakond,fuzzy
+gem,EST,EE-87,Võrumaa,EST016,Võru maakond,fuzzy
+gem,SWZ,SZ-HH,Hhohho,SWZ001,Hhohho,name
+gem,SWZ,SZ-LU,Lubombo,SWZ002,Lubombo,name
+gem,SWZ,SZ-MA,Manzini,SWZ003,Manzini,name
+gem,SWZ,SZ-SH,Shiselweni,SWZ004,Shiselweni,name
+gem,ETH,ET-AA,Addis Ababa,ETH001,Addis Ababa,name
+gem,ETH,ET-AF,Afar,ETH002,Afar,name
+gem,ETH,ET-AM,Amara,ETH003,Amhara,fuzzy
+gem,ETH,ET-BE,Benshangul-Gumaz,ETH004,Benishangul Gumz,fuzzy
+gem,ETH,ET-CE,Central Ethiopia,ETH010,SNNP,group
+gem,ETH,ET-DD,Dire Dawa,ETH005,Dire Dawa,name
+gem,ETH,ET-GA,Gambela Peoples,ETH006,Gambela,fuzzy
+gem,ETH,ET-HA,Harari People,ETH007,Harari,fuzzy
+gem,ETH,ET-OR,Oromia,ETH008,Oromia,name
+gem,ETH,ET-SI,Sidama,ETH009,Sidama,name
+gem,ETH,ET-SO,Somali,ETH011,Somali,name
+gem,ETH,ET-SE,South Ethiopia,ETH010,SNNP,group
+gem,ETH,ET-SW,Southwest Ethiopia Peoples,ETH012,South West Ethiopia,override
+gem,ETH,ET-TI,Tigray,ETH013,Tigray,name
+gem,FSM,FM-TRK,Chuuk,FSM001,Administrative unit not available,country
+gem,FSM,FM-KSA,Kosrae,FSM001,Administrative unit not available,country
+gem,FSM,FM-PNI,Pohnpei,FSM001,Administrative unit not available,country
+gem,FSM,FM-YAP,Yap,FSM001,Administrative unit not available,country
+gem,FJI,FJ-C,Central,FJI001,Central,name
+gem,FJI,FJ-E,Eastern,FJI002,Eastern,name
+gem,FJI,FJ-N,Northern,FJI003,Northern,name
+gem_only,FJI,FJ-R,Rotuma,,,none
+gem,FJI,FJ-W,Western,FJI004,Western,name
+gem,FIN,FI-08,Central Finland,FIN005,Western Finland,group
+gem,FIN,FI-07,Central Ostrobothnia,FIN005,Western Finland,group
+gem,FIN,FI-05,Kainuu,FIN003,Oulu,group
+gem,FIN,FI-06,Kanta-Häme,FIN004,Southern Finland,group
+gem,FIN,FI-09,Kymenlaakso,FIN004,Southern Finland,group
+gem,FIN,FI-10,Lapland,FIN002,Lapland,name
+gem,FIN,FI-13,North Karelia,FIN001,Eastern Finland,group
+gem,FIN,FI-14,North Ostrobothnia,FIN003,Oulu,group
+gem,FIN,FI-15,North Savo,FIN001,Eastern Finland,group
+gem,FIN,FI-12,Ostrobothnia,FIN005,Western Finland,group
+gem,FIN,FI-11,Pirkanmaa,FIN005,Western Finland,group
+gem,FIN,FI-16,Päijät-Häme,FIN004,Southern Finland,group
+gem,FIN,FI-17,Satakunta,FIN005,Western Finland,group
+gem,FIN,FI-02,South Karelia,FIN004,Southern Finland,group
+gem,FIN,FI-03,South Ostrobothnia,FIN005,Western Finland,group
+gem,FIN,FI-04,South Savo,FIN001,Eastern Finland,group
+gem,FIN,FI-19,Southwest Finland,FIN005,Western Finland,group
+gem,FIN,FI-18,Uusimaa,FIN004,Southern Finland,group
+gem,FRA,FR-ARA,Auvergne-Rhône-Alpes,FRA004 + FRA023,Auvergne + Rhone-Alpes,override
+gem,FRA,FR-BFC,Bourgogne-Franche-Comté,FRA006 + FRA011,Bourgogne + Franche-Comte,override
+gem,FRA,FR-BRE,Bretagne,FRA007,Bretagne,name
+gem,FRA,FR-CVL,Centre-Val de Loire,FRA008,Centre,fuzzy
+gem,FRA,FR-20R,Corse,FRA010,Corse,name
+gem,FRA,FR-GES,Grand Est,FRA002 + FRA009 + FRA016,Alsace + Champagne-Ardenne + Lorraine,override
+gem,FRA,FR-HDF,Hauts-de-France,FRA018 + FRA020,Nord-Pas-de-Calais + Picardie,override
+gem,FRA,FR-NOR,Normandie,FRA005 + FRA012,Basse-Normandie + Haute-Normandie,override
+gem,FRA,FR-NAQ,Nouvelle-Aquitaine,FRA003 + FRA015 + FRA021,Aquitaine + Limousin + Poitou-Charentes,override
+gem,FRA,FR-OCC,Occitanie,FRA014 + FRA017,Languedoc-Rousillon + Midi-Pyrenees,override
+gem,FRA,FR-PDL,Pays-de-la-Loire,FRA019,Pays-de-la-Loire,name
+gem,FRA,FR-PAC,Provence-Alpes-Côte-d’Azur,FRA022,Provence-Alpes-Cote-d'Azur,name
+gem,FRA,FR-IDF,Île-de-France,FRA013,Ile-de-France,name
+gem,GUF,GF-CY,Cayenne,GUF001,French Guiana,country
+gem,GUF,GF-SG,Saint-Georges,GUF001,French Guiana,country
+gem,GUF,GF-SL,Saint-Laurent-du-Maroni,GUF001,French Guiana,country
+gem,GAB,GA-1,Estuaire,GAB001,Estuaire,name
+gem,GAB,GA-2,Haut-Ogooué,GAB002,Haut-Ogooue,name
+gem,GAB,GA-3,Moyen-Ogooué,GAB003,Moyen-Ogooue,name
+gem,GAB,GA-4,Ngounié,GAB004,Ngounie,name
+gem,GAB,GA-5,Nyanga,GAB005,Nyanga,name
+gem,GAB,GA-6,Ogooué-Ivindo,GAB006,Ogooue-Ivindo,name
+gem,GAB,GA-7,Ogooué-Lolo,GAB007,Ogooue-lolo,name
+gem,GAB,GA-8,Ogooué-Maritime,GAB008,Ogooue-Maritime,name
+gem,GAB,GA-9,Woleu-Ntem,GAB009,Woleu-Ntem,name
+gem,GMB,GM-BJ,Banjul,GMB001,Banjul City Council,fuzzy
+gem,GMB,GM-BS,Basse,GMB007,Upper River,override
+gem,GMB,GM-BR,Brikama,GMB008,West Coast,override
+gem,GMB,GM-JA,Janjanbureh,GMB003,Central River South,override
+gem,GMB,GM-KA,Kanifing,GMB004,Kanifing Municipal Council,fuzzy
+gem,GMB,GM-KE,Kerewan,GMB006,North Bank,override
+gem,GMB,GM-KU,Kuntaur,GMB002,Central River North,override
+gem,GMB,GM-MA,Mansakonko,GMB005,Lower River,override
+gem,GEO,GE-AB,Abkhazia,GEO001,Abkhazeti (Abkhazia) Autonomous Republic,name_loose
+gem,GEO,GE-AJ,Adjara,GEO002,Adjara (Adjaria) Autonomous Republic,name
+gem,GEO,GE-GU,Guria,GEO003,Guria,name
+gem,GEO,GE-IM,Imereti,GEO004,Imereti,name
+gem,GEO,GE-KA,K'akheti,GEO005,Kakheti,name
+gem,GEO,GE-KK,Kvemo Kartli,GEO006,Kvemo Kartli,name
+gem,GEO,GE-MM,Mtskheta-Mtianeti,GEO007,Mtskheta-Mtianeti,name
+gem,GEO,GE-RL,Rach'a-Lechkhumi and Kvemo Svaneti,GEO008,Racha-Lechkhumi-Kvemo Svaneti,name
+gem,GEO,GE-SZ,Samegrelo-Zemo Svaneti,GEO009,Samegrelo-Zemo Svaneti,name
+gem,GEO,GE-SJ,Samtskhe-Javakheti,GEO010,Samtskhe-Javakheti,name
+gem,GEO,GE-SK,Shida Kartli,GEO011,Shida Kartli,name
+gem,GEO,GE-TB,Tbilisi,GEO012,Tbilisi (City),name
+gem,DEU,DE-BW,Baden-Württemberg,DEU001,Baden-Wuerttemberg,code
+gem,DEU,DE-BY,Bayern,DEU002,Bayern,code
+gem,DEU,DE-BE,Berlin,DEU003,Berlin,code
+gem,DEU,DE-BB,Brandenburg,DEU004,Brandenburg,code
+gem,DEU,DE-HB,Bremen,DEU005,Bremen,code
+gem,DEU,DE-HH,Hamburg,DEU006,Hamburg,code
+gem,DEU,DE-HE,Hessen,DEU007,Hessen,code
+gem,DEU,DE-MV,Mecklenburg-Vorpommern,DEU008,Mecklenburg-Vorpommern,code
+gem,DEU,DE-NI,Niedersachsen,DEU009,Niedersachsen,code
+gem,DEU,DE-NW,Nordrhein-Westfalen,DEU010,Nordrhein-Westfalen,code
+gem,DEU,DE-RP,Rheinland-Pfalz,DEU011,Rheinland-Pfalz,code
+gem,DEU,DE-SL,Saarland,DEU012,Saarland,code
+gem,DEU,DE-SN,Sachsen,DEU013,Sachsen,code
+gem,DEU,DE-ST,Sachsen-Anhalt,DEU014,Sachsen-Anhalt,code
+gem,DEU,DE-SH,Schleswig-Holstein,DEU015,Schleswig-Holstein,code
+gem,DEU,DE-TH,Thüringen,DEU016,Thueringen,code
+gem,GHA,GH-AF,Ahafo,GHA011,Ahafo,name
+gem,GHA,GH-AH,Ashanti,GHA001,Ashanti,name
+gem,GHA,GH-BO,Bono,GHA012,Bono,name
+gem,GHA,GH-BE,Bono East,GHA013,Bono East,name
+gem,GHA,GH-CP,Central,GHA003,Central,name
+gem,GHA,GH-EP,Eastern,GHA004,Eastern,name
+gem,GHA,GH-AA,Greater Accra,GHA005 + GHA014,Greater Accra + Greater Accra,override
+gem,GHA,GH-NE,North East,GHA015,Northern East,fuzzy
+gem,GHA,GH-NP,Northern,GHA006,Northern,name
+gem,GHA,GH-OT,Oti,GHA016,Oti,name
+gem,GHA,GH-SV,Savannah,GHA017,Savannah,name
+gem,GHA,GH-UE,Upper East,GHA007,Upper East,name
+gem,GHA,GH-UW,Upper West,GHA008,Upper West,name
+gem,GHA,GH-TV,Volta,GHA009,Volta,name
+gem,GHA,GH-WP,Western,GHA010,Western,name
+gem,GHA,GH-WN,Western North,GHA018,Western North,name
+gem,GIB,GI-ES,Eastside,GIB001,Gibraltar (U.K.),country
+gem,GIB,GI-ND,North District,GIB001,Gibraltar (U.K.),country
+gem,GIB,GI-RA,Reclamation Areas,GIB001,Gibraltar (U.K.),country
+gem,GIB,GI-SA,Sandpits Area,GIB001,Gibraltar (U.K.),country
+gem,GIB,GI-SD,South District,GIB001,Gibraltar (U.K.),country
+gem,GIB,GI-TA,Town Area,GIB001,Gibraltar (U.K.),country
+gem,GIB,GI-UT,Upper Town,GIB001,Gibraltar (U.K.),country
+gem,GRC,GR-AI,Aigaío,GRC009 + GRC013,Notio Aigaio + Voreio Aigaio,override
+gem,GRC,GR-AT,Attikí,GRC002,Attiki,name
+gem,GRC,GR-CR,Kríti,GRC008,Kriti,name
+gem,GRC,GR-MH,Makedonía kai Thráki,GRC001 + GRC007,Anatoliki Makedonia Kai Thraki + Kentriki Makedonia,override
+gem,GRC,GR-PW,"Pelopónnisos, Dytikí Elláda, kai Ionía Nísia",GRC010 + GRC003 + GRC005,Peloponnisos + Dytiki Ellada + Ionioi Nisoi,override
+gem,GRC,GR-TC,Thessalía kai Stereá Elláda,GRC012 + GRC011,Thessalia + Sterea Ellada,override
+gem_only,GRC,GR-MA,Ágion Óros,,,none
+gem,GRC,GR-EM,Ípeiros kai Dytikí Makedonía,GRC006 + GRC004,Ipeiros + Dytiki Makedonia,override
+gem,GRD,GD-01,Saint Andrew,GRD002,St. Andrew's,name
+gem,GRD,GD-02,Saint David,GRD003,St. David's,name
+gem,GRD,GD-03,Saint George,GRD004,St. George's,name
+gem,GRD,GD-04,Saint John,GRD005,St. John's,name
+gem,GRD,GD-05,Saint Mark,GRD006,St. Mark's,name
+gem,GRD,GD-06,Saint Patrick,GRD007,St. Patrick's,name
+gem,GRD,GD-10,Southern Grenadine Islands,GRD001,Carriacou and Petite Martinique,override
+gem,GLP,GP-BT,Basse-Terre,GLP001,Guadeloupe,country
+gem,GLP,GP-PP,Pointe-à-Pitre,GLP001,Guadeloupe,country
+gem,GUM,GU-AH,Agana Heights,GUM001,Administrative unit not available,country
+gem,GUM,GU-AS,Asan-Maina,GUM001,Administrative unit not available,country
+gem,GUM,GU-BA,Barrigada,GUM001,Administrative unit not available,country
+gem,GUM,GU-CP,Chalan Pago-Ordot,GUM001,Administrative unit not available,country
+gem,GUM,GU-DD,Dededo,GUM001,Administrative unit not available,country
+gem,GUM,GU-AN,Hagåtña,GUM001,Administrative unit not available,country
+gem,GUM,GU-UM,Humåtak,GUM001,Administrative unit not available,country
+gem,GUM,GU-AT,Hågat,GUM001,Administrative unit not available,country
+gem,GUM,GU-IN,Inalåhan,GUM001,Administrative unit not available,country
+gem,GUM,GU-ME,Malesso',GUM001,Administrative unit not available,country
+gem,GUM,GU-MA,Mangilao,GUM001,Administrative unit not available,country
+gem,GUM,GU-MT,Mongmong-Toto-Maite,GUM001,Administrative unit not available,country
+gem,GUM,GU-PI,Piti,GUM001,Administrative unit not available,country
+gem,GUM,GU-SJ,Sinajana,GUM001,Administrative unit not available,country
+gem,GUM,GU-SR,Sånta Rita-Sumai,GUM001,Administrative unit not available,country
+gem,GUM,GU-TF,Talo'fo'fo,GUM001,Administrative unit not available,country
+gem,GUM,GU-TM,Tamuning,GUM001,Administrative unit not available,country
+gem,GUM,GU-YG,Yigo,GUM001,Administrative unit not available,country
+gem,GUM,GU-YN,Yona,GUM001,Administrative unit not available,country
+gem,GTM,GT-16,Alta Verapaz,GTM001,Alta Verapaz,name
+gem,GTM,GT-15,Baja Verapaz,GTM002,Baja Verapaz,name
+gem,GTM,GT-04,Chimaltenango,GTM003,Chimaltenango,name
+gem,GTM,GT-20,Chiquimula,GTM004,Chiquimula,name
+gem,GTM,GT-02,El Progreso,GTM005,El Progreso,name
+gem,GTM,GT-05,Escuintla,GTM006,Escuintla,name
+gem,GTM,GT-01,Guatemala,GTM007,Guatemala,name
+gem,GTM,GT-13,Huehuetenango,GTM008,Huehuetenango,name
+gem,GTM,GT-18,Izabal,GTM009,Izabal,name
+gem,GTM,GT-21,Jalapa,GTM010,Jalapa,name
+gem,GTM,GT-22,Jutiapa,GTM011,Jutiapa,name
+gem,GTM,GT-17,Petén,GTM012,Petén,name
+gem,GTM,GT-09,Quetzaltenango,GTM013,Quetzaltenango,name
+gem,GTM,GT-14,Quiché,GTM014,Quiché,name
+gem,GTM,GT-11,Retalhuleu,GTM015,Retalhuleu,name
+gem,GTM,GT-03,Sacatepéquez,GTM016,Sacatepéquez,name
+gem,GTM,GT-12,San Marcos,GTM017,San Marcos,name
+gem,GTM,GT-06,Santa Rosa,GTM018,Santa Rosa,name
+gem,GTM,GT-07,Sololá,GTM019,Sololá,name
+gem,GTM,GT-10,Suchitepéquez,GTM020,Suchitepéquez,name
+gem,GTM,GT-08,Totonicapán,GTM021,Totonicapán,name
+gem,GTM,GT-19,Zacapa,GTM022,Zacapa,name
+gem,GIN,GN-B,Boké,GIN001,Boke,name
+gem,GIN,GN-C,Conakry,GIN002,Conakry,name
+gem,GIN,GN-F,Faranah,GIN003,Faranah,name
+gem,GIN,GN-K,Kankan,GIN004,Kankan,name
+gem,GIN,GN-D,Kindia,GIN005,Kindia,name
+gem,GIN,GN-L,Labé,GIN006,Labe,name
+gem,GIN,GN-M,Mamou,GIN007,Mamou,name
+gem,GIN,GN-N,Nzérékoré,GIN008,Nzerekore,name
+gem,GNB,GW-BA,Bafatá,GNB001,Bafata,code
+gem,GNB,GW-BM,Biombo,GNB002,Biombo,code
+gem,GNB,GW-BS,Bissau,GNB008,Sector Autonomo De Bissau,code
+gem,GNB,GW-BL,Bolama,GNB003,Bolama/bijagos,code
+gem,GNB,GW-CA,Cacheu,GNB004,Cacheu,code
+gem,GNB,GW-GA,Gabú,GNB005,Gabu,code
+gem,GNB,GW-OI,Oio,GNB006,Oio,code
+gem,GNB,GW-QU,Quinara,GNB007,Quinara,code
+gem,GNB,GW-TO,Tombali,GNB009,Tombali,code
+gem,GUY,GY-BA,Barima-Waini,GUY001,Barima Waini (region N°1),code
+gem,GUY,GY-CU,Cuyuni-Mazaruni,GUY002,Cuyuni/mazaruni (region N°7),code
+gem,GUY,GY-DE,Demerara-Mahaica,GUY003,Demerara Mahaica (region N°4),code
+gem,GUY,GY-EB,East Berbice-Corentyne,GUY004,East Berbice/corentyne (region N°6),code
+gem,GUY,GY-ES,Essequibo Islands-West Demerara,GUY005,Essequibo Islands/west Demerara (region N°3),code
+gem,GUY,GY-MA,Mahaica-Berbice,GUY006,Mahaica Berbice (region N°5),code
+gem,GUY,GY-PM,Pomeroon-Supenaam,GUY007,Pomeroon/supenaam (region N°2,code
+gem,GUY,GY-PT,Potaro-Siparuni,GUY008,Potaro/siparuni (region N°8),code
+gem,GUY,GY-UD,Upper Demerara-Berbice,GUY009,Upper Demerara/berbice (region N°10),code
+gem,GUY,GY-UT,Upper Takutu-Upper Essequibo,GUY010,Upper Takutu/upper Essequibo (region N°9),code
+gem,HTI,HT-AR,Artibonite,HTI001,Artibonite,name
+gem,HTI,HT-CE,Centre,HTI002,Centre,name
+gem,HTI,HT-GA,Grande’Anse,HTI003,Grand-Anse,name
+gem,HTI,HT-NI,Nippes,HTI004,Nippes,name
+gem,HTI,HT-ND,Nord,HTI005,Nord,name
+gem,HTI,HT-NE,Nord-Est,HTI006,Nord-Est,name
+gem,HTI,HT-NO,Nord-Ouest,HTI007,Nord-Ouest,name
+gem,HTI,HT-OU,Ouest,HTI008,Ouest,name
+gem,HTI,HT-SD,Sud,HTI009,Sud,name
+gem,HTI,HT-SE,Sud-Est,HTI010,Sud-Est,name
+gem,HND,HN-AT,Atlántida,HND001,Atlantida,code
+gem,HND,HN-CH,Choluteca,HND002,Choluteca,code
+gem,HND,HN-CL,Colón,HND003,Colon,code
+gem,HND,HN-CM,Comayagua,HND004,Comayagua,code
+gem,HND,HN-CP,Copán,HND005,Copan,code
+gem,HND,HN-CR,Cortés,HND006,Cortes,code
+gem,HND,HN-EP,El Paraíso,HND016,Paraiso,code
+gem,HND,HN-FM,Francisco Morazán,HND007,Francisco Morazan,code
+gem,HND,HN-GD,Gracias a Dios,HND008,Gracias A Dios,code
+gem,HND,HN-IN,Intibucá,HND009,Intibuca,code
+gem,HND,HN-IB,Islas de la Bahía,HND010,Islas De Bahia,code
+gem,HND,HN-LP,La Paz,HND011,La Paz,code
+gem,HND,HN-LE,Lempira,HND012,Lempira,code
+gem,HND,HN-OC,Ocotepeque,HND014,Ocotepeque,code
+gem,HND,HN-OL,Olancho,HND015,Olancho,code
+gem,HND,HN-SB,Santa Bárbara,HND017,Santa Barbara,code
+gem,HND,HN-VA,Valle,HND018,Valle,code
+gem,HND,HN-YO,Yoro,HND019,Yoro,code
+gem,HKG,HK-A,Central & Western,HKG001,"Hong Kong SAR, China",country
+gem,HKG,HK-C,Eastern,HKG001,"Hong Kong SAR, China",country
+gem,HKG,HK-T,Islands,HKG001,"Hong Kong SAR, China",country
+gem,HKG,HK-G,Kowloon City,HKG001,"Hong Kong SAR, China",country
+gem,HKG,HK-S,Kwai Tsing,HKG001,"Hong Kong SAR, China",country
+gem,HKG,HK-J,Kwun Tong,HKG001,"Hong Kong SAR, China",country
+gem,HKG,HK-N,North,HKG001,"Hong Kong SAR, China",country
+gem,HKG,HK-Q,Sai Kung,HKG001,"Hong Kong SAR, China",country
+gem,HKG,HK-R,Sha Tin,HKG001,"Hong Kong SAR, China",country
+gem,HKG,HK-F,Sham Shui Po,HKG001,"Hong Kong SAR, China",country
+gem,HKG,HK-D,Southern,HKG001,"Hong Kong SAR, China",country
+gem,HKG,HK-P,Tai Po,HKG001,"Hong Kong SAR, China",country
+gem,HKG,HK-K,Tsuen Wan,HKG001,"Hong Kong SAR, China",country
+gem,HKG,HK-L,Tuen Mun,HKG001,"Hong Kong SAR, China",country
+gem,HKG,HK-B,Wan Chai,HKG001,"Hong Kong SAR, China",country
+gem,HKG,HK-H,Wong Tai Sin,HKG001,"Hong Kong SAR, China",country
+gem,HKG,HK-E,Yau Tsim Mong,HKG001,"Hong Kong SAR, China",country
+gem,HKG,HK-M,Yuen Long,HKG001,"Hong Kong SAR, China",country
+gem,HUN,HU-BA,Baranya,HUN002,Baranya,code
+gem,HUN,HU-BZ,Borsod-Abaúj-Zemplén,HUN004,Borsod-abauj-zemplen,code
+gem,HUN,HU-BU,Budapest,HUN005,Budapest,code
+gem,HUN,HU-BK,Bács-Kiskun,HUN001,Bacs-kiskun,code
+gem,HUN,HU-BE,Békés,HUN003,Bekes,code
+gem,HUN,HU-CS,Csongrád-Csanád,HUN006,Csongrad,code
+gem,HUN,HU-FE,Fejér,HUN007,Fejer,code
+gem,HUN,HU-GS,Győr-Moson-Sopron,HUN008,Gyor-moson-sopron,code
+gem,HUN,HU-HB,Hajdú-Bihar,HUN009,Hajdu-bihar,code
+gem,HUN,HU-HE,Heves,HUN010,Heves,code
+gem,HUN,HU-JN,Jász-Nagykun-Szolnok,HUN011,Jasz-nagykun-szolnok,code
+gem,HUN,HU-KE,Komárom-Esztergom,HUN012,Komarom-esztergom,code
+gem,HUN,HU-NO,Nógrád,HUN013,Nograd,code
+gem,HUN,HU-PE,Pest,HUN014,Pest,name
+gem,HUN,HU-SO,Somogy,HUN015,Somogy,code
+gem,HUN,HU-SZ,Szabolcs-Szatmár-Bereg,HUN016,Szabolcs-szatmar-bereg,code
+gem,HUN,HU-TO,Tolna,HUN017,Tolna,code
+gem,HUN,HU-VA,Vas,HUN018,Vas,code
+gem,HUN,HU-VE,Veszprém,HUN019,Veszprem,code
+gem,HUN,HU-ZA,Zala,HUN020,Zala,code
+gem,ISL,IS-7,Austurland,ISL012 + ISL018 + ISL004,Norour-mùla + Suour-mùla + Austur-skaftafells,override
+gem,ISL,IS-1,Höfuðborgarsvæði,ISL009,Kjosar,override
+gem,ISL,IS-6,Norðurland eystra,ISL007 + ISL013 + ISL019,Eyjafjaroar + Norour-pingeyjar + Suour-pingeyjar,override
+gem,ISL,IS-5,Norðurland vestra,ISL003 + ISL021 + ISL015,Austur-hunavatns + Vestur-hunavatns + Skagafjaroar,override
+gem,ISL,IS-8,Suðurland,ISL001 + ISL014 + ISL023,Arnes + Rangárvalla + Vestur-skaftafells,override
+gem,ISL,IS-2,Suðurnes,ISL008,Gullbringu,override
+gem,ISL,IS-4,Vestfirðir,ISL002 + ISL020 + ISL011 + ISL022 + ISL017,Austur-baroastrandar + Vestur-baroastrandar + Norour-isafjaroar + Vestur-isafjaroar + Stranda,override
+gem,ISL,IS-3,Vesturland,ISL005 + ISL010 + ISL016 + ISL006,Borgarfjaroar + Myra + Snaefellsnes- Og Hna + Dala,override
+gem,IND,IN-AN,Andaman and Nicobar Islands,IND001,Andaman and Nicobar Islands,code
+gem,IND,IN-AP,Andhra Pradesh,IND002,Andhra Pradesh,name
+gem,IND,IN-AR,Arunāchal Pradesh,IND003,Arunachal Pradesh,code
+gem,IND,IN-AS,Assam,IND004,Assam,code
+gem,IND,IN-BR,Bihār,IND005,Bihar,code
+gem,IND,IN-CH,Chandigarh,IND006,Chandigarh,code
+gem,IND,IN-CG,Chhattīsgarh,IND007,Chhattisgarh,name
+gem,IND,IN-DL,Delhi,IND010,Delhi,code
+gem,IND,IN-DH,Dādra and Nagar Haveli and Damān and Diu,IND008 + IND009,Dadra and Nagar Haveli + Daman and Diu,override
+gem,IND,IN-GA,Goa,IND011,Goa,code
+gem,IND,IN-GJ,Gujarāt,IND012,Gujarat,code
+gem,IND,IN-HR,Haryāna,IND013,Haryana,code
+gem,IND,IN-HP,Himāchal Pradesh,IND014,Himachal Pradesh,code
+gem,IND,IN-JK,Jammu and Kashmīr,NDL_jammuandkashmir,Jammu and Kashmir,group
+gem,IND,IN-JH,Jhārkhand,IND016,Jharkhand,code
+gem,IND,IN-KA,Karnātaka,IND017,Karnataka,code
+gem,IND,IN-KL,Kerala,IND018,Kerala,code
+gem,IND,IN-LA,Ladākh,NDL_jammuandkashmir,Jammu and Kashmir,group
+gem,IND,IN-LD,Lakshadweep,IND019,Lakshadweep,code
+gem,IND,IN-MP,Madhya Pradesh,IND020,Madhya Pradesh,code
+gem,IND,IN-MH,Mahārāshtra,IND021,Maharashtra,code
+gem,IND,IN-MN,Manipur,IND022,Manipur,code
+gem,IND,IN-ML,Meghālaya,IND023,Meghalaya,code
+gem,IND,IN-MZ,Mizoram,IND024,Mizoram,code
+gem,IND,IN-NL,Nāgāland,IND025,Nagaland,code
+gem,IND,IN-OD,Odisha,IND026,Odisha,name
+gem,IND,IN-PY,Puducherry,IND027,Puducherry,code
+gem,IND,IN-PB,Punjab,IND028,Punjab,code
+gem,IND,IN-RJ,Rājasthān,IND029,Rajasthan,code
+gem,IND,IN-SK,Sikkim,IND030,Sikkim,code
+gem,IND,IN-TN,Tamil Nādu,IND031,Tamil Nadu,code
+gem,IND,IN-TS,Telangāna,IND032,Telangana,name
+gem,IND,IN-TR,Tripura,IND033,Tripura,code
+gem,IND,IN-UP,Uttar Pradesh,IND034,Uttar Pradesh,code
+gem,IND,IN-UK,Uttarākhand,IND035,Uttarakhand,name
+gem,IND,IN-WB,West Bengal,IND036,West Bengal,code
+gem,IDN,ID-AC,Aceh,IDN001,Aceh,name
+gem,IDN,ID-BA,Bali,IDN017,Bali,name
+gem,IDN,ID-BT,Banten,IDN016,Banten,name
+gem,IDN,ID-BE,Bengkulu,IDN007,Bengkulu,name
+gem,IDN,ID-JK,DKI Jakarta,IDN011,DKI Jakarta,name
+gem,IDN,ID-GO,Gorontalo,IDN029,Gorontalo,name
+gem,IDN,ID-JA,Jambi,IDN005,Jambi,name
+gem,IDN,ID-JB,Jawa Barat,IDN012,Jawa Barat,name
+gem,IDN,ID-JT,Jawa Tengah,IDN013,Jawa Tengah,name
+gem,IDN,ID-JI,Jawa Timur,IDN015,Jawa Timur,name
+gem,IDN,ID-KB,Kalimantan Barat,IDN020,Kalimantan Barat,name
+gem,IDN,ID-KS,Kalimantan Selatan,IDN022,Kalimantan Selatan,name
+gem,IDN,ID-KT,Kalimantan Tengah,IDN021,Kalimantan Tengah,name
+gem,IDN,ID-KI,Kalimantan Timur,IDN023,Kalimantan Timur,name
+gem,IDN,ID-KU,Kalimantan Utara,IDN024,Kalimantan Utara,name
+gem,IDN,ID-BB,Kepulauan Bangka Belitung,IDN009,Kepulauan Bangka Belitung,name
+gem,IDN,ID-KR,Kepulauan Riau,IDN010,Kepulauan Riau,name
+gem,IDN,ID-LA,Lampung,IDN008,Lampung,name
+gem,IDN,ID-MA,Maluku,IDN031,Maluku,name
+gem,IDN,ID-MU,Maluku Utara,IDN032,Maluku Utara,name
+gem,IDN,ID-NB,Nusa Tenggara Barat,IDN018,Nusa Tenggara Barat,name
+gem,IDN,ID-NT,Nusa Tenggara Timur,IDN019,Nusa Tenggara Timur,name
+gem,IDN,ID-PA,Papua,IDN033,Papua,name
+gem,IDN,ID-PB,Papua Barat,IDN035,Papua Barat,name
+gem,IDN,ID-PD,Papua Barat Daya,IDN034,Papua Barat Daya,name
+gem,IDN,ID-PE,Papua Pengunungan,IDN038,Papua Pegunungan,fuzzy
+gem,IDN,ID-PS,Papua Selatan,IDN036,Papua Selatan,name
+gem,IDN,ID-PT,Papua Tengah,IDN037,Papua Tengah,name
+gem,IDN,ID-RI,Riau,IDN004,Riau,name
+gem,IDN,ID-SR,Sulawesi Barat,IDN030,Sulawesi Barat,name
+gem,IDN,ID-SN,Sulawesi Selatan,IDN027,Sulawesi Selatan,name
+gem,IDN,ID-ST,Sulawesi Tengah,IDN026,Sulawesi Tengah,name
+gem,IDN,ID-SG,Sulawesi Tenggara,IDN028,Sulawesi Tenggara,name
+gem,IDN,ID-SA,Sulawesi Utara,IDN025,Sulawesi Utara,name
+gem,IDN,ID-SB,Sumatera Barat,IDN003,Sumatera Barat,name
+gem,IDN,ID-SS,Sumatera Selatan,IDN006,Sumatera Selatan,name
+gem,IDN,ID-SU,Sumatera Utara,IDN002,Sumatera Utara,name
+gem,IDN,ID-YO,Yogyakarta,IDN014,Daerah Istimewa Yogyakarta,override
+gem_only,IRN,IR-30,Alborz,,,none
+gem,IRN,IR-24,Ardabīl,IRN001,Ardebil,name
+gem,IRN,IR-18,Būshehr,IRN002,Bushehr,name
+gem,IRN,IR-14,Chahār Maḩāl va Bakhtīārī,IRN003,Chaharmahal-o bakhtiyar,fuzzy
+gem,IRN,IR-10,Eşfahān,IRN005,Esfahan,name
+gem,IRN,IR-07,Fārs,IRN006,Fars,name
+gem,IRN,IR-27,Golestān,IRN010,Golestan,name
+gem,IRN,IR-01,Gīlān,IRN009,Gilan,name
+gem,IRN,IR-13,Hamadān,IRN011,Hamedan,name
+gem,IRN,IR-22,Hormozgān,IRN012,Hormozgan,name
+gem,IRN,IR-08,Kermān,IRN014,Kerman,name
+gem,IRN,IR-05,Kermānshāh,IRN015,Kermanshah,name
+gem,IRN,IR-29,Khorāsān-e Jonūbī,IRN016,Khorasan,group
+gem,IRN,IR-09,Khorāsān-e Raẕavī,IRN016,Khorasan,group
+gem,IRN,IR-28,Khorāsān-e Shomālī,IRN016,Khorasan,group
+gem,IRN,IR-06,Khūzestān,IRN017,Khuzestan,name
+gem,IRN,IR-17,Kohgīlūyeh va Bowyer Aḩmad,IRN018,Kohgiluyeh va boyerahma,fuzzy
+gem,IRN,IR-12,Kordestān,IRN019,Kordestan,name
+gem,IRN,IR-15,Lorestān,IRN020,Lorestan,name
+gem,IRN,IR-00,Markazī,IRN021,Markazi,name
+gem,IRN,IR-02,Māzandarān,IRN022,Mazandaran,name
+gem,IRN,IR-26,Qazvīn,IRN007,Ghazvin,name
+gem,IRN,IR-25,Qom,IRN008,Ghom,name
+gem,IRN,IR-20,Semnān,IRN023,Semnan,name
+gem,IRN,IR-11,Sīstān va Balūchestān,IRN024,Sistan-o baluchestan,fuzzy
+gem,IRN,IR-23,Tehrān,IRN025,Tehran,name
+gem,IRN,IR-21,Yazd,IRN027,Yazd,name
+gem,IRN,IR-19,Zanjān,IRN028,Zanjan,name
+gem,IRN,IR-04,Āz̄ārbāyjān-e Ghārbī,IRN026,West Azarbayejan,override
+gem,IRN,IR-03,Āz̄ārbāyjān-e Shārqī,IRN004,East Azarbayejan,override
+gem,IRN,IR-16,Īlām,IRN013,Ilam,name
+gem,IRQ,IQ-AN,Al-Anbar,IRQ001,Al-Anbar,name
+gem,IRQ,IQ-BA,Al-Basra,IRQ002,Al-Basrah,fuzzy
+gem,IRQ,IQ-MU,Al-Muthanna,IRQ003,Al-Muthanna,name
+gem,IRQ,IQ-NA,Al-Najaf,IRQ004,Al-Najaf,name
+gem,IRQ,IQ-QA,Al-Qadisiyah,IRQ005,Al-Qadissiya,fuzzy
+gem,IRQ,IQ-SU,Al-Sulaymaniyah,IRQ006,Al-Sulaymaniyah,name
+gem,IRQ,IQ-BB,Babil,IRQ007,Babil,name
+gem,IRQ,IQ-BG,Baghdad,IRQ008,Baghdad,name
+gem,IRQ,IQ-DQ,Dhi Qar,IRQ017,Thi Qar,fuzzy
+gem,IRQ,IQ-DI,Diyala,IRQ009,Diyala,name
+gem,IRQ,IQ-DA,Duhok,IRQ010,Duhok,name
+gem,IRQ,IQ-AR,Erbil,IRQ011,Erbil,name
+gem_only,IRQ,IQ-HA,Halabjah,,,none
+gem,IRQ,IQ-KA,Karbala,IRQ012,Kerbala,fuzzy
+gem,IRQ,IQ-KI,Kirkuk,IRQ013,Kirkuk,name
+gem,IRQ,IQ-MA,Maysan,IRQ014,Maysan,name
+gem,IRQ,IQ-NI,Nineveh,IRQ015,Ninewa,override
+gem,IRQ,IQ-SD,Salah Al-Din,IRQ016,Salah Al-Din,name
+gem,IRQ,IQ-WA,Wasit,IRQ018,Wassit,fuzzy
+gem,IRL,IE-CW,Carlow,IRL001,Carlow,code
+gem,IRL,IE-CN,Cavan,IRL002,Cavan,code
+gem,IRL,IE-CE,Clare,IRL003,Clare,code
+gem,IRL,IE-CO,Cork,IRL004,Cork,name
+gem,IRL,IE-DL,Donegal,IRL005,Donegal,code
+gem,IRL,IE-D,Dublin,IRL006,Dublin,name
+gem,IRL,IE-G,Galway,IRL007,Galway,name
+gem,IRL,IE-KY,Kerry,IRL008,Kerry,code
+gem,IRL,IE-KE,Kildare,IRL009,Kildare,code
+gem,IRL,IE-KK,Kilkenny,IRL010,Kilkenny,code
+gem,IRL,IE-LS,Laois,IRL011,Laois,code
+gem,IRL,IE-LM,Leitrim,IRL012,Leitrim,code
+gem,IRL,IE-LK,Limerick,IRL013,Limerick,code
+gem,IRL,IE-LD,Longford,IRL014,Longford,code
+gem,IRL,IE-LH,Louth,IRL015,Louth,code
+gem,IRL,IE-MO,Mayo,IRL016,Mayo,code
+gem,IRL,IE-MH,Meath,IRL017,Meath,code
+gem,IRL,IE-MN,Monaghan,IRL018,Monaghan,code
+gem,IRL,IE-OY,Offaly,IRL019,Offaly,code
+gem,IRL,IE-RN,Roscommon,IRL020,Roscommon,code
+gem,IRL,IE-SO,Sligo,IRL021,Sligo,code
+gem,IRL,IE-TA,Tipperary,IRL022,Tipperary,name
+gem,IRL,IE-WD,Waterford,IRL023,Waterford,code
+gem,IRL,IE-WH,Westmeath,IRL024,Westmeath,code
+gem,IRL,IE-WX,Wexford,IRL025,Wexford,code
+gem,IRL,IE-WW,Wicklow,IRL026,Wicklow,code
+gem,IMN,IM-AN,Andreas,IMN001,Andreas,name
+gem,IMN,IM-AR,Arbory and Rushen,IMN002,Arbory,fuzzy
+gem,IMN,IM-BL,Ballaugh,IMN003,Ballaugh,name
+gem,IMN,IM-BN,Braddan,IMN004,Braddan,name
+gem,IMN,IM-BE,Bride,IMN005,Bride,name
+gem,IMN,IM-CA,Castletown,IMN006,Castletown,name
+gem,IMN,IM-DO,Douglas,IMN007,Douglas,name
+gem,IMN,IM-GA,Garff,IMN012 + IMN010 + IMN015,Lonan + Laxey + Maughold,override
+gem,IMN,IM-GE,German,IMN008,German,name
+gem,IMN,IM-JU,Jurby,IMN009,Jurby,name
+gem,IMN,IM-LZ,Lezayre,IMN011,Lezayre,name
+gem,IMN,IM-ML,Malew,IMN013,Malew,name
+gem,IMN,IM-MR,Marown,IMN014,Marown,name
+gem,IMN,IM-MC,Michael,IMN016,Michael,code
+gem,IMN,IM-ON,Onchan,IMN017,Onchan,name
+gem,IMN,IM-PT,Patrick,IMN018,Patrick,name
+gem,IMN,IM-PL,Peel,IMN019,Peel,name
+gem,IMN,IM-PE,Port Erin,IMN020,Port Erin,name
+gem,IMN,IM-PS,Port St Mary,IMN021,Port St.Mary,name
+gem,IMN,IM-RA,Ramsey,IMN022,Ramsey,name
+gem,IMN,IM-SA,Santon,IMN024,Santan,fuzzy
+gem,ISR,IL-M,Central District,ISR001,Central District,name
+gem,ISR,IL-HA,Haifa District,ISR002,Haifa,code
+gem,ISR,IL-JM,Jerusalem District,ISR003,Jerusalem,code
+gem,ISR,IL-Z,Northern District,ISR004,Northern,name_loose
+gem,ISR,IL-D,Southern District,ISR005,Southern District,name
+gem,ISR,IL-TA,Tel Aviv District,ISR006,Tel Aviv,code
+gem,ITA,IT-65,Abruzzo,ITA001,Abruzzi,fuzzy
+gem,ITA,IT-77,Basilicata,ITA002,Basilicata,name
+gem,ITA,IT-78,Calabria,ITA003,Calabria,name
+gem,ITA,IT-72,Campania,ITA004,Campania,name
+gem,ITA,IT-45,Emilia-Romagna,ITA005,Emilia-romagna,name
+gem,ITA,IT-36,Friuli Venezia Giulia,ITA006,Friuli-venezia Giulia,name
+gem,ITA,IT-62,Lazio,ITA007,Lazio,name
+gem,ITA,IT-42,Liguria,ITA008,Liguria,name
+gem,ITA,IT-25,Lombardia,ITA009,Lombardia,name
+gem,ITA,IT-57,Marche,ITA010,Marche,name
+gem,ITA,IT-67,Molise,ITA011,Molise,name
+gem,ITA,IT-21,Piemonte,ITA012,Piemonte,name
+gem,ITA,IT-75,Puglia,ITA013,Puglia,name
+gem,ITA,IT-88,Sardegna,ITA014,Sardegna,name
+gem,ITA,IT-82,Sicilia,ITA015,Sicilia,name
+gem,ITA,IT-52,Toscana,ITA016,Toscana,name
+gem,ITA,IT-32,Trentino-Alto Adige,ITA017,Trentino-alto Adige,name
+gem,ITA,IT-55,Umbria,ITA018,Umbria,name
+gem,ITA,IT-23,Valle d'Aosta,ITA019,Valle D'aosta,name
+gem,ITA,IT-34,Veneto,ITA020,Veneto,name
+gem,JAM,JM-13,Clarendon,JAM001,Clarendon,name
+gem,JAM,JM-09,Hanover,JAM002,Hanover,name
+gem,JAM,JM-01,Kingston,JAM003,Kingston,name
+gem,JAM,JM-12,Manchester,JAM004,Manchester,name
+gem,JAM,JM-04,Portland,JAM005,Portland,name
+gem,JAM,JM-02,Saint Andrew,JAM006,Saint Andrew,name
+gem,JAM,JM-06,Saint Ann,JAM007,Saint Ann,name
+gem,JAM,JM-14,Saint Catherine,JAM008,Saint Catherine,name
+gem,JAM,JM-11,Saint Elizabeth,JAM009,Saint Elizabeth,name
+gem,JAM,JM-08,Saint James,JAM010,Saint James,name
+gem,JAM,JM-05,Saint Mary,JAM011,Saint Mary,name
+gem,JAM,JM-03,Saint Thomas,JAM012,Saint Thomas,name
+gem,JAM,JM-07,Trelawny,JAM013,Trelawny,name
+gem,JAM,JM-10,Westmoreland,JAM014,Westmoreland,name
+gem,JPN,JP-23,Aiti,JPN001,Aiti,name
+gem,JPN,JP-05,Akita,JPN002,Akita,name
+gem,JPN,JP-02,Aomori,JPN003,Aomori,name
+gem,JPN,JP-38,Ehime,JPN004,Ehime,name
+gem_only,JPN,JP-21,Gihu,,,none
+gem,JPN,JP-10,Gunma,JPN006,Gunma,name
+gem,JPN,JP-34,Hirosima,JPN007,Hirosima,name
+gem,JPN,JP-01,Hokkaidô,JPN008,Hokkaidoo,name
+gem,JPN,JP-18,Hukui,JPN009,Hukui,name
+gem,JPN,JP-40,Hukuoka,JPN010,Hukuoka,name
+gem,JPN,JP-07,Hukusima,JPN011,Hukusima,name
+gem,JPN,JP-28,Hyôgo,JPN012,Hyoogo,name
+gem,JPN,JP-08,Ibaraki,JPN013,Ibaraki,name
+gem,JPN,JP-17,Isikawa,JPN014,Isikawa,name
+gem,JPN,JP-03,Iwate,JPN015,Iwate,name
+gem,JPN,JP-37,Kagawa,JPN016,Kagawa,name
+gem,JPN,JP-46,Kagosima,JPN017,Kagosima,name
+gem,JPN,JP-14,Kanagawa,JPN018,Kanagawa,name
+gem,JPN,JP-43,Kumamoto,JPN020,Kumamoto,name
+gem,JPN,JP-26,Kyôto,JPN021,Kyooto,name
+gem,JPN,JP-39,Kôti,JPN019,Kooti,fuzzy
+gem,JPN,JP-24,Mie,JPN022,Mie,name
+gem,JPN,JP-04,Miyagi,JPN023,Miyagi,name
+gem,JPN,JP-45,Miyazaki,JPN024,Miyazaki,name
+gem,JPN,JP-20,Nagano,JPN025,Nagano,name
+gem,JPN,JP-42,Nagasaki,JPN026,Nagasaki,name
+gem,JPN,JP-29,Nara,JPN027,Nara,name
+gem,JPN,JP-15,Niigata,JPN028,Niigata,name
+gem,JPN,JP-33,Okayama,JPN029,Okayama,name
+gem,JPN,JP-47,Okinawa,JPN030,Okinawa,name
+gem,JPN,JP-41,Saga,JPN033,Saga,name
+gem,JPN,JP-11,Saitama,JPN034,Saitama,name
+gem,JPN,JP-25,Siga,JPN035,Siga,name
+gem,JPN,JP-32,Simane,JPN036,Simane,name
+gem,JPN,JP-22,Sizuoka,JPN037,Sizuoka,name
+gem,JPN,JP-12,Tiba,JPN038,Tiba,name
+gem,JPN,JP-36,Tokusima,JPN039,Tokusima,name
+gem,JPN,JP-09,Totigi,JPN041,Totigi,name
+gem,JPN,JP-31,Tottori,JPN042,Tottori,name
+gem,JPN,JP-16,Toyama,JPN043,Toyama,name
+gem,JPN,JP-13,Tôkyô,JPN040,Tookyoo,name
+gem,JPN,JP-30,Wakayama,JPN044,Wakayama,name
+gem,JPN,JP-06,Yamagata,JPN045,Yamagata,name
+gem,JPN,JP-35,Yamaguti,JPN046,Yamaguti,name
+gem,JPN,JP-19,Yamanasi,JPN047,Yamanasi,name
+gem,JPN,JP-44,Ôita,JPN031,Ooita,name
+gem,JPN,JP-27,Ôsaka,JPN032,Oosaka,name
+gem,JOR,JO-AJ,Ajloun,JOR001,Ajloon,code
+gem,JOR,JO-AQ,Al-Aqaba,JOR003,Aqaba,code
+gem_only,JOR,JO-AM,Al-Asimah,,,none
+gem,JOR,JO-BA,Al-Balqa,JOR004,Balqa,code
+gem,JOR,JO-KA,Al-Karak,JOR007,Karak,code
+gem,JOR,JO-MA,Al-Mafraq,JOR010,Mafraq,code
+gem,JOR,JO-AT,Al-Tafilah,JOR011,Tafiela,code
+gem,JOR,JO-AZ,Al-Zarqa,JOR012,Zarqa,code
+gem,JOR,JO-IR,Irbid,JOR005,Irbid,code
+gem,JOR,JO-JA,Jerash,JOR006,Jarash,code
+gem,JOR,JO-MN,Ma'an,JOR008,Ma'an,code
+gem,JOR,JO-MD,Madaba,JOR009,Madaba,code
+gem,KAZ,KZ-AKM,Akmola Region,KAZ001,Akmolinskaya,name
+gem,KAZ,KZ-AKT,Aktobe Region,KAZ002,Aktyubinskaya,name
+gem,KAZ,KZ-ALA,Almaty,KAZ004,Almaty City area,name_loose
+gem,KAZ,KZ-ALM,Almaty Region,KAZ003,Almatinskaya,name
+gem_only,KAZ,KZ-AST,Astana,,,none
+gem,KAZ,KZ-ATY,Atyrau Region,KAZ005,Atyrauskaya,name
+gem,KAZ,KZ-VOS,East Kazakhstan Region,KAZ013,Vostochno-kazachstanskaya,name
+gem,KAZ,KZ-ZHA,Jambyl Region,KAZ006,Jambylslkaya,name
+gem,KAZ,KZ-KAR,Karaganda Region,KAZ007,Karagandinskaya,name
+gem,KAZ,KZ-KUS,Kostanay Region,KAZ008,Kustanayskaya,name
+gem,KAZ,KZ-KZY,Kyzylorda Region,KAZ009,Kyzylordinskaya,name
+gem,KAZ,KZ-MAN,Mangystau Region,KAZ010,Mangistauskaya,name
+gem,KAZ,KZ-SEV,North Kazakhstan Region,KAZ012,Severo-kazachstanskaya,name
+gem,KAZ,KZ-PAV,Pavlodar Region,KAZ011,Pavlodarskaya,name
+gem,KAZ,KZ-YUZ,South Kazakhstan Region,KAZ014,Yujno-kazachstanskaya,name_loose
+gem,KAZ,KZ-ZAP,West Kazakhstan Region,KAZ015,Zapadno-kazachstanskaya,name
+gem,KEN,KE-01,Baringo,KEN001,Baringo,name
+gem,KEN,KE-02,Bomet,KEN002,Bomet,name
+gem,KEN,KE-03,Bungoma,KEN003,Bungoma,name
+gem,KEN,KE-04,Busia,KEN004,Busia,name
+gem,KEN,KE-05,Elgeyo-Marakwet,KEN005,Elgeyo-Marakwet,name
+gem,KEN,KE-06,Embu,KEN006,Embu,name
+gem,KEN,KE-07,Garissa,KEN007,Garissa,name
+gem,KEN,KE-08,Homa Bay,KEN008,Homa Bay,name
+gem,KEN,KE-09,Isiolo,KEN009,Isiolo,name
+gem,KEN,KE-10,Kajiado,KEN010,Kajiado,name
+gem,KEN,KE-11,Kakamega,KEN011,Kakamega,name
+gem,KEN,KE-12,Kericho,KEN012,Kericho,name
+gem,KEN,KE-13,Kiambu,KEN013,Kiambu,name
+gem,KEN,KE-14,Kilifi,KEN014,Kilifi,name
+gem,KEN,KE-15,Kirinyaga,KEN015,Kirinyaga,name
+gem,KEN,KE-16,Kisii,KEN016,Kisii,name
+gem,KEN,KE-17,Kisumu,KEN017,Kisumu,name
+gem,KEN,KE-18,Kitui,KEN018,Kitui,name
+gem,KEN,KE-19,Kwale,KEN019,Kwale,name
+gem,KEN,KE-20,Laikipia,KEN020,Laikipia,name
+gem,KEN,KE-21,Lamu,KEN021,Lamu,name
+gem,KEN,KE-22,Machakos,KEN022,Machakos,name
+gem,KEN,KE-23,Makueni,KEN023,Makueni,name
+gem,KEN,KE-24,Mandera,KEN024,Mandera,name
+gem,KEN,KE-25,Marsabit,KEN025,Marsabit,name
+gem,KEN,KE-26,Meru,KEN026,Meru,name
+gem,KEN,KE-27,Migori,KEN027,Migori,name
+gem,KEN,KE-28,Mombasa,KEN028,Mombasa,name
+gem,KEN,KE-29,Murang'a,KEN029,Murang'a,name
+gem,KEN,KE-30,Nairobi City,KEN030,Nairobi,name_loose
+gem,KEN,KE-31,Nakuru,KEN031,Nakuru,name
+gem,KEN,KE-32,Nandi,KEN032,Nandi,name
+gem,KEN,KE-33,Narok,KEN033,Narok,name
+gem,KEN,KE-34,Nyamira,KEN034,Nyamira,name
+gem,KEN,KE-35,Nyandarua,KEN035,Nyandarua,name
+gem,KEN,KE-36,Nyeri,KEN036,Nyeri,name
+gem,KEN,KE-37,Samburu,KEN037,Samburu,name
+gem,KEN,KE-38,Siaya,KEN038,Siaya,name
+gem,KEN,KE-39,Taita-Taveta,KEN039,Taita Taveta,name
+gem,KEN,KE-40,Tana River,KEN040,Tana River,name
+gem,KEN,KE-41,Tharaka-Nithi,KEN041,Tharaka-Nithi,name
+gem,KEN,KE-42,Trans Nzoia,KEN042,Trans Nzoia,name
+gem,KEN,KE-43,Turkana,KEN043,Turkana,name
+gem,KEN,KE-44,Uasin Gishu,KEN044,Uasin Gishu,name
+gem,KEN,KE-45,Vihiga,KEN045,Vihiga,name
+gem,KEN,KE-46,Wajir,KEN046,Wajir,name
+gem,KEN,KE-47,West Pokot,KEN047,West Pokot,name
+gem,KIR,KI-G,Gilbert Islands,KIR001,Administrative unit not available,country
+gem,KIR,KI-L,Line Islands,KIR001,Administrative unit not available,country
+gem,KIR,KI-P,Phoenix Islands,KIR001,Administrative unit not available,country
+gem,XKX,XK-FER,Ferizaj,XKX001,Ferizaj,name
+gem,XKX,XK-GJA,Gjakovë,XKX002,Gjakovë,name
+gem,XKX,XK-GJI,Gjilan,XKX003,Gjilan,name
+gem,XKX,XK-MIT,Mitrovicë,XKX004,Mitrovicë,name
+gem,XKX,XK-PEJ,Pejë,XKX005,Pejë,name
+gem,XKX,XK-PRS,Prishtinë,XKX006,Prishtinë,name
+gem,XKX,XK-PRZ,Prizren,XKX007,Prizren,name
+gem,KWT,KW-AH,Al-Ahmadi,KWT001,Al Ahmadi,code
+gem,KWT,KW-KU,Al-Asimah,KWT004,Al Kuwayt,override
+gem,KWT,KW-FA,Al-Farwaniya,KWT002,Al Farwaniyah,code
+gem,KWT,KW-JA,Al-Jahra,KWT003,Al Jahrah,code
+gem,KWT,KW-HA,Hawalli,KWT005,Hawalli,name
+gem_only,KWT,KW-MU,Mubarak Al-Kabeer,,,none
+gem,KGZ,KG-B,Batken,KGZ001,Batken,name
+gem_only,KGZ,KG-GB,Bishkek Shaary,,,none
+gem,KGZ,KG-C,Chüy,KGZ002,Chuy,name
+gem,KGZ,KG-J,Jalal-Abad,KGZ003,Jalal-Abad,name
+gem,KGZ,KG-N,Naryn,KGZ004,Naryn,name
+gem,KGZ,KG-O,Osh,KGZ005,Osh,name
+gem_only,KGZ,KG-GO,Osh Shaary,,,none
+gem,KGZ,KG-T,Talas,KGZ006,Talas,name
+gem,KGZ,KG-Y,Ysyk-Köl,KGZ007,Ysyk-Kol,name
+gem,LAO,LA-AT,Attapu,LAO001,Attapu,code
+gem,LAO,LA-BK,Bokèo,LAO002,Bokeo,code
+gem,LAO,LA-BL,Bolikhamxai,LAO003,Bolikhamxai,code
+gem,LAO,LA-CH,Champasak,LAO004,Champasak,code
+gem,LAO,LA-HO,Houaphan,LAO005,Houaphan,code
+gem,LAO,LA-KH,Khammouan,LAO006,Khammouan,code
+gem,LAO,LA-LM,Louang Namtha,LAO007,Louang Namtha,code
+gem,LAO,LA-LP,Louangphabang,LAO008,Louangphrabang,code
+gem,LAO,LA-VT,Nakhon Luang Viangchan,LAO014,Vientiane [prefecture],override
+gem,LAO,LA-OU,Oudômxai,LAO009,Oudômxai,code
+gem,LAO,LA-PH,Phôngsali,LAO010,Phôngsali,code
+gem,LAO,LA-SL,Salavan,LAO011,Saravan,code
+gem,LAO,LA-SV,Savannakhét,LAO012,Savannakhét,code
+gem,LAO,LA-VI,Viangchan,LAO013,Vientiane,override
+gem,LAO,LA-XA,Xaignabouli,LAO015,Xaignabouri,code
+gem,LAO,LA-XS,Xaisômboun,LAO016,Xaisômboun,code
+gem,LAO,LA-XI,Xiangkhouang,LAO018,Xiangkhoang,fuzzy
+gem,LAO,LA-XE,Xékong,LAO017,Xékong,code
+gem,LVA,LV-002,Aizkraukles novads,LVA003,Aizkraukles novads,name
+gem,LVA,LV-007,Alūksnes novads,LVA008,Alūksnes novads,name
+gem,LVA,LV-111,Augšdaugavas novads,LVA111,Vārkavas novads,code_num
+gem,LVA,LV-015,Balvu novads,LVA015,Balvu novads,name
+gem,LVA,LV-016,Bauskas novads,LVA016,Bauskas novads,name
+gem,LVA,LV-022,Cēsu novads,LVA021,Cēsu novads,name
+gem,LVA,LV-DGV,Daugavpils,LVA025,Daugavpils,override
+gem,LVA,LV-112,Dienvidkurzemes novads,LVA004 + LVA029 + LVA033 + LVA071 + LVA076 + LVA079 + LVA088 + LVA107,Aizputes novads + Durbes novads + Grobiņas novads + Nīcas novads + Pāvilostas novads + Priekules novads + Rucavas novads + Vaiņodes novads,override
+gem,LVA,LV-026,Dobeles novads,LVA027,Dobeles novads,name
+gem,LVA,LV-033,Gulbenes novads,LVA034,Gulbenes novads,name
+gem,LVA,LV-JEL,Jelgava,LVA044,Jelgava,name_loose
+gem,LVA,LV-041,Jelgavas novads,LVA045,Jelgavas novads,name
+gem,LVA,LV-042,Jēkabpils novads,LVA043,Jēkabpils novads,name
+gem,LVA,LV-JUR,Jūrmala,LVA046,Jūrmala,name
+gem,LVA,LV-047,Krāslavas novads,LVA053,Krāslavas novads,name
+gem,LVA,LV-050,Kuldīgas novads,LVA056,Kuldīgas novads,name
+gem,LVA,LV-LPX,Liepāja,LVA058,Liepāja,name
+gem,LVA,LV-054,Limbažu novads,LVA060,Limbažu novads,name
+gem,LVA,LV-058,Ludzas novads,LVA063,Ludzas novads,name
+gem,LVA,LV-056,Līvānu novads,LVA061,Līvānu novads,name
+gem,LVA,LV-059,Madonas novads,LVA064,Madonas novads,name
+gem,LVA,LV-062,Mārupes novads,LVA066,Mārupes novads,name
+gem,LVA,LV-067,Ogres novads,LVA072,Ogres novads,name
+gem,LVA,LV-068,Olaines novads,LVA073,Olaines novads,name
+gem,LVA,LV-073,Preiļu novads,LVA078,Preiļu novads,name
+gem,LVA,LV-080,Ropažu novads,LVA087,Ropažu novads,name
+gem,LVA,LV-REZ,Rēzekne,LVA082,Rēzekne,name_loose
+gem,LVA,LV-077,Rēzeknes novads,LVA083,Rēzeknes novads,name
+gem,LVA,LV-RIX,Rīga,LVA085,Rīga,name
+gem,LVA,LV-087,Salaspils novads,LVA094,Salaspils novads,name
+gem,LVA,LV-088,Saldus novads,LVA095,Saldus novads,name
+gem,LVA,LV-089,Saulkrastu novads,LVA096,Saulkrastu novads,name
+gem,LVA,LV-091,Siguldas novads,LVA098,Siguldas novads,name
+gem,LVA,LV-094,Smiltenes novads,LVA101,Smiltenes novads,name
+gem,LVA,LV-097,Talsu novads,LVA104,Talsu novads,name
+gem,LVA,LV-099,Tukuma novads,LVA106,Tukuma novads,name
+gem,LVA,LV-101,Valkas novads,LVA108,Valkas novads,name
+gem,LVA,LV-113,Valmieras novads,LVA113,Vecumnieku novads,code_num
+gem,LVA,LV-102,Varakļānu novads,LVA110,Varakļānu novads,name
+gem,LVA,LV-VEN,Ventspils,LVA114,Ventspils,name_loose
+gem,LVA,LV-106,Ventspils novads,LVA115,Ventspils novads,name
+gem,LVA,LV-011,Ādažu novads,LVA001,Ādažu novads,name
+gem,LVA,LV-052,Ķekavas novads,LVA050,Ķekavas novads,name
+gem,LBN,LB-AK,Akkar,LBN001,Akkar,code
+gem,LBN,LB-NA,Al-Nabatieh,LBN006,Nabatiye,code
+gem,LBN,LB-BH,Baalbek-Al Hermel,LBN002,Baalbek-Hermel,code
+gem,LBN,LB-BA,Beirut,LBN003,Beirut,code
+gem,LBN,LB-BI,Beqaa,LBN004,Bekaa,name
+gem_only,LBN,LB-KJ,Keserwan-Jbeil,,,none
+gem,LBN,LB-JL,Mount Lebanon,LBN005,Mount Lebanon,code
+gem,LBN,LB-AS,North Lebanon,LBN007,North,name
+gem,LBN,LB-JA,South Lebanon,LBN008,South,code
+gem,LSO,LS-D,Berea,LSO001,Berea,name
+gem,LSO,LS-B,Butha-Buthe,LSO002,Butha Buthe,name
+gem,LSO,LS-C,Leribe,LSO003,Leribe,name
+gem,LSO,LS-E,Mafeteng,LSO004,Mafeteng,name
+gem,LSO,LS-A,Maseru,LSO005,Maseru,name
+gem,LSO,LS-F,Mohale's Hoek,LSO006,Mohale's Hoek,name
+gem,LSO,LS-J,Mokhotlong,LSO007,Mokhotlong,name
+gem,LSO,LS-H,Qacha's Nek,LSO008,Qacha's Nek,name
+gem,LSO,LS-G,Quthing,LSO009,Quthing,name
+gem,LSO,LS-K,Thaba-Tseka,LSO010,Thaba Tseka,name
+gem,LBR,LR-BM,Bomi,LBR001,Bomi,code
+gem,LBR,LR-BG,Bong,LBR002,Bong,code
+gem,LBR,LR-GP,Gbarpolu,LBR003,Gbarpolu,code
+gem,LBR,LR-GB,Grand Bassa,LBR004,Grand Bassa,code
+gem,LBR,LR-CM,Grand Cape Mount,LBR005,Grand Cape Mount,code
+gem,LBR,LR-GG,Grand Gedeh,LBR006,Grand Gedeh,name
+gem,LBR,LR-GK,Grand Kru,LBR007,Grand Kru,code
+gem,LBR,LR-LO,Lofa,LBR008,Lofa,name
+gem,LBR,LR-MG,Margibi,LBR009,Margibi,code
+gem,LBR,LR-MY,Maryland,LBR010,Maryland,code
+gem,LBR,LR-MO,Montserrado,LBR011,Montserrado,code
+gem,LBR,LR-NI,Nimba,LBR012,Nimba,code
+gem,LBR,LR-RG,River Gee,LBR013,River Gee,code
+gem,LBR,LR-RI,Rivercess,LBR014,Rivercess,code
+gem,LBR,LR-SI,Sinoe,LBR015,Sinoe,code
+gem,LBY,LY-WA,Al Wahat,LBY001,Ajdabiya (agedabia),override
+gem,LBY,LY-BA,Benghazi,LBY011,Banghazi,fuzzy
+gem,LBY,LY-BU,Butnan,LBY023,Tubruq (tobruk),override
+gem,LBY,LY-DR,Derna,LBY012,Darnah,override
+gem_only,LBY,LY-GT,Ghat,,,none
+gem,LBY,LY-JA,Jabal al Akhdar,LBY004,Al Jabal Al Akhdar,name_loose
+gem,LBY,LY-JG,Jabal al Gharbi,LBY014 + LBY024,Gharyan + Yafran (yefren),override
+gem,LBY,LY-JI,Jafara,LBY002,Al Aziziyah,override
+gem,LBY,LY-JU,Jufra,LBY005,Al Jufrah,fuzzy
+gem,LBY,LY-KF,Kufra,LBY007,Al Kufrah,fuzzy
+gem,LBY,LY-MJ,Marj,LBY003,Al Fatah,override
+gem,LBY,LY-MI,Misrata,LBY015 + LBY019,Misurata + Sawfajjin (sofuljeen),override
+gem,LBY,LY-MB,Murqub,LBY006 + LBY025 + LBY021,Al Khoms + Zeleitin (zliten) + Tarhunah,override
+gem,LBY,LY-MQ,Murzuq,LBY016,Murzuq,name
+gem,LBY,LY-NL,Nalut,LBY013,Ghadamis,override
+gem,LBY,LY-NQ,Nuqat al Khams,LBY017,Nuqat Al Khams,name
+gem,LBY,LY-SB,Sabha,LBY018,Sabha,name
+gem,LBY,LY-SR,Sirte,LBY020,Surt (sirte),name
+gem,LBY,LY-TB,Tripoli,LBY022,Tripoli (tarabulus),name
+gem,LBY,LY-WD,Wadi al Hayaa,LBY009,Awbari (ubari),override
+gem,LBY,LY-WS,Wadi ash Shati,LBY008,Ash Shati,override
+gem,LBY,LY-ZA,Zawiya,LBY010,Az Zawia (azzawiya),fuzzy
+gem,LIE,LI-01,Balzers,LIE001,Balzers,name
+gem,LIE,LI-02,Eschen,LIE002,Eschen,name
+gem,LIE,LI-03,Gamprin,LIE003,Gamprin,name
+gem,LIE,LI-04,Mauren,LIE004,Mauren,name
+gem,LIE,LI-05,Planken,LIE005,Planken,name
+gem,LIE,LI-06,Ruggell,LIE006,Ruggell,name
+gem,LIE,LI-07,Schaan,LIE007,Schaan,name
+gem,LIE,LI-08,Schellenberg,LIE008,Schellenberg,name
+gem,LIE,LI-09,Triesen,LIE009,Triesen,name
+gem,LIE,LI-10,Triesenberg,LIE010,Triesenberg,name
+gem,LIE,LI-11,Vaduz,LIE011,Vaduz,name
+gem,LTU,LT-AL,Alytaus,LTU001,Alytaus,name
+gem,LTU,LT-KU,Kauno,LTU002,Kauno,name
+gem,LTU,LT-KL,Klaipėdos,LTU003,Klaipedos,name
+gem,LTU,LT-MR,Marijampolės,LTU004,Marijampoles,name
+gem,LTU,LT-PN,Panevėžio,LTU005,Panevezio,name
+gem,LTU,LT-TA,Tauragės,LTU007,Taurages,name
+gem,LTU,LT-TE,Telšių,LTU008,Telsiu,name
+gem,LTU,LT-UT,Utenos,LTU009,Utenos,name
+gem,LTU,LT-VL,Vilniaus,LTU010,Vilniaus,name
+gem,LTU,LT-SA,Šiaulių,LTU006,Siauliu,name
+gem,LUX,LU-CA,Capellen,LUX003,Luxembourg,group
+gem,LUX,LU-CL,Clervaux,LUX001,Diekirch,group
+gem,LUX,LU-DI,Diekirch,LUX001,Diekirch,group
+gem,LUX,LU-EC,Echternach,LUX002,Grevenmacher,group
+gem,LUX,LU-ES,Esch-sur-Alzette,LUX003,Luxembourg,group
+gem,LUX,LU-GR,Grevenmacher,LUX002,Grevenmacher,group
+gem,LUX,LU-LU,Luxembourg,LUX003,Luxembourg,group
+gem,LUX,LU-ME,Mersch,LUX003,Luxembourg,group
+gem,LUX,LU-RD,Redange,LUX001,Diekirch,group
+gem,LUX,LU-RM,Remich,LUX002,Grevenmacher,group
+gem,LUX,LU-VD,Vianden,LUX001,Diekirch,group
+gem,LUX,LU-WI,Wiltz,LUX001,Diekirch,group
+gem,MAC,MO-CO,Coloane,MAC001,Administrative unit not available,country
+gem,MAC,MO-NF,Nossa Senhora de Fátima,MAC001,Administrative unit not available,country
+gem,MAC,MO-SA,Santo António,MAC001,Administrative unit not available,country
+gem,MAC,MO-SZ,São Lázaro,MAC001,Administrative unit not available,country
+gem,MAC,MO-SE,Sé,MAC001,Administrative unit not available,country
+gem,MAC,MO-TA,Taipa,MAC001,Administrative unit not available,country
+gem,MDG,MG-AL,Alaotra-Mangoro,MDG033,Toamasina,group
+gem,MDG,MG-AB,Ambatosoa,MDG033,Toamasina,group
+gem,MDG,MG-AM,Amoron'i Mania,MDG031,Fianarantsoa,group
+gem,MDG,MG-AG,Analamanga,MDG029,Antananarivo,group
+gem,MDG,MG-AJ,Analanjirofo,MDG033,Toamasina,group
+gem,MDG,MG-AD,Androy,MDG034,Toliara,group
+gem,MDG,MG-AY,Anosy,MDG034,Toliara,group
+gem,MDG,MG-AF,Atsimo-Andrefana,MDG034,Toliara,group
+gem,MDG,MG-AA,Atsimo-Atsinanana,MDG031,Fianarantsoa,group
+gem,MDG,MG-AI,Atsinanana,MDG033,Toamasina,group
+gem,MDG,MG-BE,Betsiboka,MDG032,Mahajanga,group
+gem,MDG,MG-BO,Boeny,MDG032,Mahajanga,group
+gem,MDG,MG-BG,Bongolava,MDG029,Antananarivo,group
+gem,MDG,MG-DI,Diana,MDG030,Antsiranana,group
+gem,MDG,MG-FT,Fitovinany,MDG031,Fianarantsoa,group
+gem,MDG,MG-IH,Ihorombe,MDG031,Fianarantsoa,group
+gem,MDG,MG-IT,Itasy,MDG029,Antananarivo,group
+gem,MDG,MG-MA,Matsiatra Ambony,MDG031,Fianarantsoa,group
+gem,MDG,MG-ML,Melaky,MDG032,Mahajanga,group
+gem,MDG,MG-MN,Menabe,MDG034,Toliara,group
+gem,MDG,MG-SV,Sava,MDG030,Antsiranana,group
+gem,MDG,MG-SF,Sofia,MDG032,Mahajanga,group
+gem,MDG,MG-VK,Vakinankaratra,MDG029,Antananarivo,group
+gem,MDG,MG-VT,Vatovavy,MDG031,Fianarantsoa,group
+gem,MWI,MW-BA,Balaka,MWI003,Southern Region,group
+gem,MWI,MW-BL,Blantyre,MWI003,Southern Region,group
+gem,MWI,MW-CK,Chikwawa,MWI003,Southern Region,group
+gem,MWI,MW-CR,Chiradzulu,MWI003,Southern Region,group
+gem,MWI,MW-CT,Chitipa,MWI002,Northern Region,group
+gem,MWI,MW-DE,Dedza,MWI001,Central Region,group
+gem,MWI,MW-DO,Dowa,MWI001,Central Region,group
+gem,MWI,MW-KR,Karonga,MWI002,Northern Region,group
+gem,MWI,MW-KS,Kasungu,MWI001,Central Region,group
+gem,MWI,MW-LK,Likoma,MWI002,Northern Region,group
+gem,MWI,MW-LI,Lilongwe,MWI001,Central Region,group
+gem,MWI,MW-MH,Machinga,MWI003,Southern Region,group
+gem,MWI,MW-MG,Mangochi,MWI003,Southern Region,group
+gem,MWI,MW-MC,Mchinji,MWI001,Central Region,group
+gem,MWI,MW-MU,Mulanje,MWI003,Southern Region,group
+gem,MWI,MW-MW,Mwanza,MWI003,Southern Region,group
+gem,MWI,MW-MZ,Mzimba,MWI002,Northern Region,group
+gem,MWI,MW-NE,Neno,MWI003,Southern Region,group
+gem,MWI,MW-NB,Nkhata Bay,MWI002,Northern Region,group
+gem,MWI,MW-NK,Nkhotakota,MWI001,Central Region,group
+gem,MWI,MW-NS,Nsanje,MWI003,Southern Region,group
+gem,MWI,MW-NU,Ntcheu,MWI001,Central Region,group
+gem,MWI,MW-NI,Ntchisi,MWI001,Central Region,group
+gem,MWI,MW-PH,Phalombe,MWI003,Southern Region,group
+gem,MWI,MW-RU,Rumphi,MWI002,Northern Region,group
+gem,MWI,MW-SA,Salima,MWI001,Central Region,group
+gem,MWI,MW-TH,Thyolo,MWI003,Southern Region,group
+gem,MWI,MW-ZO,Zomba,MWI003,Southern Region,group
+gem,MYS,MY-01,Johor,MYS001,Johor,name
+gem,MYS,MY-02,Kedah,MYS002,Kedah,name
+gem,MYS,MY-03,Kelantan,MYS003,Kelantan,name
+gem,MYS,MY-14,Kuala Lumpur,MYS004,Kuala Lumpur,name
+gem,MYS,MY-15,Labuan,MYS005,Labuan,name
+gem,MYS,MY-04,Melaka,MYS006,Melaka,name
+gem,MYS,MY-05,Negeri Sembilan,MYS007,Negeri Sembilan,name
+gem,MYS,MY-06,Pahang,MYS008,Pahang,name
+gem,MYS,MY-08,Perak,MYS009,Perak,name
+gem,MYS,MY-09,Perlis,MYS010,Perlis,name
+gem,MYS,MY-07,Pulau Pinang,MYS011,Pulau Pinang,name
+gem_only,MYS,MY-16,Putrajaya,,,none
+gem,MYS,MY-12,Sabah,MYS012,Sabah,name
+gem,MYS,MY-13,Sarawak,MYS013,Sarawak,name
+gem,MYS,MY-10,Selangor,MYS014,Selangor,name
+gem,MYS,MY-11,Terengganu,MYS015,Terengganu,name
+gem,MLI,ML-BKO,Bamako,MLI001,District de Bamako,name
+gem_only,MLI,ML-19,Bandiagara,,,none
+gem_only,MLI,ML-15,Bougouni,,,none
+gem_only,MLI,ML-13,Dioïla,,,none
+gem_only,MLI,ML-18,Douentza,,,none
+gem,MLI,ML-07,Gao,MLI002,Gao,name
+gem,MLI,ML-01,Kayes,MLI003,Kayes,name
+gem,MLI,ML-08,Kidal,MLI004,Kidal,name
+gem_only,MLI,ML-12,Kita,,,none
+gem,MLI,ML-02,Koulikoro,MLI005,Koulikoro,name
+gem_only,MLI,ML-16,Koutiala,,,none
+gem,MLI,ML-05,Mopti,MLI006,Mopti,name
+gem_only,MLI,ML-09,Ménaka,,,none
+gem_only,MLI,ML-14,Nara,,,none
+gem_only,MLI,ML-11,Nioro,,,none
+gem_only,MLI,ML-17,San,,,none
+gem,MLI,ML-03,Sikasso,MLI008,Sikasso,name
+gem,MLI,ML-04,Ségou,MLI007,Ségou,name
+gem_only,MLI,ML-10,Taoudénit,,,none
+gem,MLI,ML-06,Tombouctou,MLI009,Tombouctou,name
+gem,MLT,MT-GC,Gozo and Comino,MLT064,Zebbug (gozo),fuzzy
+gem_only,MLT,MT-NO,Northern,,,none
+gem_only,MLT,MT-NH,Northern Harbour,,,none
+gem_only,MLT,MT-SE,South Eastern,,,none
+gem_only,MLT,MT-SH,Southern Harbour,,,none
+gem_only,MLT,MT-WE,Western,,,none
+gem,MHL,MH-ALL,Ailinglaplap,MHL001,Administrative unit not available,country
+gem,MHL,MH-ALK,Ailuk,MHL001,Administrative unit not available,country
+gem,MHL,MH-ARN,Arno,MHL001,Administrative unit not available,country
+gem,MHL,MH-AUR,Aur,MHL001,Administrative unit not available,country
+gem,MHL,MH-KIL,Bikini & Kili,MHL001,Administrative unit not available,country
+gem,MHL,MH-EBO,Ebon,MHL001,Administrative unit not available,country
+gem,MHL,MH-ENI,Enewetak & Ujelang,MHL001,Administrative unit not available,country
+gem,MHL,MH-JAB,Jabat,MHL001,Administrative unit not available,country
+gem,MHL,MH-JAL,Jaluit,MHL001,Administrative unit not available,country
+gem,MHL,MH-KWA,Kwajalein,MHL001,Administrative unit not available,country
+gem,MHL,MH-LAE,Lae,MHL001,Administrative unit not available,country
+gem,MHL,MH-LIB,Lib,MHL001,Administrative unit not available,country
+gem,MHL,MH-LIK,Likiep,MHL001,Administrative unit not available,country
+gem,MHL,MH-MAJ,Majuro,MHL001,Administrative unit not available,country
+gem,MHL,MH-MAL,Maloelap,MHL001,Administrative unit not available,country
+gem,MHL,MH-MEJ,Mejit,MHL001,Administrative unit not available,country
+gem,MHL,MH-MIL,Mili,MHL001,Administrative unit not available,country
+gem,MHL,MH-NMK,Namdrik,MHL001,Administrative unit not available,country
+gem,MHL,MH-NMU,Namu,MHL001,Administrative unit not available,country
+gem,MHL,MH-UJA,Ujae,MHL001,Administrative unit not available,country
+gem,MHL,MH-UTI,Utrik,MHL001,Administrative unit not available,country
+gem,MHL,MH-WTH,Wotho,MHL001,Administrative unit not available,country
+gem,MHL,MH-WTJ,Wotje,MHL001,Administrative unit not available,country
+gem,MTQ,MQ-FF,Fort-de-France,MTQ001,Martinique,country
+gem,MTQ,MQ-LT,La Trinité,MTQ001,Martinique,country
+gem,MTQ,MQ-LM,Le Marin,MTQ001,Martinique,country
+gem,MTQ,MQ-SP,Saint-Pierre,MTQ001,Martinique,country
+gem,MRT,MR-07,Adrar,MRT001,Adrar,name
+gem,MRT,MR-03,Al-Assaba,MRT002,Assaba,name_loose
+gem,MRT,MR-05,Al-Brakna,MRT003,Brakna,name_loose
+gem,MRT,MR-01,Al-Hodh Al-Chargi,MRT007,Hodh Ech Chargi,code_num
+gem,MRT,MR-02,Al-Hodh Al-Gharbi,MRT008,Hodh El Gharbi,name_loose
+gem,MRT,MR-06,Al-Trarza,MRT013,Trarza,name_loose
+gem,MRT,MR-08,Dakhlet Nouadhibou,MRT004,Dakhlet-Nouadhibou,name
+gem,MRT,MR-04,Gorgol,MRT005,Gorgol,name
+gem,MRT,MR-10,Guidimaka,MRT006,Guidimakha,code_num
+gem,MRT,MR-12,Inchiri,MRT009,Inchiri,name
+gem,MRT,MR-14,Nouakchott-Nord,MRT014,Nouakchott-Nord,name
+gem,MRT,MR-13,Nouakchott-Ouest,MRT015,Nouakchott-Ouest,name
+gem,MRT,MR-15,Nouakchott-Sud,MRT016,Nouakchott-Sud,name
+gem,MRT,MR-09,Tagant,MRT011,Tagant,name
+gem,MRT,MR-11,Tiris Zemmour,MRT012,Tiris-Zemmou,name
+gem,MUS,MU-BL,Black River,MUS002,Black River,code
+gem,MUS,MU-FL,Flacq,MUS003,Flacq,code
+gem,MUS,MU-GP,Grand Port,MUS004,Grand Port,code
+gem,MUS,MU-MO,Moka,MUS005,Moka,code
+gem,MUS,MU-PA,Pamplemousses,MUS006,Pamplemousses,code
+gem,MUS,MU-PW,Plaines Wilhems,MUS007,Plaines Wilhems,code
+gem,MUS,MU-PL,Port Louis,MUS008,Port Louis,code
+gem,MUS,MU-RR,Rivière du Rempart,MUS009,Riviere Du Rempart,code
+gem_only,MUS,MU-RO,Rodrigues Island,,,none
+gem,MUS,MU-SA,Savanne,MUS010,Savanne,code
+gem,MEX,MX-AGU,Aguascalientes,MEX001,Aguascalientes,name
+gem,MEX,MX-BCN,Baja California,MEX002,Baja California,name
+gem,MEX,MX-BCS,Baja California Sur,MEX003,Baja California Sur,name
+gem,MEX,MX-CAM,Campeche,MEX004,Campeche,name
+gem,MEX,MX-CHP,Chiapas,MEX007,Chiapas,name
+gem,MEX,MX-CHH,Chihuahua,MEX008,Chihuahua,name
+gem,MEX,MX-CMX,Ciudad de México,MEX009,Ciudad de México,name
+gem,MEX,MX-COA,Coahuila de Zaragoza,MEX005,Coahuila de Zaragoza,name
+gem,MEX,MX-COL,Colima,MEX006,Colima,name
+gem,MEX,MX-DUR,Durango,MEX010,Durango,name
+gem,MEX,MX-GUA,Guanajuato,MEX011,Guanajuato,name
+gem,MEX,MX-GRO,Guerrero,MEX012,Guerrero,name
+gem,MEX,MX-HID,Hidalgo,MEX013,Hidalgo,name
+gem,MEX,MX-JAL,Jalisco,MEX014,Jalisco,name
+gem,MEX,MX-MIC,Michoacán de Ocampo,MEX016,Michoacán de Ocampo,name
+gem,MEX,MX-MOR,Morelos,MEX017,Morelos,name
+gem,MEX,MX-MEX,México,MEX015,México,name
+gem,MEX,MX-NAY,Nayarit,MEX018,Nayarit,name
+gem,MEX,MX-NLE,Nuevo León,MEX019,Nuevo León,name
+gem,MEX,MX-OAX,Oaxaca,MEX020,Oaxaca,name
+gem,MEX,MX-PUE,Puebla,MEX021,Puebla,name
+gem,MEX,MX-QUE,Querétaro,MEX022,Querétaro,name
+gem,MEX,MX-ROO,Quintana Roo,MEX023,Quintana Roo,name
+gem,MEX,MX-SLP,San Luis Potosí,MEX024,San Luis Potosí,name
+gem,MEX,MX-SIN,Sinaloa,MEX025,Sinaloa,name
+gem,MEX,MX-SON,Sonora,MEX026,Sonora,name
+gem,MEX,MX-TAB,Tabasco,MEX027,Tabasco,name
+gem,MEX,MX-TAM,Tamaulipas,MEX028,Tamaulipas,name
+gem,MEX,MX-TLA,Tlaxcala,MEX029,Tlaxcala,name
+gem,MEX,MX-VER,Veracruz de Ignacio de la Llave,MEX030,Veracruz de Ignacio de la Llave,name
+gem,MEX,MX-YUC,Yucatán,MEX031,Yucatán,name
+gem,MEX,MX-ZAC,Zacatecas,MEX032,Zacatecas,name
+gem,MDA,MD-AN,Anenii Noi,MDA001,Anenii Noi,name
+gem,MDA,MD-BS,Basarabeasca,MDA003,Basarabeasca,name
+gem,MDA,MD-BR,Briceni,MDA005,Briceni,name
+gem,MDA,MD-BA,Bălți,MDA002,Balti,name
+gem,MDA,MD-CA,Cahul,MDA006,Cahul,name
+gem,MDA,MD-CT,Cantemir,MDA008,Cantemir,name
+gem,MDA,MD-CU,Chișinău,MDA010,Chisinau,name
+gem,MDA,MD-CM,Cimișlia,MDA011,Cimislia,name
+gem,MDA,MD-CR,Criuleni,MDA012,Criuleni,name
+gem,MDA,MD-CL,Călărași,MDA007,Calarasi,name
+gem,MDA,MD-CS,Căușeni,MDA009,Causeni,name
+gem,MDA,MD-DO,Dondușeni,MDA013,Donduseni,name
+gem,MDA,MD-DR,Drochia,MDA014,Drochia,name
+gem,MDA,MD-DU,Dubăsari,MDA015,Dubasari,name
+gem,MDA,MD-ED,Edineț,MDA016,Edinet,name
+gem,MDA,MD-FL,Florești,MDA018,Floresti,name
+gem,MDA,MD-FA,Fălești,MDA017,Falesti,name
+gem,MDA,MD-GL,Glodeni,MDA019,Glodeni,name
+gem_only,MDA,MD-GA,Găgăuzia,,,none
+gem,MDA,MD-HI,Hîncești,MDA020,Hincesti,name
+gem,MDA,MD-IA,Ialoveni,MDA021,Ialoveni,name
+gem,MDA,MD-LE,Leova,MDA022,Leova,name
+gem,MDA,MD-NI,Nisporeni,MDA023,Nisporeni,name
+gem,MDA,MD-OC,Ocnița,MDA024,Ocnita,name
+gem,MDA,MD-OR,Orhei,MDA025,Orhei,name
+gem,MDA,MD-RE,Rezina,MDA026,Rezina,name
+gem,MDA,MD-RI,Rîșcani,MDA027,Riscani,name
+gem,MDA,MD-SO,Soroca,MDA030,Soroca,name
+gem,MDA,MD-ST,Strășeni,MDA032,Straseni,name
+gem,MDA,MD-SI,Sîngerei,MDA028,Singerei,name
+gem,MDA,MD-TA,Taraclia,MDA033,Taraclia,name
+gem,MDA,MD-TE,Telenești,MDA034,Telenesti,name
+gem,MDA,MD-UN,Ungheni,MDA036,Ungheni,name
+gem,MDA,MD-SD,Șoldănești,MDA029,Soldanesti,name
+gem,MDA,MD-SV,Ștefan Vodă,MDA031,Stefan Voda,name
+gem,MCO,MC-FO,Fontvieille,MCO001,Administrative unit not available,group
+gem,MCO,MC-JE,Jardin Exotique,MCO001,Administrative unit not available,group
+gem,MCO,MC-CO,La Condamine,MCO001,Administrative unit not available,group
+gem,MCO,MC-VR,La Rousse,MCO001,Administrative unit not available,group
+gem,MCO,MC-LA,Larvotto,MCO001,Administrative unit not available,group
+gem,MCO,MC-MG,Les Moneghetti,MCO001,Administrative unit not available,group
+gem,MCO,MC-MO,Monaco-Ville,MCO001,Administrative unit not available,group
+gem,MCO,MC-MC,Monte-Carlo,MCO001,Administrative unit not available,group
+gem,MNG,MN-073,Arhangay,MNG065,Arkhangai,fuzzy
+gem,MNG,MN-071,Bayan-Ölgiy,MNG083,Bayan-Ölgii,fuzzy
+gem,MNG,MN-069,Bayanhongor,MNG064,Bayankhongor,fuzzy
+gem,MNG,MN-067,Bulgan,MNG063,Bulgan,name
+gem,MNG,MN-037,Darhan uul,MNG045,Darkhan-Uul,fuzzy
+gem,MNG,MN-061,Dornod,MNG021,Dornod,name
+gem,MNG,MN-063,Dornogovĭ,MNG044,Dornogovi,name
+gem,MNG,MN-059,Dundgovĭ,MNG048,Dundgovi,name
+gem,MNG,MN-057,Dzavhan,MNG081,Zavkhan,fuzzy
+gem,MNG,MN-065,Govĭ-Altay,MNG082,Govi-Altai,fuzzy
+gem,MNG,MN-064,Govĭ-Sümber,MNG042,Govisümber,name
+gem,MNG,MN-039,Hentiy,MNG023,Khentii,fuzzy
+gem,MNG,MN-043,Hovd,MNG084,Khovd,fuzzy
+gem,MNG,MN-041,Hövsgöl,MNG067,Khövsgöl,fuzzy
+gem,MNG,MN-035,Orhon,MNG061,Orkhon,fuzzy
+gem,MNG,MN-049,Selenge,MNG043,Selenge,name
+gem,MNG,MN-051,Sühbaatar,MNG022,Sükhbaatar,fuzzy
+gem,MNG,MN-047,Töv,MNG041,Töv,name
+gem,MNG,MN-1,Ulaanbaatar,MNG011,Ulaanbaatar,name
+gem,MNG,MN-046,Uvs,MNG085,Uvs,name
+gem,MNG,MN-053,Ömnögovĭ,MNG046,Ömnögovi,name
+gem,MNG,MN-055,Övörhangay,MNG062,Övörkhangai,fuzzy
+gem,MNE,ME-01,Andrijevica,MNE001,Andrijevica,name
+gem,MNE,ME-02,Bar,MNE002,Bar,name
+gem,MNE,ME-03,Berane,MNE003,Berane,name
+gem,MNE,ME-04,Bijelo Polje,MNE004,Bijelo Polje,name
+gem,MNE,ME-05,Budva,MNE005,Budva,name
+gem,MNE,ME-06,Cetinje,MNE006,Cetinje,name
+gem,MNE,ME-07,Danilovgrad,MNE007,Danilovgrad,name
+gem_only,MNE,ME-22,Gusinje,,,none
+gem,MNE,ME-08,Herceg-Novi,MNE008,Herceg Novi,name
+gem,MNE,ME-09,Kolašin,MNE009,Kolasin,name
+gem,MNE,ME-10,Kotor,MNE010,Kotor,name
+gem,MNE,ME-11,Mojkovac,MNE011,Mojkovac,name
+gem,MNE,ME-12,Nikšić,MNE012,Niksic,name
+gem_only,MNE,ME-23,Petnjica,,,none
+gem,MNE,ME-13,Plav,MNE013,Plav,name
+gem,MNE,ME-14,Pljevlja,MNE014,Pljevlja,name
+gem,MNE,ME-15,Plužine,MNE015,Pluzine,name
+gem,MNE,ME-16,Podgorica,MNE016,Podgorica,name
+gem,MNE,ME-17,Rožaje,MNE017,Rozaj,name
+gem,MNE,ME-19,Tivat,MNE019,Tivat,name
+gem_only,MNE,ME-24,Tuzi,,,none
+gem,MNE,ME-20,Ulcinj,MNE020,Ulcinj,name
+gem_only,MNE,ME-25,Zeta,,,none
+gem,MNE,ME-18,Šavnik,MNE018,Savnik,name
+gem,MNE,ME-21,Žabljak,MNE021,Zabljak,name
+gem,MSR,MS-C,Central Region,MSR002,Central,name_loose
+gem,MSR,MS-N,Northern Region,MSR004,North,fuzzy
+gem,MSR,MS-S,South of Nantes River,MSR007,South,fuzzy
+gem,MAR,MA-12,Al-Dakhla-Wadi Al-Dahab,NDL_westernsahara,Western Sahara,group
+gem,MAR,MA-04,Al-Rabat-Salé-Al-Kénitra,MAR009,Rabat-Salé-Kénitra,name_loose
+gem,MAR,MA-02,Al-Sharq,MAR006,L'oriental,override
+gem,MAR,MA-11,Al-Uyun-Al-Sakia Al-Hamra,MAR007,Laâyoune-Sakia al Hamra,fuzzy
+gem,MAR,MA-05,Béni Mellal-Khénifra,MAR001,Béni Mellal-Khénifra,name
+gem,MAR,MA-06,Casablanca-Settat,MAR002,Casablanca-Settat,name
+gem,MAR,MA-08,Drâa-Tafilalet,MAR003,Drâa-Tafilalet,name
+gem,MAR,MA-03,Fez-Meknes,MAR004,Fès-Meknès,fuzzy
+gem,MAR,MA-10,Guelmim-Wadi Noun,MAR005,Guelmim-Oued Noun,override
+gem,MAR,MA-07,Marrakech-Safi,MAR008,Marrakech-Safi,name
+gem,MAR,MA-09,Souss-Massa,MAR010,Souss-Massa,name
+gem,MAR,MA-01,Tangier-Tetouan-Al-Hoceïma,MAR011,Tanger-Tétouan-Al Hoceima,fuzzy
+gem,MOZ,MZ-P,Cabo Delgado,MOZ001,Cabo Delgado,name
+gem,MOZ,MZ-G,Gaza,MOZ003,Gaza,name
+gem,MOZ,MZ-I,Inhambane,MOZ004,Inhambane,name
+gem,MOZ,MZ-B,Manica,MOZ005,Manica,name
+gem,MOZ,MZ-MPM,Maputo City,MOZ002,Cidade de Maputo,name
+gem,MOZ,MZ-L,Maputo Province,MOZ006,Maputo,name_loose
+gem,MOZ,MZ-N,Nampula,MOZ007,Nampula,name
+gem,MOZ,MZ-A,Niassa,MOZ008,Niassa,name
+gem,MOZ,MZ-S,Sofala,MOZ009,Sofala,name
+gem,MOZ,MZ-T,Tete,MOZ010,Tete,name
+gem,MOZ,MZ-Q,Zambézia,MOZ011,Zambézia,name
+gem,MMR,MM-07,Ayeyarwady,MMR001,Ayeyarwady,name
+gem,MMR,MM-02,Bago,MMR002,Bago,name
+gem,MMR,MM-14,Chin,MMR003,Chin,name
+gem,MMR,MM-11,Kachin,MMR004,Kachin,name
+gem,MMR,MM-12,Kayah,MMR005,Kayah,name
+gem,MMR,MM-13,Kayin,MMR006,Kayin,name
+gem,MMR,MM-03,Magway,MMR007,Magway,name
+gem,MMR,MM-04,Mandalay,MMR008,Mandalay,name
+gem,MMR,MM-15,Mon,MMR009,Mon,name
+gem,MMR,MM-18,Nay Pyi Taw,MMR010,Naypyidaw,name
+gem,MMR,MM-16,Rakhine,MMR011,Rakhine,name
+gem,MMR,MM-01,Sagaing,MMR012,Sagaing,name
+gem,MMR,MM-17,Shan,MMR013,Shan,name
+gem,MMR,MM-05,Tanintharyi,MMR014,Tanintharyi,name
+gem,MMR,MM-06,Yangon,MMR015,Yangon,name
+gem,NAM,NA-ER,Erongo,NAM002,Erongo,code
+gem,NAM,NA-HA,Hardap,NAM003,Hardap,code
+gem,NAM,NA-KE,Kavango East,NAM005,Kavango,group
+gem,NAM,NA-KW,Kavango West,NAM005,Kavango,group
+gem,NAM,NA-KA,Kharas,NAM004,Karas,code
+gem,NAM,NA-KH,Khomas,NAM006,Khomas,code
+gem,NAM,NA-KU,Kunene,NAM007,Kunene,code
+gem,NAM,NA-OW,Ohangwena,NAM008,Ohangwena,code
+gem,NAM,NA-OH,Omaheke,NAM009,Omaheke,code
+gem,NAM,NA-OS,Omusati,NAM010,Omusati,code
+gem,NAM,NA-ON,Oshana,NAM011,Oshana,code
+gem,NAM,NA-OT,Oshikoto,NAM012,Oshikoto,code
+gem,NAM,NA-OD,Otjozondjupa,NAM013,Otjozondjupa,code
+gem,NAM,NA-CA,Zambezi,NAM001,Caprivi,code
+gem,NRU,NR-01,Aiwo,NRU001,Administrative unit not available,country
+gem,NRU,NR-02,Anabar,NRU001,Administrative unit not available,country
+gem,NRU,NR-03,Anetan,NRU001,Administrative unit not available,country
+gem,NRU,NR-04,Anibare,NRU001,Administrative unit not available,country
+gem,NRU,NR-05,Baitsi,NRU001,Administrative unit not available,country
+gem,NRU,NR-06,Boe,NRU001,Administrative unit not available,country
+gem,NRU,NR-07,Buada,NRU001,Administrative unit not available,country
+gem,NRU,NR-08,Denigomodu,NRU001,Administrative unit not available,country
+gem,NRU,NR-09,Ewa,NRU001,Administrative unit not available,country
+gem,NRU,NR-10,Ijuw,NRU001,Administrative unit not available,country
+gem,NRU,NR-11,Meneng,NRU001,Administrative unit not available,country
+gem,NRU,NR-12,Nibok,NRU001,Administrative unit not available,country
+gem,NRU,NR-13,Uaboe,NRU001,Administrative unit not available,country
+gem,NRU,NR-14,Yaren,NRU001,Administrative unit not available,country
+gem,NPL,NP-P3,Bagmati,NPL006,Bagmati,name
+gem,NPL,NP-P4,Gandaki,NPL002,Gandaki,name
+gem,NPL,NP-P6,Karnali,NPL005,Karnali,name
+gem,NPL,NP-P1,Koshi,NPL003,Koshi,name
+gem,NPL,NP-P5,Lumbini,NPL001,Lumbini,name
+gem,NPL,NP-P2,Madhesh,NPL007,Madhesh,name
+gem,NPL,NP-P7,Sudurpashchim,NPL004,Sudurpashchim,name
+gem,NLD,NL-DR,Drenthe,NLD001,Drenthe,code
+gem,NLD,NL-FL,Flevoland,NLD002,Flevoland,code
+gem,NLD,NL-FR,Fryslân,NLD003,Friesland,code
+gem,NLD,NL-GE,Gelderland,NLD004,Gelderland,code
+gem,NLD,NL-GR,Groningen,NLD005,Groningen,code
+gem,NLD,NL-LI,Limburg,NLD006,Limburg,code
+gem,NLD,NL-NB,Noord-Brabant,NLD007,Noord-brabant,code
+gem,NLD,NL-NH,Noord-Holland,NLD008,Noord-holland,code
+gem,NLD,NL-OV,Overijssel,NLD009,Overijssel,code
+gem,NLD,NL-UT,Utrecht,NLD010,Utrecht,code
+gem,NLD,NL-ZE,Zeeland,NLD011,Zeeland,code
+gem,NLD,NL-ZH,Zuid-Holland,NLD012,Zuid-holland,code
+gem,NCL,NC-NO,Nord,NCL001,Administrative unit not available,country
+gem,NCL,NC-SU,Sud,NCL001,Administrative unit not available,country
+gem,NCL,NC-IL,Îles Loyauté,NCL001,Administrative unit not available,country
+gem,NZL,NZ-AUK,Auckland,NZL02,Auckland,name
+gem,NZL,NZ-BOP,Bay of Plenty,NZL04,Bay of Plenty,name
+gem,NZL,NZ-CAN,Canterbury,NZL13,Canterbury,name
+gem,NZL,NZ-CIT,Chatham Islands Territory,NZL99,Area Outside Region,override
+gem,NZL,NZ-GIS,Gisborne,NZL05,Gisborne,name
+gem,NZL,NZ-WGN,Greater Wellington,NZL09,Wellington,override
+gem,NZL,NZ-HKB,Hawke's Bay,NZL06,Hawke's Bay,name
+gem,NZL,NZ-MWT,Manawatū-Whanganui,NZL08,Manawatu-Wanganui,fuzzy
+gem,NZL,NZ-MBH,Marlborough,NZL18,Marlborough,name
+gem,NZL,NZ-NSN,Nelson,NZL17,Nelson,name
+gem,NZL,NZ-NTL,Northland,NZL01,Northland,name
+gem,NZL,NZ-OTA,Otago,NZL14,Otago,name
+gem,NZL,NZ-STL,Southland,NZL15,Southland,name
+gem,NZL,NZ-TKI,Taranaki,NZL07,Taranaki,name
+gem,NZL,NZ-TAS,Tasman,NZL16,Tasman,name
+gem,NZL,NZ-WKO,Waikato,NZL03,Waikato,name
+gem,NZL,NZ-WTC,West Coast,NZL12,West Coast,name
+gem,NIC,NI-BO,Boaco,NIC001,Boaco,code
+gem,NIC,NI-CA,Carazo,NIC002,Carazo,code
+gem,NIC,NI-CI,Chinandega,NIC003,Chinandega,code
+gem,NIC,NI-CO,Chontales,NIC004,Chontales,code
+gem,NIC,NI-AN,Costa Caribe Norte,NIC014,Región Autónoma del Caribe Norte,code
+gem,NIC,NI-AS,Costa Caribe Sur,NIC015,Región Autónoma del Caribe Sur,code
+gem,NIC,NI-ES,Estelí,NIC005,Estelí,code
+gem,NIC,NI-GR,Granada,NIC006,Granada,code
+gem,NIC,NI-JI,Jinotega,NIC007,Jinotega,code
+gem,NIC,NI-LE,León,NIC008,León,code
+gem,NIC,NI-MD,Madriz,NIC009,Madriz,code
+gem,NIC,NI-MN,Managua,NIC010,Managua,code
+gem,NIC,NI-MS,Masaya,NIC011,Masaya,code
+gem,NIC,NI-MT,Matagalpa,NIC012,Matagalpa,code
+gem,NIC,NI-NS,Nueva Segovia,NIC013,Nueva Segovia,code
+gem,NIC,NI-RI,Rivas,NIC017,Rivas,code
+gem,NIC,NI-SJ,Río San Juan,NIC016,Río San Juan,code
+gem,NER,NE-1,Agadez,NER001,Agadez,name
+gem,NER,NE-2,Diffa,NER002,Diffa,name
+gem,NER,NE-3,Dosso,NER003,Dosso,name
+gem,NER,NE-4,Maradi,NER004,Maradi,name
+gem_only,NER,NE-8,Niamey,,,none
+gem,NER,NE-5,Tahoua,NER005,Tahoua,name
+gem,NER,NE-6,Tillabéri,NER006,Tillabéri,name
+gem,NER,NE-7,Zinder,NER007,Zinder,name
+gem,NGA,NG-AB,Abia,NGA001,Abia,name
+gem_only,NGA,NG-FC,Abuja,,,none
+gem,NGA,NG-AD,Adamawa,NGA002,Adamawa,name
+gem,NGA,NG-AK,Akwa Ibom,NGA003,Akwa lbom,name
+gem,NGA,NG-AN,Anambra,NGA004,Anambra,name
+gem,NGA,NG-BA,Bauchi,NGA005,Bauchi,name
+gem,NGA,NG-BY,Bayelsa,NGA006,Bayelsa,name
+gem,NGA,NG-BE,Benue,NGA007,Benue,name
+gem,NGA,NG-BO,Borno,NGA008,Borno,name
+gem,NGA,NG-CR,Cross River,NGA009,Cross River,name
+gem,NGA,NG-DE,Delta,NGA010,Delta,name
+gem,NGA,NG-EB,Ebonyi,NGA011,Ebonyi,name
+gem,NGA,NG-ED,Edo,NGA012,Edo,name
+gem,NGA,NG-EK,Ekiti,NGA013,Ekiti,name
+gem,NGA,NG-EN,Enugu,NGA014,Enugu,name
+gem,NGA,NG-GO,Gombe,NGA016,Gombe,name
+gem,NGA,NG-IM,Imo,NGA017,Imo,name
+gem,NGA,NG-JI,Jigawa,NGA018,Jigawa,name
+gem,NGA,NG-KD,Kaduna,NGA019,Kaduna,name
+gem,NGA,NG-KN,Kano,NGA020,Kano,name
+gem,NGA,NG-KT,Katsina,NGA021,Katsina,name
+gem,NGA,NG-KE,Kebbi,NGA022,Kebbi,name
+gem,NGA,NG-KO,Kogi,NGA023,Kogi,name
+gem,NGA,NG-KW,Kwara,NGA024,Kwara,name
+gem,NGA,NG-LA,Lagos,NGA025,Lagos,name
+gem,NGA,NG-NA,Nasarawa,NGA026,Nassarawa,name
+gem,NGA,NG-NI,Niger,NGA027,Niger,name
+gem,NGA,NG-OG,Ogun,NGA028,Ogun,name
+gem,NGA,NG-ON,Ondo,NGA029,Ondo,name
+gem,NGA,NG-OS,Osun,NGA030,Osun,name
+gem,NGA,NG-OY,Oyo,NGA031,Oyo,name
+gem,NGA,NG-PL,Plateau,NGA032,Plateau,name
+gem,NGA,NG-RI,Rivers,NGA033,Rivers,name
+gem,NGA,NG-SO,Sokoto,NGA034,Sokoto,name
+gem,NGA,NG-TA,Taraba,NGA035,Taraba,name
+gem,NGA,NG-YO,Yobe,NGA036,Yobe,name
+gem,NGA,NG-ZA,Zamfara,NGA037,Zamfara,name
+gem,NIU,NU-AN,Alofi North,NIU001,Niue (N.Z.),country
+gem,NIU,NU-AS,Alofi South,NIU001,Niue (N.Z.),country
+gem,NIU,NU-AV,Avatele,NIU001,Niue (N.Z.),country
+gem,NIU,NU-HP,Hakupu,NIU001,Niue (N.Z.),country
+gem,NIU,NU-HV,Hikutavake,NIU001,Niue (N.Z.),country
+gem,NIU,NU-LP,Lakepa,NIU001,Niue (N.Z.),country
+gem,NIU,NU-LI,Liku,NIU001,Niue (N.Z.),country
+gem,NIU,NU-MF,Makefu,NIU001,Niue (N.Z.),country
+gem,NIU,NU-MT,Mutalau,NIU001,Niue (N.Z.),country
+gem,NIU,NU-NM,Namukulu,NIU001,Niue (N.Z.),country
+gem,NIU,NU-TM,Tamakautoga,NIU001,Niue (N.Z.),country
+gem,NIU,NU-TO,Toi,NIU001,Niue (N.Z.),country
+gem,NIU,NU-TP,Tuapa,NIU001,Niue (N.Z.),country
+gem,NIU,NU-VA,Vaiea,NIU001,Niue (N.Z.),country
+gem,PRK,KP-04,Chagang,PRK001,Chagang-do,fuzzy
+gem,PRK,KP-15,Kaesong,PRK006,Kaesong-si,fuzzy
+gem,PRK,KP-07,Kangwon,PRK007,Kangwon-do,name
+gem_only,PRK,KP-14,Nampo,,,none
+gem,PRK,KP-09,North Hamgyong,PRK002,Hamgyong-bukto,name
+gem,PRK,KP-06,North Hwanghae,PRK004,Hwanghae-bukto,name
+gem,PRK,KP-03,North Pyongan,PRK008,P'yongan-bukto,name
+gem,PRK,KP-01,Pyongyang,PRK010,P'yongyang-si,name
+gem_only,PRK,KP-13,Rason,,,none
+gem,PRK,KP-10,Ryanggang,PRK011,Yanggang-do,name
+gem,PRK,KP-08,South Hamgyong,PRK003,Hamgyong-namdo,name
+gem,PRK,KP-05,South Hwanghae,PRK005,Hwanghae-namdo,name
+gem,PRK,KP-02,South Pyongan,PRK009,P'yongan-namdo,name
+gem,MKD,MK-002,Istočen,MKD001,East,override
+gem,MKD,MK-004,Jugoistočen,MKD006,Southeast,override
+gem,MKD,MK-003,Jugozapaden,MKD007,Southwest,override
+gem,MKD,MK-005,Pelagoniski,MKD003,Pelagonia,override
+gem,MKD,MK-006,Pološki,MKD004,Polog,override
+gem,MKD,MK-007,Severoistočen,MKD002,Northeast,override
+gem,MKD,MK-008,Skopski,MKD005,Skopje,override
+gem,MKD,MK-001,Vardarski,MKD008,Vardar,code_num
+gem,MNP,MP-RO,Rota,MNP001,Northern Mariana Islands (U.S.),country
+gem,MNP,MP-SA,Saipan,MNP001,Northern Mariana Islands (U.S.),country
+gem,MNP,MP-TI,Tinian,MNP001,Northern Mariana Islands (U.S.),country
+gem,NOR,NO-42,Agder,NOR002 + NOR018,Aust-agder + Vest-Agder,override
+gem,NOR,NO-32,Akershus,NOR001,Akershus,name
+gem,NOR,NO-33,Buskerud,NOR003,Buskerud,name
+gem,NOR,NO-56,Finnmark,NOR004,Finnmark,name
+gem,NOR,NO-34,Innlandet,NOR005 + NOR011,Hedmark + Oppland,override
+gem,NOR,NO-15,Møre og Romsdal,NOR007,Moere Og Romsdal,name
+gem,NOR,NO-18,Nordland,NOR009,Nordland,name
+gem,NOR,NO-03,Oslo,NOR012,Oslo,name
+gem,NOR,NO-11,Rogaland,NOR013,Rogaland,name
+gem,NOR,NO-40,Telemark,NOR016,Telemark,name
+gem,NOR,NO-55,Troms,NOR017,Troms,name
+gem,NOR,NO-50,Trøndelag,NOR014 + NOR008,Soer-Troendelag + Nord-troendelag,override
+gem,NOR,NO-39,Vestfold,NOR019,Vestfold,name
+gem,NOR,NO-46,Vestland,NOR006 + NOR015,Hordaland + Sogn og Fjordane,override
+gem,NOR,NO-31,Østfold,NOR010,Oestfold,name
+gem,OMN,OM-BS,Al-Batinah North,OMN003,Al Batnah,group
+gem,OMN,OM-BJ,Al-Batinah South,OMN003,Al Batnah,group
+gem_only,OMN,OM-BU,Al-Buraimi,,,none
+gem,OMN,OM-DA,Al-Dakhiliyah,OMN001,A Dakhliya,code
+gem,OMN,OM-ZA,Al-Dhahirah,OMN004,Al Dhahira,fuzzy
+gem,OMN,OM-SS,Al-Sharqiyah North,OMN002,A Sharqiya,group
+gem,OMN,OM-SJ,Al-Sharqiyah South,OMN002,A Sharqiya,group
+gem,OMN,OM-WU,Al-Wusta,OMN005,Al Wusta,code
+gem,OMN,OM-ZU,Dhofar,OMN006,Dhofar,name
+gem,OMN,OM-MU,Musandam,OMN007,Musandam,code
+gem,OMN,OM-MA,Muscat,OMN008,Muscat,code
+gem_only,PAK,PK-JK,Azad Jammu and Kashmir,,,none
+gem,PAK,PK-BA,Balochistan,PAK002,Balochistan,code
+gem,PAK,PK-GB,Gilgit-Baltistan,NDL_gilgitbaltistan,Gilgit Baltistan,override
+gem,PAK,PK-IS,Islamabad,PAK003,Federal Capital Territory,code
+gem,PAK,PK-KP,Khyber Pakhtunkhwa,PAK005,Khyber Pakhtunkhwa,name
+gem,PAK,PK-PB,Punjab,PAK006,Punjab,code
+gem,PAK,PK-SD,Sindh,PAK007,Sindh,code
+gem,PLW,PW-002,Aimeliik,PLW001,Administrative unit not available,country
+gem,PLW,PW-004,Airai,PLW001,Administrative unit not available,country
+gem,PLW,PW-010,Angaur,PLW001,Administrative unit not available,country
+gem,PLW,PW-050,Hatohobei,PLW001,Administrative unit not available,country
+gem,PLW,PW-100,Kayangel,PLW001,Administrative unit not available,country
+gem,PLW,PW-150,Koror,PLW001,Administrative unit not available,country
+gem,PLW,PW-212,Melekeok,PLW001,Administrative unit not available,country
+gem,PLW,PW-214,Ngaraard,PLW001,Administrative unit not available,country
+gem,PLW,PW-218,Ngarchelong,PLW001,Administrative unit not available,country
+gem,PLW,PW-222,Ngardmau,PLW001,Administrative unit not available,country
+gem,PLW,PW-224,Ngatpang,PLW001,Administrative unit not available,country
+gem,PLW,PW-226,Ngchesar,PLW001,Administrative unit not available,country
+gem,PLW,PW-227,Ngeremlengui,PLW001,Administrative unit not available,country
+gem,PLW,PW-228,Ngiwal,PLW001,Administrative unit not available,country
+gem,PLW,PW-350,Peleliu,PLW001,Administrative unit not available,country
+gem,PLW,PW-370,Sonsorol,PLW001,Administrative unit not available,country
+gem,PSE,PS-BTH,Bethlehem,PSE004,Bethlehem,name
+gem,PSE,PS-DEB,Deir Al-Balah,PSE005,Deir al Balah,name
+gem,PSE,PS-GZA,Gaza,PSE006,Gaza,name
+gem,PSE,PS-HBN,Hebron,PSE001,Al Khalil (Hebron),name
+gem,PSE,PS-JEN,Jenin,PSE008,Jenin,name
+gem,PSE,PS-JRH,Jericho,PSE003,Ariha (Jericho),name
+gem,PSE,PS-JEM,Jerusalem,PSE002,Al Quds (Jerusalem),name
+gem,PSE,PS-KYS,Khan Yunis,PSE009,Khan Yunis,name
+gem,PSE,PS-NBS,Nablus,PSE010,Nablus,name
+gem_only,PSE,PS-NGZ,North Gaza,,,none
+gem,PSE,PS-QQA,Qalqilya,PSE011,Qalqiliya,fuzzy
+gem,PSE,PS-RFH,Rafah,PSE012,Rafah,name
+gem,PSE,PS-RBH,Ramallah and Al-Bireh,PSE013,Ramallah,fuzzy
+gem,PSE,PS-SLT,Salfit,PSE014,Salfit,name
+gem,PSE,PS-TBS,Tubas,PSE015,Tubas,name
+gem,PSE,PS-TKM,Tulkarm,PSE016,Tulkarm,name
+gem,PAN,PA-1,Bocas del Toro,PAN001,Bocas del Toro,name
+gem,PAN,PA-4,Chiriquí,PAN002,Chiriquí,name
+gem,PAN,PA-2,Coclé,PAN003,Coclé,name
+gem,PAN,PA-3,Colón,PAN004,Colón,name
+gem,PAN,PA-5,Darién,PAN005,Darién,name
+gem,PAN,PA-EM,Emberá,PAN006,Emberá,code
+gem,PAN,PA-KY,Guna Yala,PAN008,Kuna Yala,fuzzy
+gem,PAN,PA-6,Herrera,PAN007,Herrera,name
+gem,PAN,PA-7,Los Santos,PAN009,Los Santos,name
+gem_only,PAN,PA-NT,Naso Tjër Di,,,none
+gem,PAN,PA-NB,Ngäbe-Buglé,PAN010,Ngäbe Buglé,code
+gem,PAN,PA-8,Panamá,PAN011,Panamá,name_loose
+gem,PAN,PA-10,Panamá Oeste,PAN012,Panamá Oeste,name
+gem,PAN,PA-9,Veraguas,PAN013,Veraguas,name
+gem,PNG,PG-NSB,Bougainville,PNG001,Bougainville,name
+gem,PNG,PG-CPM,Central,PNG002,Central,name
+gem,PNG,PG-CPK,Chimbu,PNG003,Chimbu,name
+gem,PNG,PG-EBR,East New Britain,PNG004,East New Britain,name
+gem,PNG,PG-ESW,East Sepik,PNG005,East Sepik,name
+gem,PNG,PG-EHG,Eastern Highlands,PNG006,Eastern Highlands,name
+gem,PNG,PG-EPW,Enga,PNG007,Enga,name
+gem,PNG,PG-GPK,Gulf,PNG008,Gulf,name
+gem,PNG,PG-HLA,Hela,PNG009,Hela,name
+gem,PNG,PG-JWK,Jiwaka,PNG010,Jiwaka,name
+gem,PNG,PG-MPM,Madang,PNG011,Madang,name
+gem,PNG,PG-MRL,Manus,PNG012,Manus,name
+gem,PNG,PG-MBA,Milne Bay,PNG013,Milne Bay,name
+gem,PNG,PG-MPL,Morobe,PNG014,Morobe,name
+gem,PNG,PG-NCD,National Capital District,PNG015,National Capital District,name
+gem,PNG,PG-NIK,New Ireland,PNG016,New Ireland,name
+gem,PNG,PG-NPP,Northern,PNG017,Northern,name
+gem,PNG,PG-SHM,Southern Highlands,PNG019,Southern Highlands,name
+gem,PNG,PG-WBK,West New Britain,PNG020,West New Britain,name
+gem,PNG,PG-SAN,West Sepik,PNG018,Sandaun,name
+gem,PNG,PG-WPD,Western,PNG021,Western,name
+gem,PNG,PG-WHM,Western Highlands,PNG022,Western Highlands,name
+gem,PRY,PY-16,Alto Paraguay,PRY001,Alto Paraguay,name
+gem,PRY,PY-10,Alto Paraná,PRY002,Alto Parana,name
+gem,PRY,PY-13,Amambay,PRY003,Amambay,name
+gem_only,PRY,PY-ASU,Asunción,,,none
+gem,PRY,PY-19,Boquerón,PRY004,Boqueron,name
+gem,PRY,PY-5,Caaguazú,PRY005,Caaguazu,name
+gem,PRY,PY-6,Caazapá,PRY006,Caazapa,name
+gem,PRY,PY-14,Canindeyú,PRY007,Canindeyu,name
+gem,PRY,PY-11,Central,PRY008,Central,name
+gem,PRY,PY-1,Concepción,PRY009,Concepcion,name
+gem,PRY,PY-3,Cordillera,PRY010,Cordillera,name
+gem,PRY,PY-4,Guairá,PRY011,Guaira,name
+gem,PRY,PY-7,Itapúa,PRY012,Itapua,name
+gem,PRY,PY-8,Misiones,PRY013,Misiones,name
+gem,PRY,PY-9,Paraguarí,PRY015,Paraguari,name
+gem,PRY,PY-15,Presidente Hayes,PRY016,Presidente Hayes,name
+gem,PRY,PY-2,San Pedro,PRY017,San Pedro,name
+gem,PRY,PY-12,Ñeembucú,PRY014,Neembucu,name
+gem,PER,PE-AMA,Amazonas,PER001,Amazonas,name
+gem,PER,PE-ANC,Ancash,PER002,Ancash,name
+gem,PER,PE-APU,Apurímac,PER003,Apurímac,name
+gem,PER,PE-ARE,Arequipa,PER004,Arequipa,name
+gem,PER,PE-AYA,Ayacucho,PER005,Ayacucho,name
+gem,PER,PE-CAJ,Cajamarca,PER006,Cajamarca,name
+gem,PER,PE-CAL,Callao,PER007,Callao,name
+gem,PER,PE-CUS,Cusco,PER008,Cusco,name
+gem,PER,PE-HUV,Huancavelica,PER009,Huancavelica,name
+gem,PER,PE-HUC,Huánuco,PER010,Huánuco,name
+gem,PER,PE-ICA,Ica,PER011,Ica,name
+gem,PER,PE-JUN,Junín,PER012,Junín,name
+gem,PER,PE-LAL,La Libertad,PER013,La Libertad,name
+gem,PER,PE-LAM,Lambayeque,PER014,Lambayeque,name
+gem,PER,PE-LIM,Lima,PER015,Lima,name
+gem,PER,PE-LOR,Loreto,PER016,Loreto,name
+gem,PER,PE-MDD,Madre de Dios,PER017,Madre de Dios,name
+gem,PER,PE-MOQ,Moquegua,PER018,Moquegua,name
+gem,PER,PE-PAS,Pasco,PER019,Pasco,name
+gem,PER,PE-PIU,Piura,PER020,Piura,name
+gem,PER,PE-PUN,Puno,PER021,Puno,name
+gem,PER,PE-SAM,San Martín,PER022,San Martín,name
+gem,PER,PE-TAC,Tacna,PER023,Tacna,name
+gem,PER,PE-TUM,Tumbes,PER024,Tumbes,name
+gem,PER,PE-UCA,Ucayali,PER025,Ucayali,name
+gem,PHL,PH-14,Bangsamoro,PHL015,Autonomous Region in Muslim Mindanao (ARMM),fuzzy
+gem,PHL,PH-05,Bicol,PHL005,Region V (Bicol Region),name_loose
+gem,PHL,PH-02,Cagayan Valley,PHL002,Region II (Cagayan Valley),name
+gem,PHL,PH-40,Calabarzon,PHL004,Region IV-A (CALABARZON),name
+gem,PHL,PH-13,Caraga,PHL016,Region XIII (CARAGA),name
+gem,PHL,PH-03,Central Luzon,PHL003,Region III (Central Luzon),name
+gem,PHL,PH-07,Central Visayas,PHL007,Region VII (Central Visayas),name
+gem,PHL,PH-15,Cordillera Administrative Region,PHL014,Cordillera Administrative Region (CAR),name
+gem,PHL,PH-11,Davao,PHL011,Region XI (Davao Region),name_loose
+gem,PHL,PH-08,Eastern Visayas,PHL008,Region VIII (Eastern Visayas),name
+gem,PHL,PH-01,Ilocos,PHL001,Region I (Ilocos Region),name_loose
+gem,PHL,PH-41,Mimaropa,PHL017,MIMAROPA Region,name_loose
+gem,PHL,PH-00,National Capital Region,PHL013,National Capital Region (NCR),name
+gem_only,PHL,PH-16,Negros Island Region,,,none
+gem,PHL,PH-10,Northern Mindanao,PHL010,Region X (Northern Mindanao),name
+gem,PHL,PH-12,Soccsksargen,PHL012,Region XII (SOCCSKSARGEN),name
+gem,PHL,PH-06,Western Visayas,PHL006,Region VI (Western Visayas),name
+gem,PHL,PH-09,Zamboanga Peninsula,PHL009,Region IX (Zamboanga Peninsula),name
+gem,POL,PL-02,Dolnośląskie,POL001,Dolnoslaskie,name
+gem,POL,PL-04,Kujawsko-Pomorskie,POL002,Kujawsko-Pomorskie,name
+gem,POL,PL-06,Lubelskie,POL004,Lubeiskie,name
+gem,POL,PL-08,Lubuskie,POL005,Lubuskie,name
+gem,POL,PL-14,Mazowieckie,POL007,Mazowieckie,name
+gem,POL,PL-12,Małopolskie,POL006,Malopolske,name
+gem,POL,PL-16,Opolskie,POL008,Opolskie,name
+gem,POL,PL-18,Podkarpackie,POL009,Podkarpackie,name
+gem,POL,PL-20,Podlaskie,POL010,Podlaskie,name
+gem,POL,PL-22,Pomorskie,POL011,Pomorskie,name
+gem,POL,PL-28,Warmińsko-Mazurskie,POL014,Warminsko-Mazurskie,name
+gem,POL,PL-30,Wielkopolskie,POL015,Wielkopolskie,name
+gem,POL,PL-32,Zachodniopomorskie,POL016,Zachodnio-Pomorskie,name
+gem,POL,PL-10,Łódzkie,POL003,Lodzkie,name
+gem,POL,PL-24,Śląskie,POL012,Slaskie,name
+gem,POL,PL-26,Świętokrzyskie,POL013,Swietokrzyskie,name
+gem,PRT,PT-01,Aveiro,PRT001,Aveiro,name
+gem,PRT,PT-20,Açores,PRT002,Azores,code_num
+gem,PRT,PT-02,Beja,PRT003,Beja,name
+gem,PRT,PT-03,Braga,PRT004,Braga,name
+gem,PRT,PT-04,Bragança,PRT005,Braganca,name
+gem,PRT,PT-05,Castelo Branco,PRT006,Castelo Branco,name
+gem,PRT,PT-06,Coimbra,PRT007,Coimbra,name
+gem,PRT,PT-08,Faro,PRT009,Faro,name
+gem,PRT,PT-09,Guarda,PRT010,Guarda,name
+gem,PRT,PT-10,Leiria,PRT011,Leiria,name
+gem,PRT,PT-11,Lisboa,PRT012,Lisboa,name
+gem,PRT,PT-30,Madeira,PRT013,Madeira,name
+gem,PRT,PT-12,Portalegre,PRT014,Portalegre,name
+gem,PRT,PT-13,Porto,PRT015,Porto,name
+gem,PRT,PT-14,Santarém,PRT016,Santarem,name
+gem,PRT,PT-15,Setúbal,PRT017,Setubal,name
+gem,PRT,PT-16,Viana do Castelo,PRT018,Viana Do Castelo,name
+gem,PRT,PT-17,Vila Real,PRT019,Vila Real,name
+gem,PRT,PT-18,Viseu,PRT020,Viseu,name
+gem,PRT,PT-07,Évora,PRT008,Evora,name
+gem_only,PRI,PR-AJ,Adjuntas,,,none
+gem_only,PRI,PR-AD,Aguada,,,none
+gem,PRI,PR-AL,Aguadilla,PRI001,Aguadilla,code
+gem_only,PRI,PR-AB,Aguas Buenas,,,none
+gem_only,PRI,PR-AI,Aibonito,,,none
+gem,PRI,PR-AC,Arecibo,PRI002,Arecibo,code
+gem_only,PRI,PR-AR,Arroyo,,,none
+gem_only,PRI,PR-AN,Añasco,,,none
+gem_only,PRI,PR-BC,Barceloneta,,,none
+gem_only,PRI,PR-BQ,Barranquitas,,,none
+gem,PRI,PR-BY,Bayamón,PRI003,Bayamon,code
+gem_only,PRI,PR-CR,Cabo Rojo,,,none
+gem_only,PRI,PR-CG,Caguas,,,none
+gem_only,PRI,PR-CA,Camuy,,,none
+gem_only,PRI,PR-CV,Canóvanas,,,none
+gem_only,PRI,PR-CN,Carolina,,,none
+gem_only,PRI,PR-CT,Cataño,,,none
+gem_only,PRI,PR-CY,Cayey,,,none
+gem_only,PRI,PR-CB,Ceiba,,,none
+gem_only,PRI,PR-CL,Ciales,,,none
+gem_only,PRI,PR-CD,Cidra,,,none
+gem_only,PRI,PR-CO,Coamo,,,none
+gem_only,PRI,PR-CM,Comerío,,,none
+gem_only,PRI,PR-CZ,Corozal,,,none
+gem_only,PRI,PR-CU,Culebra,,,none
+gem_only,PRI,PR-DO,Dorado,,,none
+gem_only,PRI,PR-FJ,Fajardo,,,none
+gem_only,PRI,PR-FL,Florida,,,none
+gem,PRI,PR-GM,Guayama,PRI004,Guayama,code
+gem_only,PRI,PR-GL,Guayanilla,,,none
+gem_only,PRI,PR-GB,Guaynabo,,,none
+gem_only,PRI,PR-GR,Gurabo,,,none
+gem_only,PRI,PR-GC,Guánica,,,none
+gem_only,PRI,PR-HA,Hatillo,,,none
+gem_only,PRI,PR-HO,Hormigueros,,,none
+gem,PRI,PR-HU,Humacao,PRI005,Humacao,code
+gem_only,PRI,PR-IS,Isabela,,,none
+gem_only,PRI,PR-JY,Jayuya,,,none
+gem_only,PRI,PR-JD,Juana Díaz,,,none
+gem_only,PRI,PR-JC,Juncos,,,none
+gem_only,PRI,PR-LJ,Lajas,,,none
+gem_only,PRI,PR-LR,Lares,,,none
+gem_only,PRI,PR-LM,Las Marías,,,none
+gem_only,PRI,PR-LP,Las Piedras,,,none
+gem_only,PRI,PR-LZ,Loíza,,,none
+gem_only,PRI,PR-LQ,Luquillo,,,none
+gem_only,PRI,PR-MT,Manatí,,,none
+gem_only,PRI,PR-MR,Maricao,,,none
+gem_only,PRI,PR-MB,Maunabo,,,none
+gem,PRI,PR-MG,Mayagüez,PRI006,Mayaguez,code
+gem_only,PRI,PR-MC,Moca,,,none
+gem_only,PRI,PR-MV,Morovis,,,none
+gem_only,PRI,PR-NG,Naguabo,,,none
+gem_only,PRI,PR-NR,Naranjito,,,none
+gem_only,PRI,PR-OR,Orocovis,,,none
+gem_only,PRI,PR-PT,Patillas,,,none
+gem_only,PRI,PR-PN,Peñuelas,,,none
+gem,PRI,PR-PO,Ponce,PRI007,Ponce,code
+gem_only,PRI,PR-QB,Quebradillas,,,none
+gem_only,PRI,PR-RC,Rincón,,,none
+gem_only,PRI,PR-RG,Río Grande,,,none
+gem_only,PRI,PR-SB,Sabana Grande,,,none
+gem_only,PRI,PR-SA,Salinas,,,none
+gem_only,PRI,PR-SG,San Germán,,,none
+gem,PRI,PR-SJ,San Juan,PRI008,San Juan,code
+gem_only,PRI,PR-SL,San Lorenzo,,,none
+gem_only,PRI,PR-SS,San Sebastián,,,none
+gem_only,PRI,PR-SI,Santa Isabel,,,none
+gem_only,PRI,PR-TA,Toa Alta,,,none
+gem_only,PRI,PR-TB,Toa Baja,,,none
+gem_only,PRI,PR-TJ,Trujillo Alto,,,none
+gem_only,PRI,PR-UT,Utuado,,,none
+gem_only,PRI,PR-VA,Vega Alta,,,none
+gem_only,PRI,PR-VB,Vega Baja,,,none
+gem_only,PRI,PR-VQ,Vieques,,,none
+gem_only,PRI,PR-VL,Villalba,,,none
+gem_only,PRI,PR-YB,Yabucoa,,,none
+gem_only,PRI,PR-YU,Yauco,,,none
+gem_only,QAT,QA-ZA,Al-Daayen,,,none
+gem,QAT,QA-DA,Al-Dawha,QAT001,Ad Dawhah,code
+gem,QAT,QA-KH,Al-Khor and Al-Thakhira,QAT004,Al Khawr,override
+gem,QAT,QA-RA,Al-Rayyan,QAT006,Ar Rayyan,fuzzy
+gem_only,QAT,QA-SH,Al-Shahaniya,,,none
+gem,QAT,QA-MS,Al-Shamal,QAT007,Ash Shamal,code
+gem,QAT,QA-WA,Al-Wakrah,QAT005,Al-wakrah,code
+gem,QAT,QA-US,Umm Salal,QAT009,Umm Salal,name
+gem,ROU,RO-AB,Alba,ROU001,Alba,name
+gem,ROU,RO-AR,Arad,ROU002,Arad,name
+gem,ROU,RO-AG,Argeș,ROU003,Argeş,name
+gem,ROU,RO-BC,Bacău,ROU004,Bacău,name
+gem,ROU,RO-BH,Bihor,ROU005,Bihor,name
+gem,ROU,RO-BN,Bistrița-Năsăud,ROU006,Bistriţa-Năsaud,name
+gem,ROU,RO-BT,Botoșani,ROU007,Botoşani,name
+gem,ROU,RO-BV,Brașov,ROU009,Braşov,name
+gem,ROU,RO-BR,Brăila,ROU008,Brăila,name
+gem,ROU,RO-B,București,ROU010,Bucureşti,name
+gem,ROU,RO-BZ,Buzău,ROU011,Buzău,name
+gem,ROU,RO-CS,Caraș-Severin,ROU013,Caraş-Severin,name
+gem,ROU,RO-CJ,Cluj,ROU014,Cluj,name
+gem,ROU,RO-CT,Constanța,ROU015,Constanţa,name
+gem,ROU,RO-CV,Covasna,ROU016,Covasna,name
+gem,ROU,RO-CL,Călărași,ROU012,Călăraşi,name
+gem,ROU,RO-DJ,Dolj,ROU018,Dolj,name
+gem,ROU,RO-DB,Dâmbovița,ROU017,Dâmboviţa,name
+gem,ROU,RO-GL,Galați,ROU019,Galaţi,name
+gem,ROU,RO-GR,Giurgiu,ROU020,Giurgiu,name
+gem,ROU,RO-GJ,Gorj,ROU021,Gori,override
+gem,ROU,RO-HR,Harghita,ROU022,Harghita,name
+gem,ROU,RO-HD,Hunedoara,ROU023,Hunedoara,name
+gem,ROU,RO-IL,Ialomița,ROU024,Ialomiţa,name
+gem,ROU,RO-IS,Iași,ROU025,Iaşi,name
+gem,ROU,RO-IF,Ilfov,ROU026,Ilfov,name
+gem,ROU,RO-MM,Maramureș,ROU027,Maramureş,name
+gem,ROU,RO-MH,Mehedinți,ROU028,Mehedinţi,name
+gem,ROU,RO-MS,Mureș,ROU029,Mureş,name
+gem,ROU,RO-NT,Neamț,ROU030,Neamţ,name
+gem,ROU,RO-OT,Olt,ROU031,Olt,name
+gem,ROU,RO-PH,Prahova,ROU032,Prahova,name
+gem,ROU,RO-SM,Satu Mare,ROU034,Satu Mare,name
+gem,ROU,RO-SB,Sibiu,ROU035,Sibiu,name
+gem,ROU,RO-SV,Suceava,ROU036,Suceava,name
+gem,ROU,RO-SJ,Sălaj,ROU033,Sălaj,name
+gem,ROU,RO-TR,Teleorman,ROU037,Teleorman,name
+gem,ROU,RO-TM,Timiș,ROU038,Timiş,name
+gem,ROU,RO-TL,Tulcea,ROU039,Tulcea,name
+gem,ROU,RO-VS,Vaslui,ROU041,Vaslui,name
+gem,ROU,RO-VN,Vrancea,ROU042,Vrancea,name
+gem,ROU,RO-VL,Vâlcea,ROU040,Vâlcea,name
+gem,RUS,RU-ALT,Altayskiy Kray,RUS004,Altayskiy Kray,name
+gem,RUS,RU-AMU,Amurskaya Oblast',RUS005,Amurskaya Oblast,name
+gem,RUS,RU-ARK,Arkhangel'skaya Oblast',RUS006,Arkhangelskaya Oblast,name
+gem,RUS,RU-AST,Astrakhanskaya Oblast',RUS007,Astrakhanskaya Oblast,name
+gem,RUS,RU-BEL,Belgorodskaya Oblast',RUS009,Belgorodskaya Oblast,name
+gem,RUS,RU-BRY,Bryanskaya Oblast',RUS010,Bryanskaya Oblast,name
+gem,RUS,RU-CE,Chechenskaya Respublika,RUS012,Chechnya Rep.,override
+gem,RUS,RU-CHE,Chelyabinskaya Oblast',RUS013,Chelyabinskaya Oblast,name
+gem,RUS,RU-CHU,Chukotskiy Avtonomnyy Okrug,RUS015,Chukotskiy Okrug,name_loose
+gem,RUS,RU-CU,Chuvashskaya Respublika,RUS016,Chuvashiya Rep.,fuzzy
+gem,RUS,RU-IRK,Irkutskaya Oblast',RUS020 + RUS083,Irkutskaya Oblast + Ustordynskiy Buryatskiy Okrug,override
+gem,RUS,RU-IVA,Ivanovskaya Oblast',RUS021,Ivanovskaya Oblast,name
+gem,RUS,RU-KB,Kabardino-Balkarskaya Respublika,RUS022,Kabardino-balkariya Rep.,code
+gem,RUS,RU-KGD,Kaliningradskaya Oblast',RUS023,Kaliningradskaya Oblast,name
+gem,RUS,RU-KLU,Kaluzhskaya Oblast',RUS025,Kaluzhskaya Oblast,name
+gem,RUS,RU-KAM,Kamchatskiy Kray,RUS026 + RUS036,Kamchatskaya Oblast + Koryakskiy Okrug,override
+gem,RUS,RU-KC,Karachayevo-Cherkesskaya Respublika,RUS027,Karatchayevo-cherkesiya Rep.,code
+gem,RUS,RU-KEM,Kemerovskaya Oblast',RUS029,Kemerovskaya Oblast,name
+gem,RUS,RU-KHA,Khabarovskiy Kray,RUS030,Khabarovskiy Kray,name
+gem,RUS,RU-KHM,Khanty-Mansiyskiy Avtonomnyy Okrug,RUS032,Khanty-mansyiskiy Okrug,fuzzy
+gem,RUS,RU-KIR,Kirovskaya Oblast',RUS033,Kirovskaya Oblast,name
+gem,RUS,RU-KOS,Kostromskaya Oblast',RUS037,Kostromskaya Oblast,name
+gem,RUS,RU-KDA,Krasnodarskiy Kray,RUS038,Krasnodarskiy Kray,name
+gem,RUS,RU-KYA,Krasnoyarskiy Kray,RUS039 + RUS018 + RUS075,Krasnoyarskiy Kray + Evenkiyskiy Okrug + Taymyrskiy Okrug,override
+gem,RUS,RU-KGN,Kurganskaya Oblast',RUS040,Kurganskaya Oblast,name
+gem,RUS,RU-KRS,Kurskaya Oblast',RUS041,Kurskaya Oblast,name
+gem,RUS,RU-LEN,Leningradskaya Oblast',RUS042,Leningradskaya Oblast,name
+gem,RUS,RU-LIP,Lipetskaya Oblast',RUS043,Lipetskaya Oblast,name
+gem,RUS,RU-MAG,Magadanskaya Oblast',RUS044,Magadanskaya Oblast,name
+gem,RUS,RU-MOS,Moskovskaya Oblast',RUS047,Moskovskaya Oblast,name
+gem,RUS,RU-MOW,Moskva,RUS048,Moskva,name_loose
+gem,RUS,RU-MUR,Murmanskaya Oblast',RUS049,Murmanskaya Oblast,name
+gem,RUS,RU-NEN,Nenetskiy Avtonomnyy Okrug,RUS051,Nenetskiy Okrug,name_loose
+gem,RUS,RU-NIZ,Nizhegorodskaya Oblast',RUS052,Nizhegorodskaya Oblast,name
+gem,RUS,RU-NGR,Novgorodskaya Oblast',RUS053,Novgorodskaya Oblast,name
+gem,RUS,RU-NVS,Novosibirskaya Oblast',RUS054,Novosibirskaya Oblast,name
+gem,RUS,RU-OMS,Omskaya Oblast',RUS055,Omskaya Oblast,name
+gem,RUS,RU-ORE,Orenburgskaya Oblast',RUS056,Orenburgskaya Oblast,name
+gem,RUS,RU-ORL,Orlovskaya Oblast',RUS057,Orlovskaya Oblast,name
+gem,RUS,RU-PNZ,Penzenskaya Oblast',RUS058,Penzenskaya Oblast,name
+gem,RUS,RU-PER,Permskiy Kray,RUS059 + RUS035,Permskaya Oblast + Komi-permyatskiy Okrug,override
+gem,RUS,RU-PRI,Primorskiy Kray,RUS060,Primorskiy Kray,name
+gem,RUS,RU-PSK,Pskovskaya Oblast',RUS061,Pskovskaya Oblast,name
+gem,RUS,RU-AD,Respublika Adygeya,RUS001,Adygeya Rep.,code
+gem,RUS,RU-AL,Respublika Altay,RUS003,Altay Rep.,code
+gem,RUS,RU-BA,Respublika Bashkortostan,RUS008,Bashkortostan Rep.,name_loose
+gem,RUS,RU-BU,Respublika Buryatiya,RUS011,Buryatiya Rep.,code
+gem,RUS,RU-DA,Respublika Dagestan,RUS017,Dagestan Rep.,code
+gem,RUS,RU-IN,Respublika Ingushetiya,RUS019,Ingushetiya Rep.,code
+gem,RUS,RU-KL,Respublika Kalmykiya,RUS024,Kalmykiya Rep.,code
+gem,RUS,RU-KR,Respublika Kareliya,RUS028,Karelya Rep.,fuzzy
+gem,RUS,RU-KK,Respublika Khakasiya,RUS031,Khakasiya Rep.,code
+gem,RUS,RU-KO,Respublika Komi,RUS034,Komi Rep.,code
+gem,RUS,RU-ME,Respublika Mariy El,RUS045,Mariy-el Rep.,code
+gem,RUS,RU-MO,Respublika Mordoviya,RUS046,Mordoviya Rep.,name_loose
+gem,RUS,RU-SA,Respublika Saha,RUS064,Sakha Rep.,fuzzy
+gem,RUS,RU-SE,Respublika Severnaya Osetiya,RUS069,Severnaya Osetiya-alaniya Rep.,fuzzy
+gem,RUS,RU-TA,Respublika Tatarstan,RUS074,Tatarstan Rep.,name_loose
+gem,RUS,RU-TY,Respublika Tyva,RUS080,Tyva Rep.,name_loose
+gem,RUS,RU-ROS,Rostovskaya Oblast',RUS062,Rostovskaya Oblast,name
+gem,RUS,RU-RYA,Ryazanskaya Oblast',RUS063,Ryazanskaya Oblast,name
+gem,RUS,RU-SAK,Sakhalinskaya Oblast',RUS065,Sakhalinskaya Oblast,name
+gem,RUS,RU-SAM,Samarskaya Oblast',RUS066,Samarskaya Oblast,name
+gem,RUS,RU-SPE,Sankt-Peterburg,RUS067,Sankt-peterburg,name
+gem,RUS,RU-SAR,Saratovskaya Oblast',RUS068,Saratovskaya Oblast,name
+gem,RUS,RU-SMO,Smolenskaya Oblast',RUS070,Smolenskaya Oblast,name
+gem,RUS,RU-STA,Stavropol'skiy Kray,RUS071,Stavropolskiy Kray,name
+gem,RUS,RU-SVE,Sverdlovskaya Oblast',RUS072,Sverdlovskaya Oblast,name
+gem,RUS,RU-TAM,Tambovskaya Oblast',RUS073,Tambovskaya Oblast,name
+gem,RUS,RU-TOM,Tomskaya Oblast',RUS076,Tomskaya Oblast,name
+gem,RUS,RU-TUL,Tul'skaya Oblast',RUS077,Tulskaya Oblast,name
+gem,RUS,RU-TVE,Tverskaya Oblast',RUS078,Tverskaya Oblast,name
+gem,RUS,RU-TYU,Tyumenskaya Oblast',RUS079,Tyumenskaya Oblast,name
+gem,RUS,RU-UD,Udmurtskaya Respublika,RUS081,Udmurtiya Rep.,code
+gem,RUS,RU-ULY,Ul'yanovskaya Oblast',RUS082,Ulyanovskaya Oblast,name
+gem,RUS,RU-VLA,Vladimirskaya Oblast',RUS084,Vladimirskaya Oblast,name
+gem,RUS,RU-VGG,Volgogradskaya Oblast',RUS085,Volgogradskaya Oblast,name
+gem,RUS,RU-VLG,Vologodskaya Oblast',RUS086,Vologodskaya Oblast,name
+gem,RUS,RU-VOR,Voronezhskaya Oblast',RUS087,Voronezhskaya Oblast,name
+gem,RUS,RU-YAN,Yamalo-Nenetskiy Avtonomnyy Okrug,RUS088,Yamalo-nenetskiy Okrug,name_loose
+gem,RUS,RU-YAR,Yaroslavskaya Oblast',RUS089,Yaroslavskaya Oblast,name
+gem,RUS,RU-YEV,Yevreyskaya Avtonomnaya Oblast',RUS090,Yevreyskaya A. Oblast,name_loose
+gem,RUS,RU-ZAB,Zabaykal'skiy Kray,RUS014 + RUS002,Chitinskaya Oblast + Aginskiy Buryatskiy A. Okrug,override
+gem,RWA,RW-02,Eastern Province,RWA001,East/Iburasirazuba,name
+gem,RWA,RW-01,Kigali City,RWA002,Kigali City/Umujyi wa Kigali,name
+gem,RWA,RW-03,Northern Province,RWA003,North/Amajyaruguru,name
+gem,RWA,RW-05,Southern Province,RWA004,South/Amajyepfo,name
+gem,RWA,RW-04,Western Province,RWA005,West/Iburengerazuba,name
+gem,KNA,KN-01,Christ Church Nichola Town,KNA001,Christ Church Nichola Town,name
+gem,KNA,KN-02,Saint Anne Sandy Point,KNA002,Saint Anne Sandy Point,name
+gem,KNA,KN-03,Saint George Basseterre,KNA003,Saint George Basseterre,name
+gem,KNA,KN-04,Saint George Gingerland,KNA004,Saint George Gingerland,name
+gem,KNA,KN-05,Saint James Windward,KNA005,Saint James Windward,name
+gem,KNA,KN-06,Saint John Capisterre,KNA006,Saint John Capisterre,name
+gem,KNA,KN-07,Saint John Figtree,KNA007,Saint John Figtree,name
+gem,KNA,KN-08,Saint Mary Cayon,KNA008,Saint Mary Cayon,name
+gem,KNA,KN-09,Saint Paul Capisterre,KNA009,Saint Paul Capisterre,name
+gem,KNA,KN-10,Saint Paul Charlestown,KNA010,Saint Paul Charlestown,name
+gem,KNA,KN-11,Saint Peter Basseterre,KNA011,Saint Peter Basseterre,name
+gem,KNA,KN-12,Saint Thomas Lowland,KNA012,Saint Thomas Lowland,name
+gem,KNA,KN-13,Saint Thomas Middle Island,KNA013,Saint Thomas Middle Island,name
+gem,KNA,KN-15,Trinity Palmetto Point,KNA014,Trinity Palmetto Point,name
+gem_only,LCA,LC-01,Anse la Raye,,,none
+gem_only,LCA,LC-12,Canaries,,,none
+gem_only,LCA,LC-02,Castries,,,none
+gem_only,LCA,LC-03,Choiseul,,,none
+gem,LCA,LC-05,Dennery,LCA005,Region Number 4,code_num
+gem_only,LCA,LC-06,Gros Islet,,,none
+gem_only,LCA,LC-07,Laborie,,,none
+gem_only,LCA,LC-08,Micoud,,,none
+gem_only,LCA,LC-10,Soufrière,,,none
+gem_only,LCA,LC-11,Vieux Fort,,,none
+gem,VCT,VC-01,Charlotte,VCT001,Charlotte,name
+gem,VCT,VC-06,Grenadines,VCT002,Grenadines,name
+gem,VCT,VC-02,Saint Andrew,VCT003,Saint Andrew,name
+gem,VCT,VC-03,Saint David,VCT004,Saint David,name
+gem,VCT,VC-04,Saint George,VCT005,Saint George,name
+gem,VCT,VC-05,Saint Patrick,VCT006,Saint Patrick,name
+gem,WSM,WS-AA,A'ana,WSM001,Administrative unit not available,country
+gem,WSM,WS-AL,Aiga-i-le-Tai,WSM001,Administrative unit not available,country
+gem,WSM,WS-AT,Atua,WSM001,Administrative unit not available,country
+gem,WSM,WS-FA,Fa'asaleleaga,WSM001,Administrative unit not available,country
+gem,WSM,WS-GE,Gaga'emauga,WSM001,Administrative unit not available,country
+gem,WSM,WS-GI,Gagaifomauga,WSM001,Administrative unit not available,country
+gem,WSM,WS-PA,Palauli,WSM001,Administrative unit not available,country
+gem,WSM,WS-SA,Satupa'itea,WSM001,Administrative unit not available,country
+gem,WSM,WS-TU,Tuamasaga,WSM001,Administrative unit not available,country
+gem,WSM,WS-VF,Va'a-o-Fonoti,WSM001,Administrative unit not available,country
+gem,WSM,WS-VS,Vaisigano,WSM001,Administrative unit not available,country
+gem,SAU,SA-11,Al-Bahah,SAU002,Al Bāhah,name
+gem,SAU,SA-08,Al-Hudud Al-Shamaliya,SAU003,Al Ḥudūd ash Shamāliyah,fuzzy
+gem,SAU,SA-12,Al-Jawf,SAU004,Al Jawf,name
+gem,SAU,SA-03,Al-Madinah Al-Munawwara,SAU005,Al Madīnah,fuzzy
+gem,SAU,SA-05,Al-Qassim,SAU006,Al Qaṣīm,fuzzy
+gem,SAU,SA-01,Al-Riyadh,SAU007,Ar Riyāḍ,name_loose
+gem,SAU,SA-04,Al-Sharkiya,SAU008,Ash Sharqīyah,code_num
+gem,SAU,SA-14,Aseer,SAU001,`Asīr,name
+gem,SAU,SA-06,Ha’il,SAU009,Ḥā'il,name
+gem,SAU,SA-09,Jizan,SAU010,Jīzan,name
+gem,SAU,SA-02,Makkah,SAU011,Makkah,name
+gem,SAU,SA-10,Najran,SAU012,Najrān,name
+gem,SAU,SA-07,Tabuk,SAU013,Tabūk,name
+gem,SEN,SN-DK,Dakar,SEN001,Dakar,name
+gem,SEN,SN-DB,Diourbel,SEN011,Diourbel,name
+gem,SEN,SN-FK,Fatick,SEN016,Fatick,name
+gem,SEN,SN-KA,Kaffrine,SEN017,Kaffrine,name
+gem,SEN,SN-KL,Kaolack,SEN018,Kaolack,name
+gem,SEN,SN-KD,Kolda,SEN020,Kolda,name
+gem,SEN,SN-KE,Kédougou,SEN019,Kédougou,name
+gem,SEN,SN-LG,Louga,SEN013,Louga,name
+gem,SEN,SN-MT,Matam,SEN014,Matam,name
+gem,SEN,SN-SL,Saint-Louis,SEN015,Saint Louis,name
+gem,SEN,SN-SE,Sédhiou,SEN021,Sédhiou,name
+gem,SEN,SN-TC,Tambacounda,SEN022,Tambacounda,name
+gem,SEN,SN-TH,Thiès,SEN009,Thiès,name
+gem,SEN,SN-ZG,Ziguinchor,SEN010,Ziguinchor,name
+gem,SRB,RS-00,Beograd,SRB003,Grad Beograd,override
+gem,SRB,RS-14,Borski,SRB001,Borski,name
+gem,SRB,RS-11,Braničevski,SRB002,Branicevski,name
+gem,SRB,RS-23,Jablanički,SRB004,Jablanicki,name
+gem,SRB,RS-04,Južnobanatski,SRB006,Juzno-banatski,name
+gem,SRB,RS-06,Južnobački,SRB005,Juzno-backi,name
+gem,SRB,RS-09,Kolubarski,SRB007,Kolubarski,name
+gem,SRB,RS-08,Mačvanski,SRB008,Macvanski,name
+gem,SRB,RS-17,Moravički,SRB009,Moravicki,name
+gem,SRB,RS-20,Nišavski,SRB010,Nisavski,name
+gem,SRB,RS-22,Pirotski,SRB012,Pirotski,name
+gem,SRB,RS-10,Podunavski,SRB013,Podunavski,name
+gem,SRB,RS-13,Pomoravski,SRB014,Pomoravski,name
+gem,SRB,RS-24,Pčinjski,SRB011,Pcinjski,name
+gem,SRB,RS-19,Rasinski,SRB015,Rasinski,name
+gem,SRB,RS-18,Raški,SRB016,Raski,name
+gem,SRB,RS-03,Severnobanatski,SRB018,Severno-banatski,name
+gem,SRB,RS-01,Severnobački,SRB017,Severno-backi,name
+gem,SRB,RS-02,Srednjebanatski,SRB019,Srednje-banatski,name
+gem,SRB,RS-07,Sremski,SRB020,Sremski,name
+gem,SRB,RS-21,Toplički,SRB022,Toplicki,name
+gem,SRB,RS-15,Zaječarski,SRB023,Zajecarski,name
+gem,SRB,RS-05,Zapadnobački,SRB024,Zapadno-backi,name
+gem,SRB,RS-16,Zlatiborski,SRB025,Zlatiborski,name
+gem,SRB,RS-12,Šumadijski,SRB021,Sumadijski,name
+gem,SYC,SC-02,Anse Boileau,SYC004,Anse Boileau,name
+gem,SYC,SC-05,Anse Royale,SYC006,Anse Royale,name
+gem,SYC,SC-01,Anse aux Pins,SYC003,Anse Aux Pins,name
+gem,SYC,SC-03,Anse Étoile,SYC005,Anse Etoile,name
+gem,SYC,SC-04,Au Cap,SYC010,Au Cap,name
+gem,SYC,SC-06,Baie Lazare,SYC011,Baie Lazare,name
+gem,SYC,SC-07,Baie Sainte-Anne,SYC058,Ste Anne,name
+gem,SYC,SC-08,Beau Vallon,SYC012,Beau Vallon,name
+gem,SYC,SC-09,Bel Air,SYC013,Bel Air,name
+gem,SYC,SC-10,Bel Ombre,SYC014,Belombre,name
+gem,SYC,SC-11,Cascade,SYC017,Cascade,name
+gem,SYC,SC-12,Glacis,SYC033,Glacis,name
+gem,SYC,SC-13,Grand'Anse Mahé,SYC034,Grand Anse Mahe,name
+gem,SYC,SC-14,Grand'Anse Praslin,SYC049,Praslin,name
+gem,SYC,SC-15,La Digue,SYC037,La Digue,name
+gem_only,SYC,SC-16,La Rivière Anglaise,,,none
+gem,SYC,SC-24,Les Mamelles,SYC038,Les Mamelles,name
+gem,SYC,SC-17,Mont Buxton,SYC040,Mont Buxton,name
+gem,SYC,SC-18,Mont Fleuri,SYC041,Mont Fleuri,name
+gem,SYC,SC-19,Plaisance,SYC044,Plaisance,name
+gem,SYC,SC-20,Pointe La Rue,SYC046,Pointe Larue,name
+gem,SYC,SC-21,Port Glaud,SYC048,Port Glaud,name
+gem,SYC,SC-25,Roche Caïman,SYC052,Roche Caiman,name
+gem,SYC,SC-22,Saint-Louis,SYC054,St Louis,name
+gem,SYC,SC-23,Takamaka,SYC059,Takamaka,name
+gem,SLE,SL-E,Eastern Province,SLE001,Eastern,name_loose
+gem,SLE,SL-NW,North Western Province,SLE002,North West,code
+gem,SLE,SL-N,Northern Province,SLE003,Northern,name_loose
+gem,SLE,SL-S,Southern Province,SLE004,Southern,name_loose
+gem,SLE,SL-W,Western Area,SLE005,Western Area,name
+gem,SGP,SG-01,Central Singapore,SGP003,Central Singapore,name
+gem,SGP,SG-02,North East,SGP006,Northeast,name
+gem_only,SGP,SG-03,North West,,,none
+gem_only,SGP,SG-04,South East,,,none
+gem_only,SGP,SG-05,South West,,,none
+gem,SVK,SK-BC,Banskobystrický,SVK001,Banska Bystrica,code
+gem,SVK,SK-BL,Bratislavský,SVK002,Bratislava,code
+gem,SVK,SK-KI,Košický,SVK003,Kosice,code
+gem,SVK,SK-NI,Nitriansky,SVK004,Nitra,code
+gem,SVK,SK-PV,Prešovský,SVK005,Presov,code
+gem,SVK,SK-TC,Trenčiansky,SVK006,Trencin,code
+gem,SVK,SK-TA,Trnavský,SVK007,Trnava,code
+gem,SVK,SK-ZI,Žilins,SVK008,Zilna,code
+gem,SVN,SI-022,Gorenjska,SVN001,Gorenjska,name
+gem,SVN,SI-023,Goriška,SVN002,Goriska,name
+gem,SVN,SI-017,Jugovzhodna Slovenija,SVN003,Jugovzodna Slovenija,fuzzy
+gem,SVN,SI-013,Koroška,SVN004,Koroska,name
+gem,SVN,SI-024,Obalno-Kraška,SVN006,Obalno-kraska,name
+gem,SVN,SI-021,Osrednjeslovenska,SVN007,Osrednjeslovenska,name
+gem,SVN,SI-012,Podravska,SVN008,Podravska,name
+gem,SVN,SI-011,Pomurska,SVN009,Pomurska,name
+gem,SVN,SI-016,Posavska,SVN011,Spodnjeposavska,override
+gem,SVN,SI-018,Primorsko-Notranjska,SVN005,Notranjsko-kraska,override
+gem,SVN,SI-014,Savinjska,SVN010,Savinjska,name
+gem,SVN,SI-015,Zasavska,SVN012,Zasavska,name
+gem,SLB,SB-CE,Central,SLB001,Administrative unit not available,country
+gem,SLB,SB-CH,Choiseul,SLB001,Administrative unit not available,country
+gem,SLB,SB-GU,Guadalcanal,SLB001,Administrative unit not available,country
+gem,SLB,SB-CT,Honiara,SLB001,Administrative unit not available,country
+gem,SLB,SB-IS,Isabel,SLB001,Administrative unit not available,country
+gem,SLB,SB-MK,Makira-Ulawa,SLB001,Administrative unit not available,country
+gem,SLB,SB-ML,Malaita,SLB001,Administrative unit not available,country
+gem,SLB,SB-RB,Rennell and Bellona,SLB001,Administrative unit not available,country
+gem,SLB,SB-TE,Temotu,SLB001,Administrative unit not available,country
+gem,SLB,SB-WE,Western,SLB001,Administrative unit not available,country
+gem,SOM,SO-AW,Awdal,SOM001,Awdal,code
+gem,SOM,SO-BK,Bakool,SOM002,Bakool,code
+gem,SOM,SO-BN,Banaadir,SOM003,Banadir,code
+gem,SOM,SO-BR,Bari,SOM004,Bari,code
+gem,SOM,SO-BY,Bay,SOM005,Bay,code
+gem,SOM,SO-GA,Galguduud,SOM006,Galgaduud,code
+gem,SOM,SO-GE,Gedo,SOM007,Gedo,code
+gem,SOM,SO-HI,Hiiraan,SOM008,Hiraan,code
+gem,SOM,SO-JD,Jubbada Dhexe,SOM009,Juba Dhexe,code
+gem,SOM,SO-JH,Jubbada Hoose,SOM010,Juba Hoose,code
+gem,SOM,SO-MU,Mudug,SOM011,Mudug,code
+gem,SOM,SO-NU,Nugaal,SOM012,Nugaal,code
+gem,SOM,SO-SA,Sanaag,SOM013,Sanaag,code
+gem,SOM,SO-SD,Shabeellaha Dhexe,SOM014,Shabelle Dhexe,code
+gem,SOM,SO-SH,Shabeellaha Hoose,SOM015,Shabelle Hoose,code
+gem,SOM,SO-SO,Sool,SOM016,Sool,code
+gem,SOM,SO-TO,Togdheer,SOM017,Togdheer,code
+gem,SOM,SO-WO,Woqooyi Galbeed,SOM018,Woqooyi Galbeed,code
+gem,ZAF,ZA-EC,Eastern Cape,ZAF001,Eastern Cape,name
+gem,ZAF,ZA-FS,Free State,ZAF002,Free State,name
+gem,ZAF,ZA-GP,Gauteng,ZAF003,Gauteng,name
+gem,ZAF,ZA-KZN,KwaZulu-Natal,ZAF004,Kwa-Zulu Natal,name
+gem,ZAF,ZA-LP,Limpopo,ZAF005,Limpopo,name
+gem,ZAF,ZA-MP,Mpumalanga,ZAF006,Mpumalanga,name
+gem,ZAF,ZA-NW,North West,ZAF007,North West,name
+gem,ZAF,ZA-NC,Northern Cape,ZAF008,Northern Cape,name
+gem,ZAF,ZA-WC,Western Cape,ZAF009,Western Cape,name
+gem,KOR,KR-26,Busan,KOR012,Pusan,name
+gem,KOR,KR-43,Chungbuk,KOR004,Chungchongbuk-do,override
+gem,KOR,KR-44,Chungnam,KOR005,Chungchongnam-do,override
+gem,KOR,KR-27,Daegu,KOR014,Taegu,name
+gem,KOR,KR-30,Daejeon,KOR015,Taejon,name
+gem,KOR,KR-42,Gangwon,KOR007,Kang-won-do,fuzzy
+gem,KOR,KR-29,Gwangju,KOR008,Kwangju,name
+gem,KOR,KR-47,Gyeongbuk,KOR010,Kyongsangbuk-do,override
+gem,KOR,KR-41,Gyeonggi,KOR009,Kyonggi-do,fuzzy
+gem,KOR,KR-48,Gyeongnam,KOR011,Kyongsangnam-do,override
+gem,KOR,KR-28,Incheon,KOR006,Inchon,name
+gem,KOR,KR-49,Jeju,KOR001,Cheju-do,fuzzy
+gem,KOR,KR-45,Jeonbuk,KOR002,Chollabuk-do,override
+gem,KOR,KR-46,Jeonnam,KOR003,Chollanam-do,override
+gem_only,KOR,KR-50,Sejong,,,none
+gem,KOR,KR-11,Seoul,KOR013,Seoul,name
+gem_only,KOR,KR-31,Ulsan,,,none
+gem,SSD,SS-EC,Central Equatoria,SSD001,Central Equatoria,name
+gem,SSD,SS-EE,Eastern Equatoria,SSD002,Eastern Equatoria,name
+gem,SSD,SS-JG,Jonglei,SSD003,Jonglei,name
+gem,SSD,SS-LK,Lakes,SSD004,Lakes,name
+gem,SSD,SS-BN,Northern Bahr el Ghazal,SSD005,Northern Bahr el Ghazal,name
+gem,SSD,SS-UY,Unity,SSD008,Unity,name
+gem,SSD,SS-NU,Upper Nile,SSD009,Upper Nile,name
+gem,SSD,SS-WR,Warrap,SSD010,Warrap,name
+gem,SSD,SS-BW,Western Bahr el Ghazal,SSD011,Western Bahr el Ghazal,name
+gem,SSD,SS-EW,Western Equatoria,SSD012,Western Equatoria,name
+gem,ESP,ES-AN,Andalucía,ESP002,Andalucía,code
+gem,ESP,ES-AR,Aragón,ESP003,Aragón,code
+gem,ESP,ES-AS,Asturias,ESP019,Principado de Asturias,code
+gem,ESP,ES-CB,Cantabria,ESP005,Cantabria,code
+gem,ESP,ES-CL,Castilla y León,ESP006,Castilla y León,code
+gem,ESP,ES-CM,Castilla-La Mancha,ESP007,Castilla-La Mancha,code
+gem,ESP,ES-CT,Catalunya,ESP008,Cataluña/Catalunya,code
+gem,ESP,ES-CE,Ceuta,ESP021,Ceuta (Sp.),name
+gem,ESP,ES-PV,Euskal Herria,ESP018,País Vasco/Euskadi,override
+gem,ESP,ES-EX,Extremadura,ESP014,Extremadura,code
+gem,ESP,ES-GA,Galicia,ESP015,Galicia,code
+gem,ESP,ES-IB,Illes Balears,ESP016,Illes Balears,name
+gem,ESP,ES-RI,La Rioja,ESP017,La Rioja,name
+gem,ESP,ES-MD,Madrid,ESP011,Comunidad de Madrid,code
+gem,ESP,ES-ML,Melilla,ESP023,Melilla (Sp.),name
+gem,ESP,ES-MC,Murcia,ESP020,Región de Murcia,name
+gem,ESP,ES-NC,Nafarroako,ESP012,Comunidad Foral de Navarra,override
+gem,ESP,ES-VC,Valencia,ESP013,Comunitat Valenciana,code
+gem,LKA,LK-2,Central,LKA001,Central,name
+gem,LKA,LK-5,Eastern,LKA009,Eastern,name
+gem,LKA,LK-7,North Central,LKA003,North Central,name
+gem,LKA,LK-6,North Western,LKA004,North Western,name
+gem,LKA,LK-4,Northern,LKA010,Northern,name
+gem,LKA,LK-9,Sabaragamuwa,LKA005,Sabaragamuwa,name
+gem,LKA,LK-3,Southern,LKA006,Southern,name
+gem,LKA,LK-8,Uva,LKA007,Uva,name
+gem,LKA,LK-1,Western,LKA008,Western,name
+gem,SDN,SD-NB,Blue Nile,SDN002,Blue Nile,name
+gem,SDN,SD-DC,Central Darfur,SDN014,Western Darfur,group
+gem_only,SDN,SD-DE,East Darfur,,,none
+gem,SDN,SD-GD,Gedaref,SDN003,Gadaref,override
+gem,SDN,SD-GZ,Gezira,SDN001,Al Jazeera,code
+gem,SDN,SD-KA,Kassala,SDN004,Kassala,code
+gem,SDN,SD-KH,Khartoum,SDN005,Khartoum,code
+gem,SDN,SD-DN,North Darfur,SDN008,Northern Darfur,name
+gem,SDN,SD-KN,North Kordofan,SDN009,Northern Kordofan,override
+gem,SDN,SD-NO,Northern,SDN007,Northern,code
+gem,SDN,SD-RS,Red Sea,SDN010,Red Sea,code
+gem,SDN,SD-NR,River Nile,SDN006,Nile,name
+gem,SDN,SD-SI,Sennar,SDN011,Sennar,code
+gem,SDN,SD-DS,South Darfur,SDN012,Southern Darfur,override
+gem,SDN,SD-KS,South Kordofan,SDN013,Southern Kordofan,override
+gem,SDN,SD-DW,West Darfur,SDN014,Western Darfur,group
+gem_only,SDN,SD-GK,West Kordofan,,,none
+gem,SDN,SD-NW,White Nile,SDN015,White Nile,override
+gem,SUR,SR-BR,Brokopondo,SUR001,Brokopondo,code
+gem,SUR,SR-CM,Commewijne,SUR002,Commewijne,code
+gem,SUR,SR-CR,Coronie,SUR003,Coronie,code
+gem,SUR,SR-MA,Marowijne,SUR004,Marowijne,code
+gem,SUR,SR-NI,Nickerie,SUR005,Nickerie,code
+gem,SUR,SR-PR,Para,SUR006,Para,code
+gem,SUR,SR-PM,Paramaribo,SUR007,Paramaribo,code
+gem,SUR,SR-SA,Saramacca,SUR008,Saramacca,code
+gem,SUR,SR-SI,Sipaliwini,SUR009,Sipaliwini,code
+gem,SUR,SR-WA,Wanica,SUR010,Wanica,code
+gem,SWE,SE-K,Blekinge län,SWE001,Blekinge Laen,name_loose
+gem,SWE,SE-W,Dalarnas län,SWE002,Dalarnas Laen,name_loose
+gem,SWE,SE-I,Gotlands län,SWE004,Gotlands Laen,name_loose
+gem,SWE,SE-X,Gävleborgs län,SWE003,Gaevleborgs Laen,name_loose
+gem,SWE,SE-N,Hallands län,SWE005,Hallands Laen,name_loose
+gem,SWE,SE-Z,Jämtlands län,SWE006,Jaemtlands Laen,name_loose
+gem,SWE,SE-F,Jönköpings län,SWE007,Joenkoepings Laen,name_loose
+gem,SWE,SE-H,Kalmar län,SWE008,Kalmar Laen,name_loose
+gem,SWE,SE-G,Kronobergs län,SWE009,Kronobergs Laen,name_loose
+gem,SWE,SE-BD,Norrbottens län,SWE010,Norrbottens Laen,name_loose
+gem,SWE,SE-M,Skåne län,SWE013,Skaane Laen,name_loose
+gem,SWE,SE-AB,Stockholms län,SWE015,Stockholms Laen,name_loose
+gem,SWE,SE-D,Södermanlands län,SWE014,Soedermanlands Laen,name_loose
+gem,SWE,SE-C,Uppsala län,SWE016,Uppsala Laen,name_loose
+gem,SWE,SE-S,Värmlands län,SWE017,Vaermlands Laen,name_loose
+gem,SWE,SE-AC,Västerbottens län,SWE018,Vaesterbottens Laen,name_loose
+gem,SWE,SE-Y,Västernorrlands län,SWE019,Vaesternorrlands Laen,name_loose
+gem,SWE,SE-U,Västmanlands län,SWE020,Vaestmanlands Laen,name_loose
+gem,SWE,SE-O,Västra Götalands län,SWE021,Vaestra Goetalands Laen,name_loose
+gem,SWE,SE-T,Örebro län,SWE011,Oerebro Laen,name_loose
+gem,SWE,SE-E,Östergötlands län,SWE012,Oestergoetlands Laen,name_loose
+gem,CHE,CH-AG,Aargau,CHE001,Aargau,code
+gem,CHE,CH-AR,Appenzell Ausserrhoden,CHE002,Appenzell Ausser-rhoden,code
+gem,CHE,CH-AI,Appenzell Innerrhoden,CHE003,Appenzell Inner-rhoden,code
+gem,CHE,CH-BL,Basel-Landschaft,CHE004,Basel-landschaft,code
+gem,CHE,CH-BS,Basel-Stadt,CHE005,Basel-stadt,code
+gem,CHE,CH-BE,Bern,CHE006,Bern,code
+gem,CHE,CH-FR,Fribourg,CHE007,Fribourg,code
+gem,CHE,CH-GE,Genève,CHE008,Geneve,code
+gem,CHE,CH-GL,Glarus,CHE009,Glarus,code
+gem,CHE,CH-GR,Graubünden,CHE010,Graubunden,code
+gem,CHE,CH-JU,Jura,CHE011,Jura,code
+gem,CHE,CH-LU,Luzern,CHE012,Luzern,code
+gem,CHE,CH-NE,Neuchâtel,CHE013,Neuchatel,code
+gem,CHE,CH-NW,Nidwalden,CHE014,Nidwalden,code
+gem,CHE,CH-OW,Obwalden,CHE015,Obwalden,code
+gem,CHE,CH-SG,Sankt Gallen,CHE016,Sankt Gallen,code
+gem,CHE,CH-SH,Schaffhausen,CHE017,Schaffhausen,code
+gem,CHE,CH-SZ,Schwyz,CHE018,Schwyz,code
+gem,CHE,CH-SO,Solothurn,CHE019,Solothurn,code
+gem,CHE,CH-TG,Thurgau,CHE020,Thurgau,code
+gem,CHE,CH-TI,Ticino,CHE021,Ticino,code
+gem,CHE,CH-UR,Uri,CHE022,Uri,code
+gem,CHE,CH-VS,Valais,CHE023,Valais,code
+gem,CHE,CH-VD,Vaud,CHE024,Vaud,code
+gem,CHE,CH-ZG,Zug,CHE025,Zug,code
+gem,CHE,CH-ZH,Zürich,CHE026,Zurich,code
+gem,SYR,SY-HA,Al-Hasaka,SYR001,Al Ḥasakah,code
+gem,SYR,SY-RA,Al-Raqqa,SYR003,Ar Raqqah,code
+gem,SYR,SY-SU,Al-Suwayda,SYR004,As Suwaydā',code
+gem,SYR,SY-HL,Aleppo,SYR002,Aleppo,code
+gem,SYR,SY-DI,Damascus,SYR005,Damascus,code
+gem,SYR,SY-DR,Daraa,SYR006,Dar`ā,code
+gem,SYR,SY-DY,Deir Al-Zor,SYR007,Dayr az Zawr,code
+gem,SYR,SY-HM,Hama,SYR008,Hama,code
+gem,SYR,SY-HI,Homs,SYR009,Ḥimṣ,code
+gem,SYR,SY-ID,Idlib,SYR010,Idlib,code
+gem,SYR,SY-LA,Latakia,SYR011,Latakia,code
+gem,SYR,SY-QU,Quneitra,SYR012,Quneitra,code
+gem,SYR,SY-RD,Rif Dimashq,SYR013,Rif Dimashq,code
+gem,SYR,SY-TA,Tartus,SYR014,Ţarţūs,code
+gem,STP,ST-02,Cantagalo,STP002,Sao Tome,group
+gem,STP,ST-03,Caué,STP002,Sao Tome,group
+gem,STP,ST-04,Lembá,STP002,Sao Tome,group
+gem,STP,ST-05,Lobata,STP002,Sao Tome,group
+gem,STP,ST-06,Mé-Zóchi,STP002,Sao Tome,group
+gem,STP,ST-P,Príncipe,STP001,Principe,name
+gem,STP,ST-01,Água Grande,STP002,Sao Tome,group
+gem,TWN,TW-CHA,Changhua,TWN001,Taiwan Sheng,group
+gem,TWN,TW-CYI,Chiayi City,TWN001,Taiwan Sheng,group
+gem,TWN,TW-CYQ,Chiayi County,TWN001,Taiwan Sheng,group
+gem,TWN,TW-HSZ,Hsinchu City,TWN001,Taiwan Sheng,group
+gem,TWN,TW-HSQ,Hsinchu County,TWN001,Taiwan Sheng,group
+gem,TWN,TW-HUA,Hualien,TWN001,Taiwan Sheng,group
+gem,TWN,TW-KHH,Kaohsiung,TWN001,Taiwan Sheng,group
+gem,TWN,TW-KEE,Keelung,TWN001,Taiwan Sheng,group
+gem,TWN,TW-KIN,Kinmen,TWN001,Taiwan Sheng,group
+gem,TWN,TW-LIE,Lienchiang,TWN001,Taiwan Sheng,group
+gem,TWN,TW-MIA,Miaoli,TWN001,Taiwan Sheng,group
+gem,TWN,TW-NAN,Nantou,TWN001,Taiwan Sheng,group
+gem,TWN,TW-NWT,New Taipei,TWN001,Taiwan Sheng,group
+gem,TWN,TW-PEN,Penghu,TWN001,Taiwan Sheng,group
+gem,TWN,TW-PIF,Pingtung,TWN001,Taiwan Sheng,group
+gem,TWN,TW-TXG,Taichung,TWN001,Taiwan Sheng,group
+gem,TWN,TW-TNN,Tainan,TWN001,Taiwan Sheng,group
+gem,TWN,TW-TPE,Taipei,TWN001,Taiwan Sheng,group
+gem,TWN,TW-TTT,Taitung,TWN001,Taiwan Sheng,group
+gem,TWN,TW-TAO,Taoyuan,TWN001,Taiwan Sheng,group
+gem,TWN,TW-ILA,Yilan,TWN001,Taiwan Sheng,group
+gem,TWN,TW-YUN,Yunlin,TWN001,Taiwan Sheng,group
+gem,TJK,TJ-DU,Dushanbe,TJK003,Dushanbe,code
+gem,TJK,TJ-KT,Khatlon,TJK004,Khatlon Province,name
+gem,TJK,TJ-GB,Kŭhistoni Badakhshon,TJK001,Badakhshan Autonomous Mountainous Region,override
+gem,TJK,TJ-RA,Nohiyahoi tobei jumhurí,TJK002,Cities and districts of the republican subordination,override
+gem,TJK,TJ-SU,Sughd,TJK005,Sughd Province,name
+gem,TZA,TZ-01,Arusha,TZA001,Arusha,name
+gem,TZA,TZ-02,Dar es Salaam,TZA002,Dar-es-salaam,name
+gem,TZA,TZ-03,Dodoma,TZA003,Dodoma,name
+gem,TZA,TZ-27,Geita,TZA004,Geita,name
+gem,TZA,TZ-04,Iringa,TZA005,Iringa,name
+gem,TZA,TZ-05,Kagera,TZA006,Kagera,name
+gem,TZA,TZ-28,Katavi,TZA009,Katavi,name
+gem,TZA,TZ-08,Kigoma,TZA010,Kigoma,name
+gem,TZA,TZ-09,Kilimanjaro,TZA011,Kilimanjaro,name
+gem,TZA,TZ-12,Lindi,TZA014,Lindi,name
+gem,TZA,TZ-26,Manyara,TZA015,Manyara,name
+gem,TZA,TZ-13,Mara,TZA016,Mara,name
+gem,TZA,TZ-14,Mbeya,TZA017,Mbeya,name
+gem,TZA,TZ-16,Morogoro,TZA019,Morogoro,name
+gem,TZA,TZ-17,Mtwara,TZA020,Mtwara,name
+gem,TZA,TZ-18,Mwanza,TZA021,Mwanza,name
+gem,TZA,TZ-29,Njombe,TZA022,Njombe,name
+gem,TZA,TZ-06,Pemba North,TZA007,Kaskazini Pemba,name
+gem,TZA,TZ-10,Pemba South,TZA012,Kusini Pemba,name
+gem,TZA,TZ-19,Pwani,TZA023,Pwani,name
+gem,TZA,TZ-20,Rukwa,TZA024,Rukwa,name
+gem,TZA,TZ-21,Ruvuma,TZA025,Ruvuma,name
+gem,TZA,TZ-22,Shinyanga,TZA026,Shinyanga,name
+gem,TZA,TZ-30,Simiyu,TZA027,Simiyu,name
+gem,TZA,TZ-23,Singida,TZA028,Singida,name
+gem_only,TZA,TZ-31,Songwe,,,none
+gem,TZA,TZ-24,Tabora,TZA029,Tabora,name
+gem,TZA,TZ-25,Tanga,TZA030,Tanga,name
+gem,TZA,TZ-07,Zanzibar North,TZA008,Kaskazini Unguja,name
+gem,TZA,TZ-11,Zanzibar South,TZA013,Kusini Unguja,fuzzy
+gem,TZA,TZ-15,Zanzibar West,TZA018,Mjini Magharibi,name
+gem,THA,TH-37,Amnat Charoen,THA001,Amnat Charoen,name
+gem,THA,TH-15,Ang Thong,THA002,Ang Thong,name
+gem,THA,TH-10,Bangkok,THA003,Bangkok,name
+gem_only,THA,TH-38,Bueng Kan,,,none
+gem,THA,TH-31,Buri Ram,THA004,Buriram,name
+gem,THA,TH-24,Chachoengsao,THA005,Chachoengsao,name
+gem,THA,TH-18,Chai Nat,THA006,Chainat,name
+gem,THA,TH-36,Chaiyaphum,THA007,Chaiyaphum,name
+gem,THA,TH-22,Chanthaburi,THA008,Chanthaburi,name
+gem,THA,TH-50,Chiang Mai,THA009,Chiang Mai,name
+gem,THA,TH-57,Chiang Rai,THA010,Chiang Rai,name
+gem,THA,TH-20,Chon Buri,THA011,Chonburi,name
+gem,THA,TH-86,Chumphon,THA012,Chumphon,name
+gem,THA,TH-46,Kalasin,THA013,Kalasin,name
+gem,THA,TH-62,Kamphaeng Phet,THA014,Kampaeng Phet,name
+gem,THA,TH-71,Kanchanaburi,THA015,Kanchanaburi,name
+gem,THA,TH-40,Khon Kaen,THA016,Khon Kaen,name
+gem,THA,TH-81,Krabi,THA017,Krabi,name
+gem,THA,TH-52,Lampang,THA018,Lampang,name
+gem,THA,TH-51,Lamphun,THA019,Lamphun,name
+gem,THA,TH-42,Loei,THA020,Loei,name
+gem,THA,TH-16,Lop Buri,THA021,Lopburi,name
+gem,THA,TH-58,Mae Hong Son,THA022,Mae Hong Son,name
+gem,THA,TH-44,Maha Sarakham,THA023,Maha Sarakham,name
+gem,THA,TH-49,Mukdahan,THA024,Mukdahan,name
+gem,THA,TH-26,Nakhon Nayok,THA025,Nakhon Nayok,name
+gem,THA,TH-73,Nakhon Pathom,THA026,Nakhon Pathom,name
+gem,THA,TH-48,Nakhon Phanom,THA027,Nakhon Phanom,name
+gem,THA,TH-30,Nakhon Ratchasima,THA028,Nakhon Ratchasima,name
+gem,THA,TH-60,Nakhon Sawan,THA029,Nakhon Sawan,name
+gem,THA,TH-80,Nakhon Si Thammarat,THA030,Nakhon Si Thammarat,name
+gem,THA,TH-55,Nan,THA031,Nan,name
+gem,THA,TH-96,Narathiwat,THA032,Narathiwat,name
+gem,THA,TH-39,Nong Bua Lam Phu,THA033,Nong Bua Lamphu,name
+gem,THA,TH-43,Nong Khai,THA034,Nong Khai,name
+gem,THA,TH-12,Nonthaburi,THA035,Nonthaburi,name
+gem,THA,TH-13,Pathum Thani,THA036,Pathum Thani,name
+gem,THA,TH-94,Pattani,THA037,Pattani,name
+gem,THA,TH-82,Phangnga,THA039,Phangnga,name
+gem,THA,TH-93,Phatthalung,THA040,Phatthalung,name
+gem,THA,TH-56,Phayao,THA041,Phayao,name
+gem,THA,TH-67,Phetchabun,THA042,Phetchabun,name
+gem,THA,TH-76,Phetchaburi,THA043,Phetchaburi,name
+gem,THA,TH-66,Phichit,THA044,Phichit,name
+gem,THA,TH-65,Phitsanulok,THA045,Phitsanulok,name
+gem,THA,TH-14,Phra Nakhon Si Ayutthaya,THA046,Phra Nakhon Si Ayudhya,name
+gem,THA,TH-54,Phrae,THA047,Phrae,name
+gem,THA,TH-83,Phuket,THA048,Phuket,name
+gem,THA,TH-25,Prachin Buri,THA038,Phachinburi,name
+gem,THA,TH-77,Prachuap Khiri Khan,THA049,Prachuap Khilikhan,name
+gem,THA,TH-85,Ranong,THA050,Ranong,name
+gem,THA,TH-70,Ratchaburi,THA051,Ratchaburi,name
+gem,THA,TH-21,Rayong,THA052,Rayong,name
+gem,THA,TH-45,Roi Et,THA053,Roi Et,name
+gem,THA,TH-27,Sa Kaeo,THA054,Sa Kaeo,name
+gem,THA,TH-47,Sakon Nakhon,THA055,Sakon Nakhon,name
+gem,THA,TH-11,Samut Prakan,THA056,Samut Prakarn,name
+gem,THA,TH-74,Samut Sakhon,THA057,Samut Sakhon,name
+gem,THA,TH-75,Samut Songkhram,THA058,Samut Songkham,name
+gem,THA,TH-19,Saraburi,THA059,Saraburi,name
+gem,THA,TH-91,Satun,THA060,Satun,name
+gem,THA,TH-33,Si Sa Ket,THA061,Si Saket,name
+gem,THA,TH-17,Sing Buri,THA062,Singburi,name
+gem,THA,TH-90,Songkhla,THA063,Songkhla,name
+gem,THA,TH-64,Sukhothai,THA064,Sukhothai,name
+gem,THA,TH-72,Suphan Buri,THA065,Suphanburi,name
+gem,THA,TH-84,Surat Thani,THA066,Surat Thani,name
+gem,THA,TH-32,Surin,THA067,Surin,name
+gem,THA,TH-63,Tak,THA068,Tak,name
+gem,THA,TH-92,Trang,THA070,Trang,name
+gem,THA,TH-23,Trat,THA069,Trad,name
+gem,THA,TH-34,Ubon Ratchathani,THA071,Ubon Ratchathani,name
+gem,THA,TH-41,Udon Thani,THA072,Udon Thani,name
+gem,THA,TH-61,Uthai Thani,THA073,Uthai Thani,name
+gem,THA,TH-53,Uttaradit,THA074,Uttaradit,name
+gem,THA,TH-95,Yala,THA075,Yala,name
+gem,THA,TH-35,Yasothon,THA076,Yasothon,name
+gem,TLS,TL-AL,Aileu,TLS001,Aileu,code
+gem,TLS,TL-AN,Ainaro,TLS002,Ainaro,code
+gem_only,TLS,TL-AT,Ataúru,,,none
+gem,TLS,TL-BA,Baucau,TLS003,Baucau,name
+gem,TLS,TL-BO,Bobonaro,TLS004,Bobonaro,name
+gem,TLS,TL-CO,Cova Lima,TLS005,Covalima,name
+gem,TLS,TL-DI,Díli,TLS006,Dili,name
+gem,TLS,TL-ER,Ermera,TLS007,Ermera,code
+gem,TLS,TL-LA,Lautém,TLS008,Lautem,name
+gem,TLS,TL-LI,Liquiça,TLS009,Liquica,name
+gem,TLS,TL-MT,Manatuto,TLS010,Manatuto,code
+gem,TLS,TL-MF,Manufahi,TLS011,Manufahi,code
+gem,TLS,TL-OE,Oé-Cusse Ambeno,TLS012,Oecussi,override
+gem,TLS,TL-VI,Viqueque,TLS013,Viqueque,name
+gem,TGO,TG-C,Centrale,TGO001,Centrale,name
+gem,TGO,TG-K,Kara,TGO002,Kara,name
+gem,TGO,TG-M,Maritime,TGO003,Maritime,name
+gem,TGO,TG-P,Plateaux,TGO004,Plateaux,name
+gem,TGO,TG-S,Savanes,TGO005,Savanes,name
+gem,TON,TO-01,'Eua,TON001,Administrative unit not available,country
+gem,TON,TO-02,Ha'apai,TON001,Administrative unit not available,country
+gem,TON,TO-03,Niuas,TON001,Administrative unit not available,country
+gem,TON,TO-04,Tongatapu,TON001,Administrative unit not available,country
+gem,TON,TO-05,Vava'u,TON001,Administrative unit not available,country
+gem,TTO,TT-ARI,Arima,TTO001,Arima,name
+gem,TTO,TT-CHA,Chaguanas,TTO002,Chaguanas,name
+gem,TTO,TT-CTT,Couva-Tabaquite-Talparo,TTO003,Couva/Tabaquite/Talparo,name
+gem,TTO,TT-DMN,Diego Martin,TTO004,Diego Martin,name
+gem,TTO,TT-MRC,Mayaro-Rio Claro,TTO009,Rio Claro/Mayaro,name
+gem,TTO,TT-PED,Penal-Debe,TTO005,Penal/Debe,name
+gem,TTO,TT-PTF,Point Fortin,TTO006,Point Fortin,name
+gem,TTO,TT-POS,Port of Spain,TTO007,Port Of Spain,name
+gem,TTO,TT-PRT,Princes Town,TTO008,Princes Town,name
+gem,TTO,TT-SFO,San Fernando,TTO010,San Fernando,name
+gem,TTO,TT-SJL,San Juan-Laventille,TTO011,San Juan/Laventille,name
+gem,TTO,TT-SGE,Sangre Grande,TTO012,Sangre Grande,name
+gem,TTO,TT-SIP,Siparia,TTO013,Siparia,name
+gem,TTO,TT-TOB,Tobago,TTO014,Tobago,name
+gem,TTO,TT-TUP,Tunapuna-Piarco,TTO015,Tunapuna/Piarco,name
+gem,TUN,TN-12,Ariana,TUN024,Ariana,name
+gem,TUN,TN-23,Banzart,TUN004,Bizerte,override
+gem,TUN,TN-13,Ben Arous,TUN003,Ben arous,name
+gem,TUN,TN-31,Béja,TUN002,Beja,name
+gem,TUN,TN-81,Gabis,TUN005,Gabes,override
+gem,TUN,TN-71,Gafsa,TUN006,Gafsa,name
+gem,TUN,TN-32,Jendouba,TUN007,Jendouba,name
+gem,TUN,TN-41,Kairouan,TUN008,Kairouan,name
+gem,TUN,TN-42,Kasserine,TUN009,Kasserine,name
+gem,TUN,TN-73,Kebili,TUN010,Kebili,name
+gem,TUN,TN-33,Kef,TUN011,Le kef,override
+gem,TUN,TN-53,Mahdia,TUN012,Mahdia,name
+gem,TUN,TN-14,Manouba,TUN025,Manouba,name
+gem,TUN,TN-82,Mdenine,TUN013,Mednine,fuzzy
+gem,TUN,TN-52,Monastir,TUN014,Monastir,name
+gem,TUN,TN-21,Nabeul,TUN015,Nabeul,name
+gem,TUN,TN-61,Sfax,TUN016,Sfax,name
+gem,TUN,TN-43,Sidi Bouzid,TUN017,Sidi bouzid,name
+gem,TUN,TN-34,Siliana,TUN018,Siliana,name
+gem,TUN,TN-51,Sousse,TUN019,Sousse,name
+gem,TUN,TN-83,Tataouine,TUN020,Tataouine,name
+gem,TUN,TN-72,Tozeur,TUN021,Tozeur,name
+gem,TUN,TN-11,Tunis,TUN022,Tunis,name
+gem,TUN,TN-22,Zaghouan,TUN023,Zaghouan,name
+gem,TKM,TM-A,Ahal,TKM001,Ahal,name
+gem_only,TKM,TM-S,Aşgabat,,,none
+gem,TKM,TM-B,Balkan,TKM002,Balkan,name
+gem,TKM,TM-D,Daşoguz,TKM005,Tashauz,fuzzy
+gem,TKM,TM-L,Lebap,TKM003,Chardzhou,name
+gem,TKM,TM-M,Mary,TKM004,Mary,name
+gem,TCA,TC-GT,Grand Turk,TCA001,Grand Turk,name
+gem,TCA,TC-MC,Middle Caicos,TCA002,Middle Caicos,name
+gem,TCA,TC-NC,North Caicos,TCA003,North Caicos,name
+gem,TCA,TC-PR,Providenciales,TCA004,Providenciales and West Caicos,fuzzy
+gem,TCA,TC-SY,Salt Cay,TCA005,Salt City,fuzzy
+gem_only,TCA,TC-SC,South Caicos,,,none
+gem,TUV,TV-FUN,Funafuti,TUV001,Administrative unit not available,country
+gem,TUV,TV-NMG,Nanumaga,TUV001,Administrative unit not available,country
+gem,TUV,TV-NMA,Nanumea,TUV001,Administrative unit not available,country
+gem,TUV,TV-NIT,Niutao,TUV001,Administrative unit not available,country
+gem,TUV,TV-NUI,Nui,TUV001,Administrative unit not available,country
+gem,TUV,TV-NKF,Nukufetau,TUV001,Administrative unit not available,country
+gem,TUV,TV-NKL,Nukulaelae,TUV001,Administrative unit not available,country
+gem,TUV,TV-VAI,Vaitupu,TUV001,Administrative unit not available,country
+gem,TUR,TR-01,Adana,TUR001,Adana,name
+gem,TUR,TR-02,Adıyaman,TUR002,Adiyaman,code_num
+gem,TUR,TR-03,Afyonkarahisar,TUR003,Afyon,name
+gem,TUR,TR-68,Aksaray,TUR005,Aksaray,name
+gem,TUR,TR-05,Amasya,TUR006,Amasya,name
+gem,TUR,TR-06,Ankara,TUR007,Ankara,name
+gem,TUR,TR-07,Antalya,TUR008,Antalya,name
+gem,TUR,TR-75,Ardahan,TUR009,Ardahan,name
+gem,TUR,TR-08,Artvin,TUR010,Artvin,name
+gem,TUR,TR-09,Aydın,TUR011,Aydin,code_num
+gem,TUR,TR-04,Ağrı,TUR004,Agri,code_num
+gem,TUR,TR-10,Balıkesir,TUR012,Balikesir,code_num
+gem,TUR,TR-74,Bartın,TUR013,Bartin,code_num
+gem,TUR,TR-72,Batman,TUR014,Batman,name
+gem,TUR,TR-69,Bayburt,TUR015,Bayburt,name
+gem,TUR,TR-11,Bilecik,TUR016,Bilecik,name
+gem,TUR,TR-12,Bingöl,TUR017,Bingol,name
+gem,TUR,TR-13,Bitlis,TUR018,Bitlis,name
+gem,TUR,TR-14,Bolu,TUR019,Bolu,name
+gem,TUR,TR-15,Burdur,TUR020,Burdur,name
+gem,TUR,TR-16,Bursa,TUR021,Bursa,name
+gem,TUR,TR-20,Denizli,TUR025,Denizli,name
+gem,TUR,TR-21,Diyarbakır,TUR026,Diyarbakir,code_num
+gem_only,TUR,TR-81,Düzce,,,none
+gem,TUR,TR-22,Edirne,TUR027,Edirne,name
+gem,TUR,TR-23,Elazığ,TUR028,Elazig,fuzzy
+gem,TUR,TR-24,Erzincan,TUR029,Erzincan,name
+gem,TUR,TR-25,Erzurum,TUR030,Erzurum,name
+gem,TUR,TR-26,Eskişehir,TUR031,Eskisehir,name
+gem,TUR,TR-27,Gaziantep,TUR032,Gaziantep,name
+gem,TUR,TR-28,Giresun,TUR033,Giresun,name
+gem,TUR,TR-29,Gümüşhane,TUR034,Gumushane,name
+gem,TUR,TR-30,Hakkâri,TUR035,Hakkari,name
+gem,TUR,TR-31,Hatay,TUR036,Hatay,name
+gem,TUR,TR-32,Isparta,TUR039,Isparta,name
+gem,TUR,TR-76,Iğdır,TUR038,Igdir,code_num
+gem,TUR,TR-46,Kahramanmaraş,TUR042,K.maras,name
+gem,TUR,TR-78,Karabük,TUR043,Karabuk,name
+gem,TUR,TR-70,Karaman,TUR044,Karaman,name
+gem,TUR,TR-36,Kars,TUR045,Kars,name
+gem,TUR,TR-37,Kastamonu,TUR046,Kastamonu,name
+gem,TUR,TR-38,Kayseri,TUR047,Kayseri,name
+gem,TUR,TR-79,Kilis,TUR048,Kilis,name
+gem,TUR,TR-41,Kocaeli,TUR052,Kocaeli,name
+gem,TUR,TR-42,Konya,TUR053,Konya,name
+gem,TUR,TR-43,Kütahya,TUR054,Kutahya,name
+gem,TUR,TR-39,Kırklareli,TUR050,Kirklareli,code_num
+gem,TUR,TR-71,Kırıkkale,TUR049,Kirikkale,code_num
+gem,TUR,TR-40,Kırşehir,TUR051,Kirsehir,code_num
+gem,TUR,TR-44,Malatya,TUR055,Malatya,name
+gem,TUR,TR-45,Manisa,TUR056,Manisa,name
+gem,TUR,TR-47,Mardin,TUR057,Mardin,name
+gem,TUR,TR-33,Mersin,TUR037,Icel,name
+gem,TUR,TR-48,Muğla,TUR058,Mugla,name
+gem,TUR,TR-49,Muş,TUR059,Mus,name
+gem,TUR,TR-50,Nevşehir,TUR060,Nevsehir,name
+gem,TUR,TR-51,Niğde,TUR061,Nigde,name
+gem,TUR,TR-52,Ordu,TUR062,Ordu,name
+gem,TUR,TR-80,Osmaniye,TUR063,Osmaniye,name
+gem,TUR,TR-53,Rize,TUR064,Rize,name
+gem,TUR,TR-54,Sakarya,TUR065,Sakarya,name
+gem,TUR,TR-55,Samsun,TUR066,Samsun,name
+gem,TUR,TR-56,Siirt,TUR068,Siirt,name
+gem,TUR,TR-57,Sinop,TUR069,Sinop,name
+gem,TUR,TR-58,Sivas,TUR071,Sivas,name
+gem,TUR,TR-59,Tekirdağ,TUR072,Tekirdag,name
+gem,TUR,TR-60,Tokat,TUR073,Tokat,name
+gem,TUR,TR-61,Trabzon,TUR074,Trabzon,name
+gem,TUR,TR-62,Tunceli,TUR075,Tunceli,name
+gem,TUR,TR-64,Uşak,TUR076,Usak,name
+gem,TUR,TR-65,Van,TUR077,Van,name
+gem,TUR,TR-77,Yalova,TUR078,Yalova,name
+gem,TUR,TR-66,Yozgat,TUR079,Yozgat,name
+gem,TUR,TR-67,Zonguldak,TUR080,Zonguldak,name
+gem,TUR,TR-17,Çanakkale,TUR022,Canakkale,name
+gem,TUR,TR-18,Çankırı,TUR023,Cankiri,code_num
+gem,TUR,TR-19,Çorum,TUR024,Corum,name
+gem,TUR,TR-34,İstanbul,TUR040,Istanbul,name
+gem,TUR,TR-35,İzmir,TUR041,Izmir,name
+gem,TUR,TR-63,Şanlıurfa,TUR067,Sanliurfa,code_num
+gem,TUR,TR-73,Şırnak,TUR070,Sirnak,code_num
+gem,VIR,VI-SC,Saint Croix,VIR001,Saint Croix (County Equivalent),code
+gem,VIR,VI-SJ,Saint John,VIR002,Saint John (County Equivalent),code
+gem,VIR,VI-ST,Saint Thomas,VIR003,Saint Thomas (County Equivalent),code
+gem,UGA,UG-C,Central,UGA015 + UGA017 + UGA025 + UGA026 + UGA029 + UGA040 + UGA042 + UGA043 + UGA050 + UGA062 + UGA068 + UGA069 + UGA070 + UGA073 + UGA079 + UGA082 + UGA083 + UGA084 + UGA086 + UGA087 + UGA100 + UGA107 + UGA109,Buikwe + Bukomansimbi + Butambala + Buvuma + Gomba + Kalangala + Kalungu + Kampala + Kayunga + Kyankwanzi + Luwero + Lwengo + Lyantonde + Masaka + Mityana + Mpigi + Mubende + Mukono + Nakaseke + Nakasongola + Rakai + Ssembabule + Wakiso,override
+gem,UGA,UG-E,Eastern,UGA007 + UGA011 + UGA012 + UGA013 + UGA016 + UGA018 + UGA019 + UGA023 + UGA024 + UGA027 + UGA033 + UGA035 + UGA039 + UGA041 + UGA044 + UGA047 + UGA049 + UGA052 + UGA060 + UGA061 + UGA067 + UGA071 + UGA075 + UGA076 + UGA088 + UGA089 + UGA092 + UGA099 + UGA103 + UGA105 + UGA106 + UGA108,Amuria + Budaka + Bududa + Bugiri + Bukedea + Bukwo + Bulambuli + Busia + Butaleja + Buyende + Iganga + Jinja + Kaberamaido + Kaliro + Kamuli + Kapchorwa + Katakwi + Kibuku + Kumi + Kween + Luuka + Manafwa + Mayuge + Mbale + Namayingo + Namutumba + Ngora + Pallisa + Serere + Sironko + Soroti + Tororo,override
+gem,UGA,UG-N,Northern,UGA001 + UGA002 + UGA003 + UGA004 + UGA005 + UGA006 + UGA008 + UGA009 + UGA010 + UGA028 + UGA030 + UGA036 + UGA056 + UGA057 + UGA058 + UGA059 + UGA065 + UGA066 + UGA072 + UGA080 + UGA081 + UGA085 + UGA090 + UGA091 + UGA095 + UGA096 + UGA097 + UGA098 + UGA110 + UGA111,Abim + Adjumani + Agago + Alebtong + Amolatar + Amudat + Amuru + Apac + Arua + Dokolo + Gulu + Kaabong + Kitgum + Koboko + Kole + Kotido + Lamwo + Lira + Maracha + Moroto + Moyo + Nakapiripirit + Napak + Nebbi + Nwoya + Otuke + Oyam + Pader + Yumbe + Zombo,override
+gem,UGA,UG-W,Western,UGA014 + UGA020 + UGA021 + UGA022 + UGA031 + UGA032 + UGA034 + UGA037 + UGA038 + UGA045 + UGA046 + UGA048 + UGA051 + UGA053 + UGA054 + UGA055 + UGA063 + UGA064 + UGA074 + UGA077 + UGA078 + UGA093 + UGA094 + UGA101 + UGA102 + UGA104,Buhweju + Buliisa + Bundibugyo + Bushenyi + Hoima + Ibanda + Isingiro + Kabale + Kabarole + Kamwenge + Kanungu + Kasese + Kibaale + Kiruhura + Kiryandongo + Kisoro + Kyegegwa + Kyenjojo + Masindi + Mbarara + Mitooma + Ntoroko + Ntungamo + Rubirizi + Rukungiri + Sheema,override
+gem,UKR,UA-71,Cherkaska,UKR001,Cherkas'ka,name
+gem,UKR,UA-74,Chernihivska,UKR002,Chernihivs'ka,name
+gem,UKR,UA-77,Chernivetska,UKR003,Chernivets'ka,name
+gem,UKR,UA-12,Dnipropetrovska,UKR005,Dnipropetrovs'ka,name
+gem,UKR,UA-14,Donetska,UKR006,Donets'ka,name
+gem,UKR,UA-26,Ivano-Frankivska,UKR007,Ivano-frankivs'ka,name
+gem,UKR,UA-63,Kharkivska,UKR008,Kharkivs'ka,name
+gem,UKR,UA-65,Khersonska,UKR009,Khersons'ka,name
+gem,UKR,UA-68,Khmelnytska,UKR010,Khmel'nyts'ka,name
+gem,UKR,UA-35,Kirovohradska,UKR011,Kirovohrads'ka,name
+gem,UKR,UA-43,Krym,UKR004,Crimea,group
+gem_only,UKR,UA-30,Kyiv,,,none
+gem,UKR,UA-32,Kyivska,UKR012,Kyyivs'ka,name
+gem,UKR,UA-09,Luhanska,UKR013,L'vivs'ka,fuzzy
+gem,UKR,UA-46,Lvivska,UKR014,Luhans'ka,code_num
+gem,UKR,UA-48,Mykolaivska,UKR015,Mykolayivs'ka,name
+gem,UKR,UA-51,Odeska,UKR016,Odes'ka,name
+gem,UKR,UA-53,Poltavska,UKR017,Poltavs'ka,name
+gem,UKR,UA-56,Rivnenska,UKR018,Rivnens'ka,name
+gem,UKR,UA-40,Sevastopol,UKR004,Crimea,group
+gem,UKR,UA-59,Sumska,UKR019,Sums'ka,name
+gem,UKR,UA-61,Ternopilska,UKR020,Ternopil's'ka,name
+gem,UKR,UA-05,Vinnytska,UKR021,Vinnyts'ka,name
+gem,UKR,UA-07,Volynska,UKR022,Volyns'ka,name
+gem,UKR,UA-21,Zakarpatska,UKR023,Zakarpats'ka,name
+gem,UKR,UA-23,Zaporizka,UKR024,Zaporiz'ka,name
+gem,UKR,UA-18,Zhytomyrska,UKR025,Zhytomyrs'ka,name
+gem,ARE,AE-AZ,Abu Dhabi,ARE001,Abu Dhabi,code
+gem,ARE,AE-AJ,Ajman,ARE002,Ajman,code
+gem,ARE,AE-FU,Al-Fujairah,ARE004,Fujairah,code
+gem,ARE,AE-SH,Al-Sharjah,ARE006,Sharjah,code
+gem,ARE,AE-DU,Dubai,ARE003,Dubai,code
+gem,ARE,AE-RK,Ras Al-Khaimah,ARE005,Ras Al Khaimah,code
+gem,ARE,AE-UQ,Umm Al-Quwain,ARE007,Umm AL Quwain,code
+gem,GBR,GB-ENG,England,GBR002,England,name
+gem,GBR,GB-NIR,Northern Ireland,GBR003,Northern Ireland,name
+gem,GBR,GB-SCT,Scotland,GBR004,Scotland,name
+gem,GBR,GB-WLS,Wales,GBR005,Wales,name
+gem,USA,US-AL,Alabama,USA001,Alabama,code
+gem,USA,US-AK,Alaska,USA002,Alaska,code
+gem,USA,US-AZ,Arizona,USA003,Arizona,code
+gem,USA,US-AR,Arkansas,USA004,Arkansas,code
+gem,USA,US-CA,California,USA005,California,code
+gem,USA,US-CO,Colorado,USA006,Colorado,code
+gem,USA,US-CT,Connecticut,USA007,Connecticut,code
+gem,USA,US-DE,Delaware,USA008,Delaware,code
+gem,USA,US-DC,District of Columbia,USA009,District of Columbia,code
+gem,USA,US-FL,Florida,USA010,Florida,code
+gem,USA,US-GA,Georgia,USA011,Georgia,code
+gem,USA,US-HI,Hawaii,USA012,Hawaii,code
+gem,USA,US-ID,Idaho,USA013,Idaho,code
+gem,USA,US-IL,Illinois,USA014,Illinois,code
+gem,USA,US-IN,Indiana,USA015,Indiana,code
+gem,USA,US-IA,Iowa,USA016,Iowa,code
+gem,USA,US-KS,Kansas,USA017,Kansas,code
+gem,USA,US-KY,Kentucky,USA018,Kentucky,code
+gem,USA,US-LA,Louisiana,USA019,Louisiana,code
+gem,USA,US-ME,Maine,USA020,Maine,code
+gem,USA,US-MD,Maryland,USA021,Maryland,code
+gem,USA,US-MA,Massachusetts,USA022,Massachusetts,code
+gem,USA,US-MI,Michigan,USA023,Michigan,code
+gem,USA,US-MN,Minnesota,USA024,Minnesota,code
+gem,USA,US-MS,Mississippi,USA025,Mississippi,code
+gem,USA,US-MO,Missouri,USA026,Missouri,code
+gem,USA,US-MT,Montana,USA027,Montana,code
+gem,USA,US-NE,Nebraska,USA028,Nebraska,code
+gem,USA,US-NV,Nevada,USA029,Nevada,code
+gem,USA,US-NH,New Hampshire,USA030,New Hampshire,code
+gem,USA,US-NJ,New Jersey,USA031,New Jersey,code
+gem,USA,US-NM,New Mexico,USA032,New Mexico,code
+gem,USA,US-NY,New York,USA033,New York,code
+gem,USA,US-NC,North Carolina,USA034,North Carolina,code
+gem,USA,US-ND,North Dakota,USA035,North Dakota,code
+gem,USA,US-OH,Ohio,USA036,Ohio,code
+gem,USA,US-OK,Oklahoma,USA037,Oklahoma,code
+gem,USA,US-OR,Oregon,USA038,Oregon,code
+gem,USA,US-PA,Pennsylvania,USA039,Pennsylvania,code
+gem,USA,US-RI,Rhode Island,USA040,Rhode Island,code
+gem,USA,US-SC,South Carolina,USA041,South Carolina,code
+gem,USA,US-SD,South Dakota,USA042,South Dakota,code
+gem,USA,US-TN,Tennessee,USA043,Tennessee,code
+gem,USA,US-TX,Texas,USA044,Texas,code
+gem,USA,US-UT,Utah,USA045,Utah,code
+gem,USA,US-VT,Vermont,USA046,Vermont,code
+gem,USA,US-VA,Virginia,USA047,Virginia,code
+gem,USA,US-WA,Washington,USA048,Washington,code
+gem,USA,US-WV,West Virginia,USA049,West Virginia,code
+gem,USA,US-WI,Wisconsin,USA050,Wisconsin,code
+gem,USA,US-WY,Wyoming,USA051,Wyoming,code
+gem,URY,UY-AR,Artigas,URY001,Artigas,code
+gem,URY,UY-CA,Canelones,URY002,Canelones,code
+gem,URY,UY-CL,Cerro Largo,URY003,Cerro Largo,code
+gem,URY,UY-CO,Colonia,URY004,Colonia,code
+gem,URY,UY-DU,Durazno,URY005,Durazno,code
+gem,URY,UY-FS,Flores,URY006,Flores,code
+gem,URY,UY-FD,Florida,URY007,Florida,code
+gem,URY,UY-LA,Lavalleja,URY008,Lavalleja,code
+gem,URY,UY-MA,Maldonado,URY009,Maldonado,code
+gem,URY,UY-MO,Montevideo,URY010,Montevideo,code
+gem,URY,UY-PA,Paysandú,URY011,Paysandu,code
+gem,URY,UY-RV,Rivera,URY013,Rivera,code
+gem,URY,UY-RO,Rocha,URY014,Rocha,code
+gem,URY,UY-RN,Río Negro,URY012,Rio Negro,code
+gem,URY,UY-SA,Salto,URY015,Salto,code
+gem,URY,UY-SJ,San José,URY016,San Jose,code
+gem,URY,UY-SO,Soriano,URY017,Soriano,code
+gem,URY,UY-TA,Tacuarembó,URY018,Tacuarembo,code
+gem,URY,UY-TT,Treinta y Tres,URY019,Treinta Y Tres,code
+gem,UZB,UZ-AN,Andijon Viloyati,UZB001,Andijan,code
+gem,UZB,UZ-BU,Buxoro Viloyati,UZB002,Bukhara,code
+gem,UZB,UZ-FA,Farg‘ona Viloyati,UZB003,Fergana,code
+gem,UZB,UZ-JI,Jizzax Viloyati,UZB004,Jizzakh,code
+gem,UZB,UZ-NG,Namangan Viloyati,UZB008,Namangan,code
+gem,UZB,UZ-NW,Navoiy Viloyati,UZB009,Navoiy,code
+gem,UZB,UZ-QA,Qashqadaryo Viloyati,UZB006,Kashkadarya,code
+gem,UZB,UZ-QR,Qoraqalpog‘iston Respublikasi,UZB005,Karakalpakstan,code
+gem,UZB,UZ-SA,Samarqand Viloyati,UZB010,Samarkand,code
+gem,UZB,UZ-SI,Sirdaryo Viloyati,UZB011,Sirdarya,code
+gem,UZB,UZ-SU,Surxondaryo Viloyati,UZB012,Surkhandarya,code
+gem,UZB,UZ-TK,Toshkent,UZB014,Tashkent city,code
+gem,UZB,UZ-TO,Toshkent Viloyati,UZB013,Tashkent,fuzzy
+gem,UZB,UZ-XO,Xorazm Viloyati,UZB007,Khorezm,name_loose
+gem,VUT,VU-MAP,Malampa,VUT001,Malampa,name
+gem,VUT,VU-PAM,Pénama,VUT002,Penama,name
+gem,VUT,VU-SAM,Sanma,VUT003,Sanma,name
+gem,VUT,VU-SEE,Shéfa,VUT004,Shefa,name
+gem,VUT,VU-TAE,Taféa,VUT005,Tafea,name
+gem,VUT,VU-TOB,Torba,VUT006,Torba,name
+gem,VEN,VE-Z,Amazonas,VEN001,Amazonas,name
+gem,VEN,VE-B,Anzoátegui,VEN002,Anzoategui,name
+gem,VEN,VE-C,Apure,VEN003,Apure,name
+gem,VEN,VE-D,Aragua,VEN004,Aragua,name
+gem,VEN,VE-E,Barinas,VEN005,Barinas,name
+gem,VEN,VE-F,Bolívar,VEN006,Bolivar,name
+gem,VEN,VE-G,Carabobo,VEN007,Carabobo,name
+gem,VEN,VE-H,Cojedes,VEN008,Cojedes,name
+gem,VEN,VE-Y,Delta Amacuro,VEN009,Delta Amacuro,name
+gem,VEN,VE-W,Dependencias Federales,VEN010,Dependencias Federales,name
+gem,VEN,VE-A,Distrito Capital,VEN011,Distrito Capital,name
+gem,VEN,VE-I,Falcón,VEN012,Falcon,name
+gem,VEN,VE-J,Guárico,VEN013,Guarico,name
+gem,VEN,VE-X,La Guaira,VEN023,Vargas,name
+gem,VEN,VE-K,Lara,VEN014,Lara,name
+gem,VEN,VE-M,Miranda,VEN016,Miranda,name
+gem,VEN,VE-N,Monagas,VEN017,Monagas,name
+gem,VEN,VE-L,Mérida,VEN015,Merida,name
+gem,VEN,VE-O,Nueva Esparta,VEN018,Nueva Esparta,name
+gem,VEN,VE-P,Portuguesa,VEN019,Portuguesa,name
+gem,VEN,VE-R,Sucre,VEN020,Sucre,name
+gem,VEN,VE-T,Trujillo,VEN022,Trujillo,name
+gem,VEN,VE-S,Táchira,VEN021,Tachira,name
+gem,VEN,VE-U,Yaracuy,VEN024,Yaracuy,name
+gem,VEN,VE-V,Zulia,VEN025,Zulia,name
+gem,VNM,VN-44,An Giang,VNM001,An Giang,name
+gem,VNM,VN-56,Bắc Ninh,VNM006,Bac Ninh,name
+gem,VNM,VN-04,Cao Bằng,VNM014,Cao Bang,name
+gem,VNM,VN-59,Cà Mau,VNM012,Ca Mau,name
+gem,VNM,VN-CT,Cần Thơ,VNM013,Can Tho,name
+gem,VNM,VN-30,Gia Lai,VNM021,Gia Lai,name
+gem_only,VNM,VN-26,Huế,,,none
+gem,VNM,VN-HN,Hà Nội,VNM027,Hanoi,name
+gem,VNM,VN-23,Hà Tĩnh,VNM024,Ha Tinh,name
+gem,VNM,VN-66,Hưng Yên,VNM031,Hung Yen,name
+gem,VNM,VN-HP,Hải Phòng,VNM026,Haiphong,code
+gem,VNM,VN-SG,Hồ Chí Minh,VNM029,Ho Chi Minh,name
+gem,VNM,VN-34,Khánh Hòa,VNM032,Khanh Hoa,name
+gem,VNM,VN-01,Lai Châu,VNM035,Lai Chau,name
+gem,VNM,VN-02,Lào Cai,VNM038,Lao Cai,name
+gem,VNM,VN-35,Lâm Đồng,VNM036,Lam Dong,fuzzy
+gem,VNM,VN-09,Lạng Sơn,VNM037,Lang Son,name
+gem,VNM,VN-22,Nghệ An,VNM041,Nghe An,name
+gem,VNM,VN-18,Ninh Bình,VNM042,Ninh Binh,name
+gem,VNM,VN-68,Phú Thọ,VNM044,Phu Tho,name
+gem,VNM,VN-29,Quảng Ngãi,VNM048,Quang Ngai,name
+gem,VNM,VN-13,Quảng Ninh,VNM049,Quang Ninh,name
+gem,VNM,VN-25,Quảng Trị,VNM050,Quang Tri,name
+gem,VNM,VN-05,Sơn La,VNM052,Son La,name
+gem,VNM,VN-21,Thanh Hóa,VNM056,Thanh Hoa,name
+gem,VNM,VN-69,Thái Nguyên,VNM055,Thai Nguyen,name
+gem,VNM,VN-07,Tuyên Quang,VNM060,Tuyen Quang,name
+gem,VNM,VN-37,Tây Ninh,VNM053,Tay Ninh,name
+gem,VNM,VN-49,Vĩnh Long,VNM061,Vinh Long,name
+gem,VNM,VN-71,Điện Biên,VNM018,Dien Bien,fuzzy
+gem,VNM,VN-DN,Đà Nẵng,VNM015,Da Nang,fuzzy
+gem,VNM,VN-33,Đắk Lắk,VNM016,Dac Lac,fuzzy
+gem,VNM,VN-39,Đồng Nai,VNM039,Long An,code_num
+gem,VNM,VN-45,Đồng Tháp,VNM020,Dong Thap,fuzzy
+gem,YEM,YE-AB,Abyan,YEM002,Abyan,code
+gem,YEM,YE-AD,Aden,YEM001,`Adan,code
+gem,YEM,YE-BA,Al-Bayda,YEM003,Al Bayda',code
+gem,YEM,YE-HU,Al-Hudaydah,YEM005,Al Hudaydah,code
+gem,YEM,YE-JA,Al-Jawf,YEM006,Al Jawf,code
+gem,YEM,YE-MR,Al-Mahrah,YEM007,Al Mahrah,code
+gem,YEM,YE-MW,Al-Mahwit,YEM008,Al Mahwit,code
+gem,YEM,YE-SA,Amanat Al-Asimah,YEM019,San`a' [City],code
+gem,YEM,YE-AM,Amran,YEM009,Amran,code
+gem,YEM,YE-DA,Dhale,YEM004,Al Dali',fuzzy
+gem,YEM,YE-DH,Dhamar,YEM010,Dhamar,code
+gem,YEM,YE-HD,Hadramaut,YEM011,Hadramawt,name
+gem,YEM,YE-HJ,Hajjah,YEM012,Hajjah,code
+gem,YEM,YE-IB,Ibb,YEM013,Ibb,code
+gem,YEM,YE-LA,Lahij,YEM014,Lahij,code
+gem,YEM,YE-MA,Ma'rib,YEM015,Ma'rib,code
+gem,YEM,YE-RA,Raymah,YEM016,Raymah,name
+gem,YEM,YE-SD,Sa'ada,YEM017,Sa`dah,code
+gem,YEM,YE-SN,Sana'a,YEM018,San`a',name
+gem,YEM,YE-SH,Shabwah,YEM020,Shabwah,code
+gem,YEM,YE-SU,Socotra,YEM021,Socotra,name
+gem,YEM,YE-TA,Ta'izz,YEM022,Ta`izz,code
+gem,ZMB,ZM-02,Central,ZMB101,Central,name
+gem,ZMB,ZM-08,Copperbelt,ZMB102,Copperbelt,name
+gem,ZMB,ZM-03,Eastern,ZMB103,Eastern,name
+gem,ZMB,ZM-04,Luapula,ZMB104,Luapula,name
+gem,ZMB,ZM-09,Lusaka,ZMB105,Lusaka,name
+gem,ZMB,ZM-10,Muchinga,ZMB106,Muchiga,name
+gem,ZMB,ZM-06,North-Western,ZMB108,North-Western,name
+gem,ZMB,ZM-05,Northern,ZMB107,Northern,name
+gem,ZMB,ZM-07,Southern,ZMB109,Southern,name
+gem,ZMB,ZM-01,Western,ZMB110,Western,name
+gem,ZWE,ZW-BU,Bulawayo,ZWE001,Bulawayo,code
+gem,ZWE,ZW-HA,Harare,ZWE002,Harare,code
+gem,ZWE,ZW-MA,Manicaland,ZWE003,Manicaland,code
+gem,ZWE,ZW-MC,Mashonaland Central,ZWE004,Mashonaland Central,code
+gem,ZWE,ZW-ME,Mashonaland East,ZWE005,Mashonaland East,code
+gem,ZWE,ZW-MW,Mashonaland West,ZWE006,Mashonaland West,code
+gem,ZWE,ZW-MV,Masvingo,ZWE007,Masvingo,code
+gem,ZWE,ZW-MN,Matabeleland North,ZWE008,Matabeleland North,code
+gem,ZWE,ZW-MS,Matabeleland South,ZWE009,Matabeleland South,code
+gem,ZWE,ZW-MI,Midlands,ZWE010,Midlands,code
+wb_only,JPN,,,JPN005,Gifu,country_avg
+wb_only,VNM,,,VNM022,Ha Giang,country_avg
+wb_only,LVA,,,LVA023,Ciblas novads,country_avg
+wb_only,LVA,,,LVA024,Dagdas novads,country_avg
+wb_only,LVA,,,LVA119,Zilupes novads,country_avg
+wb_only,MDA,,,MDA004,Bender,country_avg
+wb_only,MDA,,,MDA035,Transnistria,country_avg
+wb_only,OMN,,,OMN009,Name Unknown,country_avg
+wb_only,RUS,,,RUS050,Name Unknown,country_avg
+wb_only,BHR,,,BHR001,Central Region,country_avg
+wb_only,BHR,,,BHR002,Hamad Town,country_avg
+wb_only,BHR,,,BHR003,Hawar Island,country_avg
+wb_only,BHR,,,BHR004,Hidd,country_avg
+wb_only,BHR,,,BHR005,Isa Town,country_avg
+wb_only,BHR,,,BHR006,Jidhafs,country_avg
+wb_only,BHR,,,BHR010,Riffa,country_avg
+wb_only,BHR,,,BHR011,Sitra,country_avg
+wb_only,BHR,,,BHR012,Western Region,country_avg
+wb_only,CYP,,,CYP002,Keryneia,country_avg
+wb_only,GBR,,,GBR001,Sovereign Base Areas of Akrotiri and Dhekelia (U.K.),country_avg
+wb_only,JOR,,,JOR002,Amman,country_avg
+wb_only,PSE,,,PSE007,Jabalya,country_avg
+wb_only,QAT,,,QAT002,Al Ghuwayriyah,country_avg
+wb_only,QAT,,,QAT003,Al Jumayliyah,country_avg
+wb_only,QAT,,,QAT008,Jarayan Al Batnah,country_avg
+wb_only,SSD,,,SSD007,Ruweng Administrative Area,country_avg
+wb_only,ERI,,,ERI002,Archipelagos,country_avg
+wb_only,LVA,,,LVA006,Alojas novads,country_avg
+wb_only,LVA,,,LVA009,Amatas novads,country_avg
+wb_only,LVA,,,LVA012,Babītes novads,country_avg
+wb_only,LVA,,,LVA013,Baldones novads,country_avg
+wb_only,LVA,,,LVA017,Beverīnas novads,country_avg
+wb_only,LVA,,,LVA018,Brocēnu novads,country_avg
+wb_only,LVA,,,LVA019,Burtnieku novads,country_avg
+wb_only,LVA,,,LVA020,Carnikavas novads,country_avg
+wb_only,LVA,,,LVA030,Engures novads,country_avg
+wb_only,LVA,,,LVA032,Garkalnes novads,country_avg
+wb_only,LVA,,,LVA036,Ikšķiles novads,country_avg
+wb_only,LVA,,,LVA038,Inčukalna novads,country_avg
+wb_only,LVA,,,LVA040,Jaunpiebalgas novads,country_avg
+wb_only,LVA,,,LVA041,Jaunpils novads,country_avg
+wb_only,LVA,,,LVA049,Ķeguma novads,country_avg
+wb_only,LVA,,,LVA054,Krimuldas novads,country_avg
+wb_only,LVA,,,LVA047,Kandavas novads,country_avg
+wb_only,LVA,,,LVA059,Līgatnes novads,country_avg
+wb_only,LVA,,,LVA068,Mērsraga novads,country_avg
+wb_only,LVA,,,LVA067,Mazsalacas novads,country_avg
+wb_only,LVA,,,LVA069,Naukšēnu novads,country_avg
+wb_only,LVA,,,LVA074,Ozolnieku novads,country_avg
+wb_only,LVA,,,LVA075,Pārgaujas novads,country_avg
+wb_only,LVA,,,LVA080,Priekuļu novads,country_avg
+wb_only,LVA,,,LVA081,Raunas novads,country_avg
+wb_only,LVA,,,LVA086,Rojas novads,country_avg
+wb_only,LVA,,,LVA090,Rūjienas novads,country_avg
+wb_only,LVA,,,LVA092,Salacgrīvas novads,country_avg
+wb_only,LVA,,,LVA097,Sējas novads,country_avg
+wb_only,LVA,,,LVA102,Stopiņu novads,country_avg
+wb_only,LVA,,,LVA103,Strenču novads,country_avg
+wb_only,LVA,,,LVA112,Vecpiebalgas novads,country_avg
+wb_only,LVA,,,LVA109,Valmiera,country_avg
+wb_only,LVA,,,LVA051,Kocēnu novads,country_avg
+wb_only,MOZ,,,MOZXXX,Area under National Administration,country_avg
+wb_only,MUS,,,MUS001,Administrative unit not available,country_avg
+wb_only,MWI,,,MWI004,Area under National Administration,country_avg
+wb_only,SSD,,,SSD006,Pibor Administrative Area,country_avg
+wb_only,SYC,,,SYC001,Aldabra,country_avg
+wb_only,SYC,,,SYC002,Alphonse,country_avg
+wb_only,SYC,,,SYC007,Aride,country_avg
+wb_only,SYC,,,SYC008,Assumption,country_avg
+wb_only,SYC,,,SYC009,Astove,country_avg
+wb_only,SYC,,,SYC016,Bird,country_avg
+wb_only,SYC,,,SYC018,Cerf Island,country_avg
+wb_only,SYC,,,SYC020,Conception,country_avg
+wb_only,SYC,,,SYC021,Cosmoledo,country_avg
+wb_only,SYC,,,SYC022,Cousin,country_avg
+wb_only,SYC,,,SYC023,Cousine,country_avg
+wb_only,SYC,,,SYC024,Curieuse,country_avg
+wb_only,SYC,,,SYC025,Darros,country_avg
+wb_only,SYC,,,SYC026,Denis,country_avg
+wb_only,SYC,,,SYC027,Desnoeufs,country_avg
+wb_only,SYC,,,SYC028,Desroches,country_avg
+wb_only,SYC,,,SYC030,Farquhar,country_avg
+wb_only,SYC,,,SYC031,Felicite,country_avg
+wb_only,SYC,,,SYC032,Fregate,country_avg
+wb_only,SYC,,,SYC035,Grande Soeur,country_avg
+wb_only,SYC,,,SYC036,Ile du Sud,country_avg
+wb_only,SYC,,,SYC039,Marie-Louise,country_avg
+wb_only,SYC,,,SYC042,North Island,country_avg
+wb_only,SYC,,,SYC043,Petite Soeur,country_avg
+wb_only,SYC,,,SYC045,Platte,country_avg
+wb_only,SYC,,,SYC047,Poivre,country_avg
+wb_only,SYC,,,SYC050,Providence,country_avg
+wb_only,SYC,,,SYC051,Remire,country_avg
+wb_only,SYC,,,SYC053,Silhouette,country_avg
+wb_only,SYC,,,SYC055,St. Francois,country_avg
+wb_only,SYC,,,SYC056,St. Joseph Atoll,country_avg
+wb_only,SYC,,,SYC057,St. Pierre,country_avg
+wb_only,SYC,,,SYC060,Therese,country_avg
+wb_only,SYC,,,SYC019,Coetivy,country_avg
+wb_only,SYC,,,SYC029,English River,country_avg
+wb_only,EST,,,EST010,Põlva maakond,country_avg
+wb_only,LVA,,,LVA002,Aglonas novads,country_avg
+wb_only,LVA,,,LVA005,Aknīstes novads,country_avg
+wb_only,LVA,,,LVA010,Apes novads,country_avg
+wb_only,LVA,,,LVA007,Alsungas novads,country_avg
+wb_only,LVA,,,LVA011,Auces novads,country_avg
+wb_only,LVA,,,LVA014,Baltinavas novads,country_avg
+wb_only,LVA,,,LVA022,Cesvaines novads,country_avg
+wb_only,LVA,,,LVA028,Dundagas novads,country_avg
+wb_only,LVA,,,LVA026,Daugavpils novads,country_avg
+wb_only,LVA,,,LVA031,Ērgļu novads,country_avg
+wb_only,LVA,,,LVA035,Iecavas novads,country_avg
+wb_only,LVA,,,LVA037,Ilūkstes novads,country_avg
+wb_only,LVA,,,LVA042,Jēkabpils,country_avg
+wb_only,LVA,,,LVA039,Jaunjelgavas novads,country_avg
+wb_only,LVA,,,LVA048,Kārsavas novads,country_avg
+wb_only,LVA,,,LVA052,Kokneses novads,country_avg
+wb_only,LVA,,,LVA055,Krustpils novads,country_avg
+wb_only,LVA,,,LVA062,Lubānas novads,country_avg
+wb_only,LVA,,,LVA057,Lielvārdes novads,country_avg
+wb_only,LVA,,,LVA065,Mālpils novads,country_avg
+wb_only,LVA,,,LVA070,Neretas novads,country_avg
+wb_only,LVA,,,LVA077,Pļaviņu novads,country_avg
+wb_only,LVA,,,LVA084,Riebiņu novads,country_avg
+wb_only,LVA,,,LVA091,Rundāles novads,country_avg
+wb_only,LVA,,,LVA089,Rugāju novads,country_avg
+wb_only,LVA,,,LVA100,Skrundas novads,country_avg
+wb_only,LVA,,,LVA093,Salas novads,country_avg
+wb_only,LVA,,,LVA099,Skrīveru novads,country_avg
+wb_only,LVA,,,LVA105,Tērvetes novads,country_avg
+wb_only,LVA,,,LVA118,Viļānu novads,country_avg
+wb_only,LVA,,,LVA117,Viļakas novads,country_avg
+wb_only,LVA,,,LVA116,Viesītes novads,country_avg
+wb_only,MDA,,,MDA037,Unitate Teritoriala Autonoma Gagauzia,country_avg
+wb_only,ESP,,,ESP022,Las Islas Chafarinas (Sp.),country_avg
+wb_only,ESP,,,ESP024,Peñón de Alhucaimas (Sp.),country_avg
+wb_only,ESP,,,ESP025,Peñón de Vélez de la Gomera (Sp.),country_avg
+wb_only,IMN,,,IMN023,Rushen,country_avg
+wb_only,MLT,,,MLT001,Attard,country_avg
+wb_only,MLT,,,MLT002,Balzan,country_avg
+wb_only,MLT,,,MLT003,Birgu,country_avg
+wb_only,MLT,,,MLT004,Birkirkara,country_avg
+wb_only,MLT,,,MLT005,Birzebbugia,country_avg
+wb_only,MLT,,,MLT006,Bormla,country_avg
+wb_only,MLT,,,MLT007,Dingli,country_avg
+wb_only,MLT,,,MLT008,Fgura,country_avg
+wb_only,MLT,,,MLT009,Floriana,country_avg
+wb_only,MLT,,,MLT010,Fontana,country_avg
+wb_only,MLT,,,MLT011,Ghajnsielem,country_avg
+wb_only,MLT,,,MLT012,Gharb,country_avg
+wb_only,MLT,,,MLT013,Gharghur,country_avg
+wb_only,MLT,,,MLT015,Ghaxaq,country_avg
+wb_only,MLT,,,MLT016,Gudja,country_avg
+wb_only,MLT,,,MLT017,Gzira,country_avg
+wb_only,MLT,,,MLT018,Hamrun,country_avg
+wb_only,MLT,,,MLT019,Iklin,country_avg
+wb_only,MLT,,,MLT020,Isla,country_avg
+wb_only,MLT,,,MLT022,Kercem,country_avg
+wb_only,MLT,,,MLT023,Kirkop,country_avg
+wb_only,MLT,,,MLT024,Lija,country_avg
+wb_only,MLT,,,MLT025,Luqa,country_avg
+wb_only,MLT,,,MLT026,Marsa,country_avg
+wb_only,MLT,,,MLT029,Mdina,country_avg
+wb_only,MLT,,,MLT030,Mellieha,country_avg
+wb_only,MLT,,,MLT031,Mgarr,country_avg
+wb_only,MLT,,,MLT032,Mosta,country_avg
+wb_only,MLT,,,MLT033,Mqabba,country_avg
+wb_only,MLT,,,MLT034,Msida,country_avg
+wb_only,MLT,,,MLT035,Munxar,country_avg
+wb_only,MLT,,,MLT036,Nadur,country_avg
+wb_only,MLT,,,MLT037,Naxxar,country_avg
+wb_only,MLT,,,MLT038,Paola,country_avg
+wb_only,MLT,,,MLT039,Pembroke,country_avg
+wb_only,MLT,,,MLT040,Pieta,country_avg
+wb_only,MLT,,,MLT041,Qala,country_avg
+wb_only,MLT,,,MLT042,Qormi,country_avg
+wb_only,MLT,,,MLT043,Qrendi,country_avg
+wb_only,MLT,,,MLT044,Rabat (malta),country_avg
+wb_only,MLT,,,MLT045,Rabat (victoria),country_avg
+wb_only,MLT,,,MLT046,Safi,country_avg
+wb_only,MLT,,,MLT047,San Giljan,country_avg
+wb_only,MLT,,,MLT048,San Gwann,country_avg
+wb_only,MLT,,,MLT049,San Lawrenz,country_avg
+wb_only,MLT,,,MLT050,San Pawl Ii-bahar,country_avg
+wb_only,MLT,,,MLT051,Sannat,country_avg
+wb_only,MLT,,,MLT052,Santa Lucija,country_avg
+wb_only,MLT,,,MLT053,Santa Venera,country_avg
+wb_only,MLT,,,MLT054,Siggiewi,country_avg
+wb_only,MLT,,,MLT055,Sliema,country_avg
+wb_only,MLT,,,MLT056,Swieqi,country_avg
+wb_only,MLT,,,MLT057,Ta' Xbiex,country_avg
+wb_only,MLT,,,MLT058,Tarxien,country_avg
+wb_only,MLT,,,MLT060,Xaghra,country_avg
+wb_only,MLT,,,MLT061,Xewkija,country_avg
+wb_only,MLT,,,MLT065,Zebbug (malta),country_avg
+wb_only,MLT,,,MLT066,Zejtun,country_avg
+wb_only,MLT,,,MLT067,Zurrieq,country_avg
+wb_only,MLT,,,MLT014,Ghasri,country_avg
+wb_only,MLT,,,MLT021,Kalkara,country_avg
+wb_only,MLT,,,MLT027,Marsascala,country_avg
+wb_only,MLT,,,MLT028,Marsaxlokk,country_avg
+wb_only,MLT,,,MLT059,Valletta,country_avg
+wb_only,MLT,,,MLT062,Xghajra,country_avg
+wb_only,MLT,,,MLT063,Zabbar,country_avg
+wb_only,NER,,,NER008,Communauté Urbaine de Niamey,country_avg
+wb_only,NGA,,,NGA015,Federal Capital Territory,country_avg
+wb_only,ZWE,,,ZWE011,Area under National Administration,country_avg
+wb_only,BRA,,,BRA016,Name Unknown,country_avg
+wb_only,BRA,,,BRA014,Name Unknown,country_avg
+wb_only,BRA,,,BRA017,Name Unknown,country_avg
+wb_only,ESP,,,ESP004,Canarias,country_avg
+wb_only,KHM,,,KHM000,Under National Administration,country_avg
+wb_only,VNM,,,VNM008,Binh Dinh,country_avg
+wb_only,VNM,,,VNM004,Bac Giang,country_avg
+wb_only,VNM,,,VNM009,Binh Duong,country_avg
+wb_only,VNM,,,VNM003,Bac Can,country_avg
+wb_only,VNM,,,VNM005,Bac Lieu,country_avg
+wb_only,VNM,,,VNM010,Binh Phuoc,country_avg
+wb_only,VNM,,,VNM007,Ben Tre,country_avg
+wb_only,VNM,,,VNM011,Binh Thuan,country_avg
+wb_only,VNM,,,VNM002,Ba Ria-Vung Tau,country_avg
+wb_only,VNM,,,VNM019,Dong Nai,country_avg
+wb_only,VNM,,,VNM017,Dac Nong,country_avg
+wb_only,VNM,,,VNM025,Hai Duong,country_avg
+wb_only,VNM,,,VNM023,Ha Nam,country_avg
+wb_only,VNM,,,VNM030,Hoa Binh,country_avg
+wb_only,VNM,,,VNM028,Hau Giang,country_avg
+wb_only,VNM,,,VNM033,Kien Giang,country_avg
+wb_only,VNM,,,VNM034,Kon Tum,country_avg
+wb_only,VNM,,,VNM040,Nam Dinh,country_avg
+wb_only,VNM,,,VNM043,Ninh Thuan,country_avg
+wb_only,VNM,,,VNM045,Phu Yen,country_avg
+wb_only,VNM,,,VNM046,Quang Binh,country_avg
+wb_only,VNM,,,VNM047,Quang Nam,country_avg
+wb_only,VNM,,,VNM051,Soc Trang,country_avg
+wb_only,VNM,,,VNM054,Thai Binh,country_avg
+wb_only,VNM,,,VNM058,Tien Giang,country_avg
+wb_only,VNM,,,VNM057,Thua Thien-Hue,country_avg
+wb_only,VNM,,,VNM059,Tra Vinh,country_avg
+wb_only,VNM,,,VNM062,Vinh Phuc,country_avg
+wb_only,VNM,,,VNM063,Yen Bai,country_avg
+wb_only,SGP,,,SGP001,Ang Mo Kio-cheng San,country_avg
+wb_only,SGP,,,SGP002,Bukit Timah,country_avg
+wb_only,SGP,,,SGP007,Potong Pasir,country_avg
+wb_only,SGP,,,SGP008,Sembawang-hong Kah,country_avg
+wb_only,SGP,,,SGP009,Tanjong Pagar,country_avg
+wb_only,AIA,,,AIA010,Name Unknown,country_avg
+wb_only,AIA,,,AIA008,Name Unknown,country_avg
+wb_only,AIA,,,AIA009,Name Unknown,country_avg
+wb_only,AIA,,,AIA006,Name Unknown,country_avg
+wb_only,AIA,,,AIA002,Name Unknown,country_avg
+wb_only,AIA,,,AIA001,Name Unknown,country_avg
+wb_only,AIA,,,AIA003,Name Unknown,country_avg
+wb_only,AIA,,,AIA004,Name Unknown,country_avg
+wb_only,AIA,,,AIA007,Name Unknown,country_avg
+wb_only,ATG,,,ATG002,Redonda,country_avg
+wb_only,AUS,,,AUS001,Ashmore and Cartier Islands (Aus.),country_avg
+wb_only,AUS,,,AUS003,Coral Sea Islands Territory,country_avg
+wb_only,LCA,,,LCA001,Area Under National Administra,country_avg
+wb_only,LCA,,,LCA002,Region Number 1,country_avg
+wb_only,LCA,,,LCA003,Region Number 2,country_avg
+wb_only,LCA,,,LCA004,Region Number 3,country_avg
+wb_only,LCA,,,LCA006,Region Number 5,country_avg
+wb_only,LCA,,,LCA007,Region Number 6,country_avg
+wb_only,LCA,,,LCA008,Region Number 7,country_avg
+wb_only,LCA,,,LCA009,Region Number 8,country_avg
+wb_only,MSR,,,MSR001,Brodericks,country_avg
+wb_only,MSR,,,MSR003,East,country_avg
+wb_only,MSR,,,MSR005,Plymouth,country_avg
+wb_only,MSR,,,MSR006,Salem,country_avg
+wb_only,SGP,,,SGP004,Hougang,country_avg
+wb_only,SGP,,,SGP005,Marine Parade,country_avg
+wb_only,VGB,,,VGB003,Other Islands,country_avg
+wb_only,AIA,,,AIA005,Name Unknown,country_avg
+wb_only,HND,,,HND013,Name Unknown,country_avg
+wb_only,TCA,,,TCA006,South and East Caicos,country_avg
+wb_only,BRA,,,BRA015,Name Unknown,country_avg
+wb_only,FRA,,,FRA001,Clipperton Island (Fr.),country_avg

@@ -1,0 +1,216 @@
+SIDE,ID_0,GEM_NAME_0,WB_CODE,WB_NAME,MATCH_METHOD
+gem,AFG,Afghanistan,AFG,Afghanistan,code
+gem,ALB,Albania,ALB,Albania,code
+gem,DZA,Algeria,DZA,Algeria,code
+gem,ASM,American Samoa,ASM,American Samoa (U.S.),code
+gem,AND,Andorra,AND,Andorra,code
+gem,AGO,Angola,AGO,Angola,code
+gem,AIA,Anguilla,AIA,Anguilla (U.K.),code
+gem,ATG,Antigua and Barbuda,ATG,Antigua and Barbuda,code
+gem,ARG,Argentina,ARG,Argentina,code
+gem,ARM,Armenia,ARM,Armenia,code
+gem,ABW,Aruba,ABW,Aruba (Neth.),code
+gem,AUS,Australia,AUS,Australia (+1 features),code
+gem,AUT,Austria,AUT,Austria,code
+gem,AZE,Azerbaijan,AZE,Azerbaijan,code
+gem,BHS,Bahamas,BHS,The Bahamas,code
+gem,BHR,Bahrain,BHR,Bahrain,code
+gem,BGD,Bangladesh,BGD,Bangladesh,code
+gem,BRB,Barbados,BRB,Barbados,code
+gem,BLR,Belarus,BLR,Belarus,code
+gem,BEL,Belgium,BEL,Belgium,code
+gem,BLZ,Belize,BLZ,Belize,code
+gem,BEN,Benin,BEN,Benin,code
+gem,BTN,Bhutan,BTN,Bhutan,code
+gem,BOL,Bolivia,BOL,Bolivia,code
+gem,BIH,Bosnia and Herzegovina,BIH,Bosnia and Herzegovina,code
+gem,BWA,Botswana,BWA,Botswana,code
+gem,BRA,Brazil,BRA,Brazil,code
+gem,VGB,British Virgin Islands,VGB,British Virgin Islands (U.K.),code
+gem,BRN,Brunei,BRN,Brunei Darussalam,code
+gem,BGR,Bulgaria,BGR,Bulgaria,code
+gem,BFA,Burkina Faso,BFA,Burkina Faso,code
+gem,BDI,Burundi,BDI,Burundi,code
+gem,CPV,Cabo Verde,CPV,Cabo Verde,code
+gem,KHM,Cambodia,KHM,Cambodia,code
+gem,CMR,Cameroon,CMR,Cameroon,code
+gem,CAN,Canada,CAN,Canada,code
+gem,CYM,Cayman Islands,CYM,Cayman Islands (U.K.),code
+gem,CAF,Central African Republic,CAF,Central African Republic,code
+gem,TCD,Chad,TCD,Chad,code
+gem,CHL,Chile,CHL,Chile,code
+gem,CHN,China,CHN,China,code
+gem,COL,Colombia,COL,Colombia,code
+gem,COM,Comoros,COM,Comoros,code
+gem,COG,Congo,COG,Congo,code
+gem,COK,Cook Islands,COK,Cook Islands (N.Z.),code
+gem,CRI,Costa Rica,CRI,Costa Rica,code
+gem,HRV,Croatia,HRV,Croatia,code
+gem,CUB,Cuba,CUB,Cuba,code
+gem,CYP,Cyprus,CYP,Cyprus,code
+gem,CZE,Czechia,CZE,Czech Republic,code
+gem,CIV,Côte d'Ivoire,CIV,CÃ´te d'Ivoire,code
+gem,COD,Democratic Republic of the Congo,COD,Democratic Republic of Congo,code
+gem,DNK,Denmark,DNK,Denmark,code
+gem,DJI,Djibouti,DJI,Djibouti,code
+gem,DMA,Dominica,DMA,Dominica,code
+gem,DOM,Dominican Republic,DOM,Dominican Republic,code
+gem,ECU,Ecuador,ECU,Ecuador,code
+gem,EGY,Egypt,EGY,Arab Republic of Egypt,code
+gem,SLV,El Salvador,SLV,El Salvador,code
+gem,GNQ,Equatorial Guinea,GNQ,Equatorial Guinea,code
+gem,ERI,Eritrea,ERI,Eritrea,code
+gem,EST,Estonia,EST,Estonia,code
+gem,SWZ,Eswatini,SWZ,Eswatini,code
+gem,ETH,Ethiopia,ETH,Ethiopia,code
+gem,FSM,Federated States of Micronesia,FSM,Federated States of Micronesia,code
+gem,FJI,Fiji,FJI,Fiji,code
+gem,FIN,Finland,FIN,Finland,code
+gem,FRA,France,FRA,France (+1 features),code
+gem,GUF,French Guiana,GUF,France,code
+gem,GAB,Gabon,GAB,Gabon,code
+gem,GMB,Gambia,GMB,The Gambia,code
+gem,GEO,Georgia,GEO,Georgia,code
+gem,DEU,Germany,DEU,Germany,code
+gem,GHA,Ghana,GHA,Ghana,code
+gem,GIB,Gibraltar,GIB,Gibraltar (U.K.),code
+gem,GRC,Greece,GRC,Greece,code
+gem,GRD,Grenada,GRD,Grenada,code
+gem,GLP,Guadeloupe,GLP,France,code
+gem,GUM,Guam,GUM,Guam (U.S.),code
+gem,GTM,Guatemala,GTM,Guatemala,code
+gem,GIN,Guinea,GIN,Guinea,code
+gem,GNB,Guinea-Bissau,GNB,Guinea-Bissau,code
+gem,GUY,Guyana,GUY,Guyana,code
+gem,HTI,Haiti,HTI,Haiti,code
+gem,HND,Honduras,HND,Honduras,code
+gem,HKG,Hong Kong,HKG,"Hong Kong SAR, China",code
+gem,HUN,Hungary,HUN,Hungary,code
+gem,ISL,Iceland,ISL,Iceland,code
+gem,IND,India,IND,India,code
+gem,IDN,Indonesia,IDN,Indonesia,code
+gem,IRN,Iran,IRN,Islamic Republic of Iran,code
+gem,IRQ,Iraq,IRQ,Iraq,code
+gem,IRL,Ireland,IRL,Ireland,code
+gem,IMN,Isle of Man,IMN,Isle of Man (U.K.),code
+gem,ISR,Israel,ISR,Israel,code
+gem,ITA,Italy,ITA,Italy,code
+gem,JAM,Jamaica,JAM,Jamaica,code
+gem,JPN,Japan,JPN,Japan,code
+gem,JOR,Jordan,JOR,Jordan,code
+gem,KAZ,Kazakhstan,KAZ,Kazakhstan,code
+gem,KEN,Kenya,KEN,Kenya,code
+gem,KIR,Kiribati,KIR,Kiribati,code
+gem,XKX,Kosovo,XKX,Kosovo,code
+gem,KWT,Kuwait,KWT,Kuwait,code
+gem,KGZ,Kyrgyzstan,KGZ,Kyrgyz Republic,code
+gem,LAO,Laos,LAO,Lao People's Democratic Republic,code
+gem,LVA,Latvia,LVA,Latvia,code
+gem,LBN,Lebanon,LBN,Lebanon,code
+gem,LSO,Lesotho,LSO,Lesotho,code
+gem,LBR,Liberia,LBR,Liberia,code
+gem,LBY,Libya,LBY,Libya,code
+gem,LIE,Liechtenstein,LIE,Liechtenstein,code
+gem,LTU,Lithuania,LTU,Lithuania,code
+gem,LUX,Luxembourg,LUX,Luxembourg,code
+gem,MAC,Macao,MAC,"Macau SAR, China",code
+gem,MDG,Madagascar,MDG,Madagascar,code
+gem,MWI,Malawi,MWI,Malawi,code
+gem,MYS,Malaysia,MYS,Malaysia,code
+gem,MLI,Mali,MLI,Mali,code
+gem,MLT,Malta,MLT,Malta,code
+gem,MHL,Marshall Islands,MHL,Marshall Islands,code
+gem,MTQ,Martinique,MTQ,France,code
+gem,MRT,Mauritania,MRT,Mauritania,code
+gem,MUS,Mauritius,MUS,Mauritius,code
+gem,MEX,Mexico,MEX,Mexico,code
+gem,MDA,Moldova,MDA,Moldova,code
+gem,MCO,Monaco,MCO,Monaco,code
+gem,MNG,Mongolia,MNG,Mongolia,code
+gem,MNE,Montenegro,MNE,Montenegro,code
+gem,MSR,Montserrat,MSR,Montserrat (U.K.),code
+gem,MAR,Morocco,MAR,Morocco,code
+gem,MOZ,Mozambique,MOZ,Mozambique,code
+gem,MMR,Myanmar,MMR,Myanmar,code
+gem,NAM,Namibia,NAM,Namibia,code
+gem,NRU,Nauru,NRU,Nauru,code
+gem,NPL,Nepal,NPL,Nepal,code
+gem,NLD,Netherlands,NLD,Netherlands,code
+gem,NCL,New Caledonia,NCL,New Caledonia (Fr.),code
+gem,NZL,New Zealand,NZL,New Zealand,code
+gem,NIC,Nicaragua,NIC,Nicaragua,code
+gem,NER,Niger,NER,Niger,code
+gem,NGA,Nigeria,NGA,Nigeria,code
+gem,NIU,Niue,NIU,Niue (N.Z.),code
+gem,PRK,North Korea,PRK,D. P. R. of Korea,code
+gem,MKD,North Macedonia,MKD,North Macedonia,code
+gem,MNP,Northern Mariana Islands,MNP,Northern Mariana Islands (U.S.),code
+gem,NOR,Norway,NOR,Norway,code
+gem,OMN,Oman,OMN,Oman,code
+gem,PAK,Pakistan,PAK,Pakistan,code
+gem,PLW,Palau,PLW,Palau,code
+gem,PSE,Palestine,PSE,West Bank and Gaza,code
+gem,PAN,Panama,PAN,Panama,code
+gem,PNG,Papua New Guinea,PNG,Papua New Guinea,code
+gem,PRY,Paraguay,PRY,Paraguay,code
+gem,PER,Peru,PER,Peru,code
+gem,PHL,Philippines,PHL,Philippines,code
+gem,POL,Poland,POL,Poland,code
+gem,PRT,Portugal,PRT,Portugal (+2 features),code
+gem,PRI,Puerto Rico,PRI,Puerto Rico (U.S.),code
+gem,QAT,Qatar,QAT,Qatar,code
+gem,ROU,Romania,ROU,Romania,code
+gem,RUS,Russia,RUS,Russian Federation,code
+gem,RWA,Rwanda,RWA,Rwanda,code
+gem,KNA,Saint Kitts and Nevis,KNA,Saint Kitts and Nevis,code
+gem,LCA,Saint Lucia,LCA,Saint Lucia,code
+gem,VCT,Saint Vincent and the Grenadines,VCT,Saint Vincent and the Grenadines,code
+gem,WSM,Samoa,WSM,Samoa,code
+gem,SAU,Saudi Arabia,SAU,Saudi Arabia,code
+gem,SEN,Senegal,SEN,Senegal,code
+gem,SRB,Serbia,SRB,Serbia,code
+gem,SYC,Seychelles,SYC,Seychelles,code
+gem,SLE,Sierra Leone,SLE,Sierra Leone,code
+gem,SGP,Singapore,SGP,Singapore,code
+gem,SVK,Slovakia,SVK,Slovak Republic,code
+gem,SVN,Slovenia,SVN,Slovenia,code
+gem,SLB,Solomon Islands,SLB,Solomon Islands,code
+gem,SOM,Somalia,SOM,Somalia,code
+gem,ZAF,South Africa,ZAF,South Africa,code
+gem,KOR,South Korea,KOR,Republic of Korea,code
+gem,SSD,South Sudan,SSD,South Sudan,code
+gem,ESP,Spain,ESP,Spain (+5 features),code
+gem,LKA,Sri Lanka,LKA,Sri Lanka,code
+gem,SDN,Sudan,SDN,Sudan,code
+gem,SUR,Suriname,SUR,Suriname,code
+gem,SWE,Sweden,SWE,Sweden,code
+gem,CHE,Switzerland,CHE,Switzerland,code
+gem,SYR,Syria,SYR,Syrian Arab Republic,code
+gem,STP,São Tomé and Príncipe,STP,SÃ£o TomÃ© and PrÃ­ncipe,code
+gem,TWN,Taiwan,TWN001,Taiwan Sheng,adm1_geometry
+gem,TJK,Tajikistan,TJK,Tajikistan,code
+gem,TZA,Tanzania,TZA,Tanzania,code
+gem,THA,Thailand,THA,Thailand,code
+gem,TLS,Timor-Leste,TLS,Timor-Leste,code
+gem,TGO,Togo,TGO,Togo,code
+gem,TON,Tonga,TON,Tonga,code
+gem,TTO,Trinidad and Tobago,TTO,Trinidad and Tobago,code
+gem,TUN,Tunisia,TUN,Tunisia,code
+gem,TKM,Turkmenistan,TKM,Turkmenistan,code
+gem,TCA,Turks and Caicos Islands,TCA,Turks and Caicos Islands (U.K.),code
+gem,TUV,Tuvalu,TUV,Tuvalu,code
+gem,TUR,Türkiye,TUR,TÃ¼rkiye,code
+gem,VIR,U.S. Virgin Islands,VIR,United States Virgin Islands (U.S.),code
+gem,UGA,Uganda,UGA,Uganda,code
+gem,UKR,Ukraine,UKR,Ukraine (+1 features),code
+gem,ARE,United Arab Emirates,ARE,United Arab Emirates,code
+gem,GBR,United Kingdom,GBR,United Kingdom (+1 features),code
+gem,USA,United States,USA,United States of America,code
+gem,URY,Uruguay,URY,Uruguay,code
+gem,UZB,Uzbekistan,UZB,Uzbekistan,code
+gem,VUT,Vanuatu,VUT,Vanuatu,code
+gem,VEN,Venezuela,VEN,Republica Bolivariana de Venezuela,code
+gem,VNM,Vietnam,VNM,Viet Nam,code
+gem,YEM,Yemen,YEM,Republic of Yemen,code
+gem,ZMB,Zambia,ZMB,Zambia,code
+gem,ZWE,Zimbabwe,ZWE,Zimbabwe (+1 features),code

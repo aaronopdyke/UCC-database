@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UCC Database — Global Unit Construction Costs</title>
+<meta name="description" content="Interactive global map and database of unit construction cost (UCC, USD/m²) values compiled from the GEM Global Exposure Model, at country (ADM0) and subnational (ADM1) level.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8F%97%EF%B8%8F%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@5.6.0/dist/maplibre-gl.min.css">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="map-page">
+<header class="site-header">
+  <div class="brand">UCC Database <span>· unit construction cost (USD/m²)</span></div>
+  <nav>
+    <a href="index.html">Map</a>
+    <a href="browse.html">Browse</a>
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+<div class="controls">
+  <div class="control-group" role="group" aria-label="Administrative level">
+    <label>Level</label>
+    <div class="segmented" id="level-toggle">
+      <button type="button" data-level="adm0" aria-pressed="true">Countries</button>
+      <button type="button" data-level="adm1" aria-pressed="false">Admin&nbsp;1</button>
+    </div>
+  </div>
+  <div class="control-group">
+    <label for="occ-select">Occupancy</label>
+    <select id="occ-select">
+      <option value="TOTAL">All occupancies</option>
+      <option value="RES">Residential</option>
+      <option value="COM">Commercial</option>
+      <option value="IND">Industrial</option>
+    </select>
+  </div>
+  <div class="legend" id="legend" aria-label="Map legend"></div>
+</div>
+
+<main>
+  <div id="map" aria-label="World choropleth map of unit construction costs"></div>
+  <div class="map-tooltip" id="tooltip" role="status"></div>
+</main>
+
+<footer class="site-footer">
+  Data: <a href="https://github.com/gem/global_exposure_model">GEM Global Exposure Model</a>
+  (Yepes-Estrada et al., 2023), CC BY-NC-SA 4.0 ·
+  Boundaries: <a href="https://datacatalog.worldbank.org/search/dataset/0038272">World Bank Official Boundaries</a>, CC BY 4.0 ·
+  <span data-meta-line></span> ·
+  <a href="about.html">About &amp; citation</a>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@5.6.0/dist/maplibre-gl.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script src="assets/common.js"></script>
+<script src="assets/map.js"></script>
+</body>
+</html>
